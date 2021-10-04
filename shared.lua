@@ -4596,7 +4596,8 @@ QBShared.Vehicles = {
 	----------MUST BE ENABLED FOR THE BELOW VEHICLES-------------+set sv_enforceGameBuild 2372-------------------------------
 	----------MUST BE ENABLED FOR THE BELOW VEHICLES-------------+set sv_enforceGameBuild 2372-------------------------------
 
-	['comet6'] = {
+	
+	    ['comet6'] = {
 		['name'] = 'Comet S2',
 		['brand'] = 'Pfister',
 		['model'] = 'comet6',
@@ -4747,6 +4748,35 @@ QBShared.Vehicles = {
 		['price'] = 149000,
 		['category'] = 'coupes',
 		['hash'] = `previon`,
+		['shop'] = 'pdm',
+	},
+
+    --Heli
+	['volatus'] = {
+		['name'] = 'Volatus',
+		['brand'] = 'Buckingham',
+		['model'] = 'Volatus',
+		['price'] = 500000,
+		['category'] = 'heli',
+		['hash'] = `volatus`,
+		['shop'] = 'pdm',
+	},
+	['supervolito'] = {
+		['name'] = 'SuperVolito',
+		['brand'] = 'Buckingham',
+		['model'] = 'SuperVolito',
+		['price'] = 500000,
+		['category'] = 'heli',
+		['hash'] = `volatus`,
+		['shop'] = 'pdm',
+	},
+	['swift'] = {
+		['name'] = 'Swift',
+		['brand'] = 'Buckingham',
+		['model'] = 'Swift',
+		['price'] = 400000,
+		['category'] = 'heli',
+		['hash'] = `volatus`,
 		['shop'] = 'pdm',
 	},
 }
