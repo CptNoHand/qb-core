@@ -4767,7 +4767,7 @@ QBShared.Vehicles = {
 		['model'] = 'SuperVolito',
 		['price'] = 500000,
 		['category'] = 'heli',
-		['hash'] = `volatus`,
+		['hash'] = `supervolito`,
 		['shop'] = 'pdm',
 	},
 	['swift'] = {
@@ -4776,7 +4776,7 @@ QBShared.Vehicles = {
 		['model'] = 'Swift',
 		['price'] = 400000,
 		['category'] = 'heli',
-		['hash'] = `volatus`,
+		['hash'] = `swift`,
 		['shop'] = 'pdm',
 	},
 }
