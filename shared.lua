@@ -985,6 +985,8 @@ QBShared.Vehicles = {
 		['category'] = 'super',
 		['hash'] = `adder`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 100kg 
+        ["trunkslots"] = 5, -- 15 slots
 	},
 	['alpha'] = {
 		['name'] = 'Alpha',
