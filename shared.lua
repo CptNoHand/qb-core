@@ -826,8 +826,8 @@ QBShared.Gangs = {
             },
         },
 	},
-	['triads'] = {
-		label = 'Triads',
+	['marabunta'] = {
+		label = 'MG13',
 		grades = {
             ['0'] = {
                 name = 'Recruit'
