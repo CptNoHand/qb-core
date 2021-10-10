@@ -411,11 +411,15 @@ QBShared.Items = {
 	["huntingbait"] 			     = {["name"] = "huntingbait",				    ["label"] = "Animal Bait",			    ["weight"] = 1000,    	["type"] = "item",		["image"] = "huntingbait.png",          ["unique"] = false,		["useable"] = true,	    ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Smells like old fish and shoes"},
     ["skateboard"] 		 	 		 = {["name"] = "skateboard", 					["label"] = "Skateboard", 			    ["weight"] = 1425, 		["type"] = "item", 		["image"] = "skateboard.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "A cool skateboard!"}, 
 
-
-    --Schlachthausjob
-	["alivechicken"] 		 		 = {["name"] = "alivechicken", 							["label"] = "Alive Chicken", 					    ["weight"] = 4000, 		["type"] = "item", 		["image"] = "alivechicken.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Alive Chicken"},
-	["slaughteredchicken"] 		 	 = {["name"] = "slaughteredchicken", 				    ["label"] = "Slaughtered Chicken", 					["weight"] = 4000, 		["type"] = "item", 		["image"] = "slaughteredchicken.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Slaughtered Chicken"},
-	["packagedchicken"] 		     = {["name"] = "packagedchicken", 						["label"] = "Packaged Chicken", 					["weight"] = 4000, 		["type"] = "item", 		["image"] = "packagedchicken.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Packaged Chicken"},
+	["usb_device"]	                 = {["name"] = "usb_device",                    ["label"] = "Unknown USB",              ["weight"] = 0,	        ["type"] = "item",      ["image"] = "usb_device.png",           ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "What do you do?"},
+	["governfiles"]                  = {["name"] = "governfiles",                   ["label"] = "Gov Files",                ["weight"] = 0,         ["type"] = "item",      ["image"] = "governfiles.png",          ["unique"] = true,      ["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "What is the worse that can happen?."},
+		
+		
+  
+	--Schlachthausjob
+	["alivechicken"] 		 		 = {["name"] = "alivechicken", 					["label"] = "Alive Chicken", 					    ["weight"] = 4000, 		["type"] = "item", 		["image"] = "alivechicken.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Alive Chicken"},
+	["slaughteredchicken"] 		 	 = {["name"] = "slaughteredchicken", 		    ["label"] = "Slaughtered Chicken", 					["weight"] = 4000, 		["type"] = "item", 		["image"] = "slaughteredchicken.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Slaughtered Chicken"},
+	["packagedchicken"] 		     = {["name"] = "packagedchicken", 				["label"] = "Packaged Chicken", 					["weight"] = 4000, 		["type"] = "item", 		["image"] = "packagedchicken.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Packaged Chicken"},
 	
 	--Pokemon
 	["boosterbox"] 					 = {["name"] = "boosterbox",		  	  		["label"] = "Boosterbox", 				["weight"] = 200, 		["type"] = "item", 		["image"] = "boosterBox.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Box Of Card Packs"},
