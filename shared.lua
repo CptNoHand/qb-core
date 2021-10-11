@@ -2473,7 +2473,7 @@ QBShared.Vehicles = {
 		['category'] = 'suvs',
 		['hash'] = `landstalker`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 40000, -- 20kg 
+		["trunkspace"] = 45000, -- 20kg 
         ["trunkslots"] = 6, -- 5 slots
 	},
 	['lynx'] = {
