@@ -897,29 +897,65 @@ QBShared.Jobs = {
         },
 	},
 	['police'] = {
-		label = 'Law Enforcement',
+		label = 'Law ',
 		defaultDuty = true,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
-                payment = 50
+                name = 'Cadet',
+                payment = 20
             },
 			['1'] = {
                 name = 'Officer',
-                payment = 75
+                payment = 25
             },
 			['2'] = {
+                name = 'Officer First Class',
+                payment = 25
+            },
+			['3'] = {
+                name = 'Detective',
+                payment = 30
+            },
+			['4'] = {
+                name = 'Corporal',
+                payment = 40
+            },
+			['3'] = {
                 name = 'Sergeant',
+                payment = 50
+            },
+			['3'] = {
+                name = 'Staff Sergeant',
+                payment = 75
+            },
+			['3'] = {
+                name = 'Sergeant Major',
                 payment = 100
             },
 			['3'] = {
-                name = 'Lieutenant',
+                name = 'Second Lieutenant',
                 payment = 125
             },
-			['4'] = {
+			['3'] = {
+                name = 'Lieutenant',
+                payment = 150
+            },
+			['3'] = {
+                name = 'Captain',
+                payment = 175
+            },
+			['3'] = {
+                name = 'Inspector',
+                payment = 200
+            },
+			['3'] = {
+                name = 'Deputy Chief',
+                payment = 225
+            },
+			['3'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 150
+                payment = 250
             },
         },
 	},
@@ -1145,24 +1181,29 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = "Prospect",
-                payment = 50
             },
 			['1'] = {
                 name = "Member",
-                payment = 75
             },
 			['2'] = {
                 name = "Freund",
-                payment = 100
             },
 			['3'] = {
                 name = "Familie",
-                payment = 125
             },
-			['4'] = {
+			['1'] = {
                 name = "VIP",
 				isboss = true,
-                payment = 150
+            },
+        },
+	},
+	["sunrise"] = {
+		label = "Sunrise Autos",
+		defaultDuty = true,
+		grades = {
+			['1'] = {
+                name = "Manager",
+				isboss = true,
             },
         },
 	},
