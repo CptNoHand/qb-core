@@ -1112,8 +1112,8 @@ QBShared.Jobs = {
             },
         },
 	},
-	["flywheels"] = {
-		label = "Fly Wheels",
+	["bennys"] = {
+		label = "Benny's",
 		defaultDuty = true,
 		grades = {
             ['0'] = {
