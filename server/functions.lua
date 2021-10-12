@@ -85,7 +85,7 @@ function PaycheckLoop()
         local offdutypay = math.ceil(Player.PlayerData.job.payment * 0.25) -- Takes the normal pay and but only gives 4% of it
 local societypay = math.ceil(Player.PlayerData.job.payment * 0.04) -- your society pay 
   -- Takes the normal on duty pay, and adds an extra 5% into the police/ems society fund
-    if (Player.PlayerData.job.name == 'police' or Player.PlayerData.job.name == 'ambulance' or Player.PlayerData.job.name == 'mechanic' or Player.PlayerData.job.name == 'bahamas') then -- put any on/off duty jobs here to seperate pay
+    if (Player.PlayerData.job.name == 'police' or Player.PlayerData.job.name == 'ambulance' or Player.PlayerData.job.name == 'mechanic' or Player.PlayerData.job.name == 'bahamas' or Player.PlayerData.job.name == 'tuner' or Player.PlayerData.job.name == 'bennys') then -- put any on/off duty jobs here to seperate pay
         if Player.PlayerData.job.onduty then
             Player.Functions.AddMoney('bank', Player.PlayerData.job.payment)
             TriggerClientEvent('QBCore:Notify', Players[i], 'You received your paycheck of $'..Player.PlayerData.job.payment)
