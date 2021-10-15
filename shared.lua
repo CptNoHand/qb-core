@@ -1002,6 +1002,33 @@ QBShared.Jobs = {
             },
         },
 	},
+	['fbi'] = {
+		label = 'Federal Bureau of Investigation',
+		defaultDuty = true,
+		grades = {
+            ['0'] = {
+                name = 'Trainee',
+                payment = 50
+            },
+			['1'] = {
+                name = 'Executive Agent',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Special Agent in-Charge',
+                payment = 250
+            },
+			['3'] = {
+                name = 'Special Agent L3',
+                payment = 500
+            },
+			['4'] = {
+                name = 'General',
+				isboss = true,
+                payment = 1000
+            },
+        },
+	},
 	['realestate'] = {
 		label = 'Real Estate',
 		defaultDuty = true,
