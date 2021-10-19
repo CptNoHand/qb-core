@@ -5685,6 +5685,17 @@ QBShared.Vehicles = {
 		["trunkspace"] = 10000, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
 	},
+	['valkyrie'] = {
+		['name'] = 'Valkyrie',
+		['brand'] = 'Buckingham',
+		['model'] = 'valkyrie',
+		['price'] = 1500000,
+		['category'] = 'sports',
+		['hash'] = `valkyrie`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 100000, -- 20kg 
+        ["trunkslots"] = 50, -- 5 slots
+	},
 	['jester4'] = {
 		['name'] = 'Jester RR',
 		['brand'] = 'Dinka',
