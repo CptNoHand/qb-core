@@ -5966,6 +5966,6 @@ QBShared.Vehicles = {
 		['hash'] = `swift`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 10, -- 5 slots
 	},
 }
