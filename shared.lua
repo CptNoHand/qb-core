@@ -1011,39 +1011,39 @@ QBShared.Jobs = {
                 name = 'Corporal',
                 payment = 40
             },
-			['3'] = {
+			['5'] = {
                 name = 'Sergeant',
                 payment = 50
             },
-			['3'] = {
+			['6'] = {
                 name = 'Staff Sergeant',
                 payment = 75
             },
-			['3'] = {
+			['7'] = {
                 name = 'Sergeant Major',
                 payment = 100
             },
-			['3'] = {
+			['8'] = {
                 name = 'Second Lieutenant',
                 payment = 125
             },
-			['3'] = {
+			['9'] = {
                 name = 'Lieutenant',
                 payment = 150
             },
-			['3'] = {
+			['10'] = {
                 name = 'Captain',
                 payment = 175
             },
-			['3'] = {
+			['11'] = {
                 name = 'Inspector',
                 payment = 200
             },
-			['3'] = {
+			['12'] = {
                 name = 'Deputy Chief',
                 payment = 225
             },
-			['3'] = {
+			['13'] = {
                 name = 'Chief',
 				isboss = true,
                 payment = 250
