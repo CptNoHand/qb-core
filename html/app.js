@@ -32,10 +32,23 @@ const app = Vue.createApp({
           break;
       }
 
-      if (text.length > 100) {
-        multiline = true;
-      } else {
-        multiline = false;
+    const showNotif = async ({ data }) => {
+      // Otherwise we process any old MessageEvent with a data property
+      if (data?.action !== "notify") return;
+
+      const { text, length, type, caption } = data;
+      const { classes, icon } = determineStyleFromVariant(type);
+
+      // Make sure we have sucessfully fetched out config properly
+      if (!NOTIFY_CONFIG) {
+        console.error(
+          "The notification config did not load properly, trying again for next time"
+        );
+        // Lets check again to see if it exists
+        await fetchNotifyConfig();
+        // If we have a config lets re-run notification with same data, this
+        // isn't recursive though.
+        if (NOTIFY_CONFIG) return showNotif({ data });
       }
 
       $q.notify({
@@ -47,7 +60,9 @@ const app = Vue.createApp({
         progress: true,
         position: 'right',
         timeout: length,
-        icon: icon,
+        caption,
+        classes,
+        icon,
       });
     };
     onMounted(() => {
