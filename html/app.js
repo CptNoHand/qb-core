@@ -1,36 +1,19 @@
+import { registerWindowMethods } from "./testing.js";
+import { isEnvBrowser } from "./utils.js";
+import {
+  determineStyleFromVariant,
+  DEV_MODE,
+  fetchNotifyConfig,
+  NOTIFY_CONFIG,
+} from "./config.js";
+
 const { useQuasar } = Quasar;
+
 const { onMounted, onUnmounted } = Vue;
+
 const app = Vue.createApp({
   setup() {
     const $q = useQuasar();
-    const showNotif = (e) => {
-      const text = e.data.text;
-      const length = e.data.length;
-      const type = e.data.type;
-      const caption = e.data.caption;
-
-      switch (type) {
-        case 'success':
-          color = 'green';
-          icon = 'done';
-          break;
-        case 'primary':
-          color = 'blue';
-          icon = 'info';
-          break;
-        case 'error':
-          color = 'red';
-          icon = 'dangerous';
-          break;
-        case 'police':
-          color = 'blue';
-          icon = 'local_police';
-          break;
-        case 'ambulance':
-          color = 'red';
-          icon = 'fas fa-ambulance';
-          break;
-      }
 
     const showNotif = async ({ data }) => {
       // Otherwise we process any old MessageEvent with a data property
@@ -53,12 +36,12 @@ const app = Vue.createApp({
 
       $q.notify({
         message: text,
-        caption: caption,
-        multiLine: multiline,
-        color: color,
-        group: false,
-        progress: true,
-        position: 'right',
+        multiLine: text.length > 100,
+        // If our text is larger than a 100 characters,
+        // we should use multiline notifications
+        group: NOTIFY_CONFIG.NotificationStyling.group ?? false,
+        progress: NOTIFY_CONFIG.NotificationStyling.progress ?? true,
+        position: NOTIFY_CONFIG.NotificationStyling.position ?? "right",
         timeout: length,
         caption,
         classes,
@@ -66,13 +49,18 @@ const app = Vue.createApp({
       });
     };
     onMounted(() => {
-      window.addEventListener('message', showNotif);
+      window.addEventListener("message", showNotif);
     });
     onUnmounted(() => {
-      window.removeEventListener('message', showNotif);
+      window.removeEventListener("message", showNotif);
     });
     return {};
   },
 });
+
 app.use(Quasar, { config: {} });
-app.mount('#q-app');
+app.mount("#q-app");
+
+if (DEV_MODE || isEnvBrowser()) {
+  registerWindowMethods();
+}
