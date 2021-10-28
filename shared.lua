@@ -1309,6 +1309,33 @@ QBShared.Jobs = {
             },
         },
 	},
+	['lsfd'] = {
+        label = 'lsfd',
+        defaultDuty = true,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Officer',
+                payment = 100
+            },
+            ['2'] = {
+                name = 'Sergeant',
+                payment = 150
+            },
+            ['3'] = {
+                name = 'Lieutenant',
+                payment = 200
+            },
+            ['4'] = {
+                name = 'Chief',
+                isboss = true,
+                payment = 250
+            },
+        },
+    },
 	["sunrise"] = {
 		label = "Sunrise Autos",
 		defaultDuty = true,
