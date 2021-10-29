@@ -1133,6 +1133,26 @@ QBShared.Jobs = {
             },
         },
 	},
+	['vu'] = {
+		label = 'Vanilla Unicorn',
+		defaultDuty = true,
+		grades = {
+			['0'] = {
+				name = 'Trainee',
+				payment = 50
+			},
+			['1'] = {
+				name = 'Employee',
+				payment = 75
+			},
+			['2'] = {
+				name = 'Management',
+				isboss = true,
+				payment = 100
+			},
+		},
+	},
+	
 	['taxi'] = {
 		label = 'Taxi',
 		defaultDuty = true,
