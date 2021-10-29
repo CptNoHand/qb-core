@@ -459,6 +459,12 @@ QBShared.Items = {
 	["usb_device"]	                 = {["name"] = "usb_device",                    ["label"] = "Unknown USB",              ["weight"] = 0,	        ["type"] = "item",      ["image"] = "usb_device.png",           ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "What do you do?"},
 	["governfiles"]                  = {["name"] = "governfiles",                   ["label"] = "Gov Files",                ["weight"] = 0,         ["type"] = "item",      ["image"] = "governfiles.png",          ["unique"] = true,      ["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "What is the worse that can happen?."},
 	["license_plate"] 				 = {["name"] = "license_plate", 			    ["label"] = "License plate", 			["weight"] = 1000, 		["type"] = "item", 		["image"] = "licenseplate.png", 		["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = ""},
+	-- Vanilla Unicorn
+	['vodka'] 					     = {['name'] = 'vodka', 			  	  		['label'] = 'Vodka', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'vodka.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Ever been so drunk you start speaking Russian? This will do the trick'},
+	['whiskey'] 					 = {['name'] = 'whiskey', 			  	  		['label'] = 'Whiskey', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'whiskey.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'The fine mans drink, not something most people can afford'},
+	['rum'] 					     = {['name'] = 'rum', 			  	  		    ['label'] = 'Rum', 				    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'whiskey.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'A beverage that seems to make you think you can fight anybody'},
+	['cocacola'] 					 = {['name'] = 'cocacola', 			  	  		['label'] = 'CocaCola', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'cocacola.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Probably have some issues with your blood suger level'},
+	
 		
 		
   
