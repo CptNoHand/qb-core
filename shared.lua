@@ -1509,7 +1509,7 @@ QBShared.Vehicles = {
 		['hash'] = `adder`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['alpha'] = {
 		['name'] = 'Alpha',
@@ -1531,7 +1531,7 @@ QBShared.Vehicles = {
 		['hash'] = `ardent`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['asea'] = {
 		['name'] = 'Asea',
@@ -1542,7 +1542,7 @@ QBShared.Vehicles = {
 		['hash'] = `asea`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 25000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['blista'] = {
 		['name'] = 'Blista',
@@ -1553,7 +1553,7 @@ QBShared.Vehicles = {
 		['hash'] = `blista`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['brioso'] = {
 		['name'] = 'Brioso R/A',
@@ -1564,7 +1564,7 @@ QBShared.Vehicles = {
 		['hash'] = `avarus`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['bagger'] = {
 		['name'] = 'Bagger',
@@ -1575,7 +1575,7 @@ QBShared.Vehicles = {
 		['hash'] = `bagger`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['baller2'] = {
 		['name'] = 'Baller',
@@ -1608,7 +1608,7 @@ QBShared.Vehicles = {
 		['hash'] = `dilettante`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dilettante2'] = {
 		['name'] = 'Dilettante Patrol',
@@ -1619,7 +1619,7 @@ QBShared.Vehicles = {
 		['hash'] = `dilettante2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['kanjo'] = {
 		['name'] = 'Blista Kanjo',
@@ -1641,7 +1641,7 @@ QBShared.Vehicles = {
 		['hash'] = `issi2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['issi3'] = {
 		['name'] = 'Issi Classic',
@@ -1652,7 +1652,7 @@ QBShared.Vehicles = {
 		['hash'] = `issi3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['issi4'] = {							--DLC
 		['name'] = 'Issi Arena',
@@ -1663,7 +1663,7 @@ QBShared.Vehicles = {
 		['hash'] = `issi4`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['issi5'] = {							--DLC
 		['name'] = 'Issi Arena',
@@ -1685,7 +1685,7 @@ QBShared.Vehicles = {
 		['hash'] = `issi6`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 25000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['panto'] = {
 		['name'] = 'Panto',
@@ -1696,7 +1696,7 @@ QBShared.Vehicles = {
 		['hash'] = `panto`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['prairie'] = {
 		['name'] = 'Prairie',
@@ -1707,7 +1707,7 @@ QBShared.Vehicles = {
 		['hash'] = `prairie`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['blazer4'] = {
 		['name'] = 'Blazer Sport',
@@ -1729,7 +1729,7 @@ QBShared.Vehicles = {
 		['hash'] = `brioso2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['weevil'] = {
 		['name'] = 'Weevil',
@@ -1740,7 +1740,7 @@ QBShared.Vehicles = {
 		['hash'] = `weevil`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	--- Coupes
 	['cogcabrio'] = {
@@ -1775,7 +1775,7 @@ QBShared.Vehicles = {
 		['hash'] = `brioso`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['btype'] = {              --meme car that goes pretty fast
 		['name'] = 'Roosevelt',
@@ -1786,7 +1786,7 @@ QBShared.Vehicles = {
 		['hash'] = `btype`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['f620'] = {
 		['name'] = 'F620',
@@ -1797,7 +1797,7 @@ QBShared.Vehicles = {
 		['hash'] = `f620`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['felon'] = {
 		['name'] = 'Felon',
@@ -1808,7 +1808,7 @@ QBShared.Vehicles = {
 		['hash'] = `felon`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['felon2'] = {
 		['name'] = 'Felon GT',
@@ -1819,7 +1819,7 @@ QBShared.Vehicles = {
 		['hash'] = `felon2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['jackal'] = {
 		['name'] = 'Jackal',
@@ -1830,7 +1830,7 @@ QBShared.Vehicles = {
 		['hash'] = `jackal`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['buffalo'] = {
 		['name'] = 'Buffalo',
@@ -1841,7 +1841,7 @@ QBShared.Vehicles = {
 		['hash'] = `buffalo`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['oracle2'] = {
 		['name'] = 'Oracle XS',
@@ -1852,7 +1852,7 @@ QBShared.Vehicles = {
 		['hash'] = `oracle2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sentinel'] = {
 		['name'] = 'Sentinel',
@@ -1863,7 +1863,7 @@ QBShared.Vehicles = {
 		['hash'] = `sentinel`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['burrito3'] = {
 		['name'] = 'Burrito',
@@ -1896,7 +1896,7 @@ QBShared.Vehicles = {
 		['hash'] = `windsor2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['zion'] = {
 		['name'] = 'Zion',
@@ -1918,7 +1918,7 @@ QBShared.Vehicles = {
 		['hash'] = `zion2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['previon'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Previon',
@@ -1929,7 +1929,7 @@ QBShared.Vehicles = {
 		['hash'] = `previon`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 40000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	--- Cycles
 	['bmx'] = {
@@ -1940,7 +1940,7 @@ QBShared.Vehicles = {
 		['hash'] = `bmx`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cruiser'] = {
 		['name'] = 'Cruiser',
@@ -1950,7 +1950,7 @@ QBShared.Vehicles = {
 		['hash'] = `cruiser`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['fixter'] = {
 		['name'] = 'Fixter',
@@ -1970,7 +1970,7 @@ QBShared.Vehicles = {
 		['hash'] = `scorcher`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tribike'] = {
 		['name'] = 'Tri Bike',
@@ -1980,7 +1980,7 @@ QBShared.Vehicles = {
 		['hash'] = `tribike`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tribike2'] = {
 		['name'] = 'Tri Bike 2',
@@ -1990,7 +1990,7 @@ QBShared.Vehicles = {
 		['hash'] = `tribike2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tribike3'] = {
 		['name'] = 'Tri Bike 3',
@@ -2010,7 +2010,7 @@ QBShared.Vehicles = {
 		['hash'] = `akuma`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['avarus'] = {
 		['name'] = 'Avarus',
@@ -2021,7 +2021,7 @@ QBShared.Vehicles = {
 		['hash'] = `avarus`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['bagger'] = {
 		['name'] = 'Bagger',
@@ -2032,7 +2032,7 @@ QBShared.Vehicles = {
 		['hash'] = `bagger`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['bati'] = {
 		['name'] = 'Bati 801',
@@ -2043,7 +2043,7 @@ QBShared.Vehicles = {
 		['hash'] = `bati`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['bati2'] = {
 		['name'] = 'Bati 801RR',
@@ -2054,7 +2054,7 @@ QBShared.Vehicles = {
 		['hash'] = `bati2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['bf400'] = {
 		['name'] = 'BF400',
@@ -2065,7 +2065,7 @@ QBShared.Vehicles = {
 		['hash'] = `bf400`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['carbonrs'] = {
 		['name'] = 'Carbon RS',
@@ -2076,7 +2076,7 @@ QBShared.Vehicles = {
 		['hash'] = `carbonrs`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['chimera'] = {
 		['name'] = 'Chimera',
@@ -2096,7 +2096,7 @@ QBShared.Vehicles = {
 		['hash'] = `cliffhanger`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['daemon'] = {
 		['name'] = 'Daemon',
@@ -2138,7 +2138,7 @@ QBShared.Vehicles = {
 		['hash'] = `dilettante`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dominator'] = {
 		['name'] = 'Dominator',
@@ -2149,7 +2149,7 @@ QBShared.Vehicles = {
 		['hash'] = `dominator`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['deathbike2'] = {							--DLC
 		['name'] = 'deathbike2',
@@ -2182,7 +2182,7 @@ QBShared.Vehicles = {
 		['hash'] = `diablous`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['diablous2'] = {
 		['name'] = 'Diablous Custom',
@@ -2193,7 +2193,7 @@ QBShared.Vehicles = {
 		['hash'] = `diablous2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['double'] = {
 		['name'] = 'Double-T',
@@ -2204,7 +2204,7 @@ QBShared.Vehicles = {
 		['hash'] = `double`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['enduro'] = {
 		['name'] = 'Enduro',
@@ -2215,7 +2215,7 @@ QBShared.Vehicles = {
 		['hash'] = `enduro`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['esskey'] = {
 		['name'] = 'Esskey',
@@ -2226,7 +2226,7 @@ QBShared.Vehicles = {
 		['hash'] = `esskey`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['faggio'] = {
 		['name'] = 'Faggio Sport',
@@ -2237,7 +2237,7 @@ QBShared.Vehicles = {
 		['hash'] = `faggio`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 25000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['faggio2'] = {
 		['name'] = 'Faggio',
@@ -2248,7 +2248,7 @@ QBShared.Vehicles = {
 		['hash'] = `faggio2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['faggio3'] = {
 		['name'] = 'Faggio Mod',
@@ -2259,7 +2259,7 @@ QBShared.Vehicles = {
 		['hash'] = `faggio3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['fcr'] = {
 		['name'] = 'FCR 1000',
@@ -2281,7 +2281,7 @@ QBShared.Vehicles = {
 		['hash'] = `fcr2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['gargoyle'] = {
 		['name'] = 'Gargoyle',
@@ -2292,7 +2292,7 @@ QBShared.Vehicles = {
 		['hash'] = `gargoyle`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['hakuchou'] = {
 		['name'] = 'Hakuchou',
@@ -2303,7 +2303,7 @@ QBShared.Vehicles = {
 		['hash'] = `hakuchou`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['hakuchou2'] = {
 		['name'] = 'Hakuchou Drag',
@@ -2314,7 +2314,7 @@ QBShared.Vehicles = {
 		['hash'] = `hakuchou2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['hexer'] = {
 		['name'] = 'Hexer',
@@ -2358,7 +2358,7 @@ QBShared.Vehicles = {
 		['hash'] = `manchez`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['nemesis'] = {
 		['name'] = 'Nemesis',
@@ -2369,7 +2369,7 @@ QBShared.Vehicles = {
 		['hash'] = `nemesis`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['nightblade'] = {
 		['name'] = 'Nightblade',
@@ -2380,7 +2380,7 @@ QBShared.Vehicles = {
 		['hash'] = `nightblade`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['oppressor'] = {
 		['name'] = 'Oppressor',
@@ -2391,7 +2391,7 @@ QBShared.Vehicles = {
 		['hash'] = `oppressor`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['pcj'] = {
 		['name'] = 'PCJ-600',
@@ -2402,7 +2402,7 @@ QBShared.Vehicles = {
 		['hash'] = `pcj`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['ratbike'] = {
 		['name'] = 'Rat Bike',
@@ -2413,7 +2413,7 @@ QBShared.Vehicles = {
 		['hash'] = `ratbike`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['ruffian'] = {
 		['name'] = 'Ruffian',
@@ -2424,7 +2424,7 @@ QBShared.Vehicles = {
 		['hash'] = `ruffian`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 30000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sanchez'] = {
 		['name'] = 'Sanchez Livery',
@@ -2435,7 +2435,7 @@ QBShared.Vehicles = {
 		['hash'] = `sanchez`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sanchez2'] = {
 		['name'] = 'Sanchez',
@@ -2446,7 +2446,7 @@ QBShared.Vehicles = {
 		['hash'] = `sanchez2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sanctus'] = {
 		['name'] = 'Sanctus',
@@ -2457,7 +2457,7 @@ QBShared.Vehicles = {
 		['hash'] = `sanctus`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['shotaro'] = {
 		['name'] = 'Shotaro Concept',
@@ -2468,7 +2468,7 @@ QBShared.Vehicles = {
 		['hash'] = `shotaro`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sovereign'] = {
 		['name'] = 'Sovereign',
@@ -2479,7 +2479,7 @@ QBShared.Vehicles = {
 		['hash'] = `sovereign`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['stryder'] = {
 		['name'] = 'Stryder',
@@ -2490,7 +2490,7 @@ QBShared.Vehicles = {
 		['hash'] = `stryder`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['thrust'] = {
 		['name'] = 'Thrust',
@@ -2500,6 +2500,8 @@ QBShared.Vehicles = {
 		['category'] = 'motorcycles',
 		['hash'] = `thrust`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 1000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['vader'] = {
 		['name'] = 'Vader',
@@ -2509,6 +2511,8 @@ QBShared.Vehicles = {
 		['category'] = 'motorcycles',
 		['hash'] = `vader`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 1000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['vindicator'] = {
 		['name'] = 'Vindicator',
@@ -2541,7 +2545,7 @@ QBShared.Vehicles = {
 		['hash'] = `wolfsbane`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['zombiea'] = {
 		['name'] = 'Zombie Bobber',
@@ -2596,6 +2600,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `buccaneer`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['buccaneer2'] = {
 		['name'] = 'Buccaneer Rider',
@@ -2617,7 +2623,7 @@ QBShared.Vehicles = {
 		['hash'] = `chino`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['chino2'] = {
 		['name'] = 'Chino Luxe',
@@ -2628,7 +2634,7 @@ QBShared.Vehicles = {
 		['hash'] = `chino2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 7500, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['clique'] = {							--DLC
 		['name'] = 'Clique',
@@ -2659,7 +2665,7 @@ QBShared.Vehicles = {
 		['hash'] = `deviant`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dominator'] = {
 		['name'] = 'Dominator',
@@ -2670,7 +2676,7 @@ QBShared.Vehicles = {
 		['hash'] = `dominator`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dominator2'] = {
 		['name'] = 'Pißwasser Dominator',
@@ -2681,7 +2687,7 @@ QBShared.Vehicles = {
 		['hash'] = `dominator2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dominator3'] = {
 		['name'] = 'Dominator GTX',
@@ -2692,7 +2698,7 @@ QBShared.Vehicles = {
 		['hash'] = `dominator3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dominator4'] = {							--DLC
 		['name'] = 'Dominator Arena',
@@ -2703,7 +2709,7 @@ QBShared.Vehicles = {
 		['hash'] = `dominator4`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dominator7'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Dominator ASP',
@@ -2714,7 +2720,7 @@ QBShared.Vehicles = {
 		['hash'] = `dominator7`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dominator8'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Dominator GTT',
@@ -2725,7 +2731,7 @@ QBShared.Vehicles = {
 		['hash'] = `dominator8`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dukes'] = {
 		['name'] = 'Dukes',
@@ -2745,7 +2751,7 @@ QBShared.Vehicles = {
 		['hash'] = `dukes2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dukes3'] = {
 		['name'] = 'Beater Dukes',
@@ -2756,7 +2762,7 @@ QBShared.Vehicles = {
 		['hash'] = `dukes3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['faction'] = {
 		['name'] = 'Faction',
@@ -2778,7 +2784,7 @@ QBShared.Vehicles = {
 		['hash'] = `faction2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['faction3'] = {
 		['name'] = 'Faction Custom Donk',
@@ -2789,7 +2795,7 @@ QBShared.Vehicles = {
 		['hash'] = `faction3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['ellie'] = {
 		['name'] = 'Ellie',
@@ -2800,7 +2806,7 @@ QBShared.Vehicles = {
 		['hash'] = `ellie`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['gauntlet'] = {
 		['name'] = 'Gauntlet',
@@ -2811,7 +2817,7 @@ QBShared.Vehicles = {
 		['hash'] = `gauntlet`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['gauntlet2'] = {
 		['name'] = 'Redwood Gauntlet',
@@ -2844,7 +2850,7 @@ QBShared.Vehicles = {
 		['hash'] = `gauntlet4`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['gauntlet5'] = {
 		['name'] = 'Gauntlet Classic Custom',
@@ -2855,7 +2861,7 @@ QBShared.Vehicles = {
 		['hash'] = `gauntlet5`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['hermes'] = {
 		['name'] = 'Hermes',
@@ -2877,7 +2883,7 @@ QBShared.Vehicles = {
 		['hash'] = `hotknife`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['hustler'] = {
 		['name'] = 'Hustler',
@@ -2888,7 +2894,7 @@ QBShared.Vehicles = {
 		['hash'] = `hustler`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['impaler'] = {							--DLC
 		['name'] = 'impaler',
@@ -2899,7 +2905,7 @@ QBShared.Vehicles = {
 		['hash'] = `impaler`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['impaler2'] = {							--DLC
 		['name'] = 'impaler2',
@@ -2910,7 +2916,7 @@ QBShared.Vehicles = {
 		['hash'] = `impaler2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['impaler3'] = {							--DLC
 		['name'] = 'impaler3',
@@ -2921,7 +2927,7 @@ QBShared.Vehicles = {
 		['hash'] = `impaler3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['impaler4'] = {							--DLC
 		['name'] = 'impaler4',
@@ -2932,7 +2938,7 @@ QBShared.Vehicles = {
 		['hash'] = `impaler4`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 12500, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['imperator'] = {							--DLC
 		['name'] = 'imperator',
@@ -2943,7 +2949,7 @@ QBShared.Vehicles = {
 		['hash'] = `imperator`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 4000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['imperator2'] = {							--DLC
 		['name'] = 'imperator2',
@@ -2954,7 +2960,7 @@ QBShared.Vehicles = {
 		['hash'] = `imperator2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 2500, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['imperator3'] = {							--DLC
 		['name'] = 'imperator3',
@@ -2964,6 +2970,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `imperator3`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['lurcher'] = {
 		['name'] = 'Gauntlet Classic Custom',
@@ -2974,7 +2982,7 @@ QBShared.Vehicles = {
 		['hash'] = `lurcher`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['moonbeam'] = {
 		['name'] = 'Moonbeam',
@@ -3007,7 +3015,7 @@ QBShared.Vehicles = {
 		['hash'] = `nightshade`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['peyote2'] = {							--DLC
 		['name'] = 'Peyote Gasser',
@@ -3018,7 +3026,7 @@ QBShared.Vehicles = {
 		['hash'] = `peyote2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['phoenix'] = {
 		['name'] = 'Phoenix',
@@ -3029,7 +3037,7 @@ QBShared.Vehicles = {
 		['hash'] = `phoenix`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['picador'] = {
 		['name'] = 'Picador',
@@ -3040,7 +3048,7 @@ QBShared.Vehicles = {
 		['hash'] = `picador`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['ratloader2'] = {
 		['name'] = 'ratloader2',
@@ -3050,6 +3058,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `ratloader2`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},	
 	['ruiner'] = {
 		['name'] = 'Ruiner',
@@ -3060,7 +3070,7 @@ QBShared.Vehicles = {
 		['hash'] = `ruiner`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['ruiner2'] = {
 		['name'] = 'Ruiner 2000',
@@ -3070,6 +3080,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `ruiner2`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sabregt'] = {
 		['name'] = 'Sabre Turbo',
@@ -3079,6 +3091,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `sabregt`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sabregt2'] = {
 		['name'] = 'Sabre GT',
@@ -3088,6 +3102,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `sabregt2`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['slamvan'] = {
 		['name'] = 'Slam Van',
@@ -3098,7 +3114,7 @@ QBShared.Vehicles = {
 		['hash'] = `slamvan`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 10, -- 5 slots
 	},
 	['slamvan2'] = {
 		['name'] = 'Lost Slam Van',
@@ -3108,6 +3124,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `slamvan2`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
 	},
 	['slamvan3'] = {
 		['name'] = 'Slam Van Custom',
@@ -3117,6 +3135,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `slamvan3`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['stalion'] = {
 		['name'] = 'Stallion',
@@ -3127,7 +3147,7 @@ QBShared.Vehicles = {
 		['hash'] = `stalion`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 10, -- 5 slots
 	},
 	['stalion2'] = {
 		['name'] = 'Stallion Burgershot',
@@ -3137,6 +3157,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `stalion2`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 10000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
 	},
 	['tampa'] = {
 		['name'] = 'Tampa',
@@ -3146,6 +3168,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `tampa`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
 	},
 	['tulip'] = {							--DLC
 		['name'] = 'Tulip',
@@ -3155,6 +3179,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `tulip`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
 	},
 	['vamos'] = {							--DLC
 		['name'] = 'Vamos',
@@ -3164,6 +3190,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `vamos`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['vigero'] = {
 		['name'] = 'Vigero',
@@ -3173,6 +3201,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `vigero`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['virgo'] = {
 		['name'] = 'Virgo',
@@ -3183,7 +3213,7 @@ QBShared.Vehicles = {
 		['hash'] = `virgo`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['virgo2'] = {
 		['name'] = 'Virgo Custom Classic',
@@ -3194,7 +3224,7 @@ QBShared.Vehicles = {
 		['hash'] = `virgo2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['virgo3'] = {
 		['name'] = 'Virgo Custom Classic',
@@ -3204,6 +3234,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `virgo3`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},	
 	['voodoo'] = {
 		['name'] = 'Voodoo',
@@ -3213,6 +3245,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `voodoo`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['yosemite'] = {
 		['name'] = 'Yosemite',
@@ -3222,6 +3256,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `yosemite`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 50000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
 	},
 	['yosemite2'] = {
 		['name'] = 'Yosemite Drift',
@@ -3231,6 +3267,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `yosemite2`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 50000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
 	},
 	['yosemite3'] = {
 		['name'] = 'Yosemite Rancher',
@@ -3240,6 +3278,8 @@ QBShared.Vehicles = {
 		['model'] = 'yosemite3',
 		['hash'] = `yosemite3`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 50000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
 	},
 	--- Off-Road
 	['bfinjection'] = {
@@ -3262,7 +3302,7 @@ QBShared.Vehicles = {
 		['hash'] = `bifta`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['blazer'] = {
 		['name'] = 'Blazer',
@@ -3272,7 +3312,7 @@ QBShared.Vehicles = {
 		['hash'] = `blazer`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['blazer2'] = {
 		['name'] = 'Blazer Lifeguard',
@@ -3283,7 +3323,7 @@ QBShared.Vehicles = {
 		['hash'] = `blazer2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['blazer3'] = {
 		['name'] = 'Blazer Hot Rod',
@@ -3294,7 +3334,7 @@ QBShared.Vehicles = {
 		['hash'] = `blazer3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['blazer4'] = {
 		['name'] = 'Blazer Sport',
@@ -3336,7 +3376,7 @@ QBShared.Vehicles = {
 		['hash'] = `caracara`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['caracara2'] = {							--DLC
 		['name'] = 'Caracara 4x4',
@@ -3347,7 +3387,7 @@ QBShared.Vehicles = {
 		['hash'] = `caracara2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dubsta3'] = {
 		['name'] = 'Dubsta 6x6',
@@ -3369,7 +3409,7 @@ QBShared.Vehicles = {
 		['hash'] = `dune`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['everon'] = {
 		['name'] = 'Everon',
@@ -3391,7 +3431,7 @@ QBShared.Vehicles = {
 		['hash'] = `freecrawler`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['hellion'] = {							--DLC
 		['name'] = 'Hellion',
@@ -3402,7 +3442,7 @@ QBShared.Vehicles = {
 		['hash'] = `hellion`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['kalahari'] = {
 		['name'] = 'Kalahari',
@@ -3413,7 +3453,7 @@ QBShared.Vehicles = {
 		['hash'] = `kalahari`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['kamacho'] = {
 		['name'] = 'Kamacho',
@@ -3435,7 +3475,7 @@ QBShared.Vehicles = {
 		['hash'] = `mesa3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['outlaw'] = {
 		['name'] = 'Outlaw',
@@ -3446,7 +3486,7 @@ QBShared.Vehicles = {
 		['hash'] = `outlaw`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['rancherxl'] = {
 		['name'] = 'Rancher XL',
@@ -3457,7 +3497,7 @@ QBShared.Vehicles = {
 		['hash'] = `rancherxl`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['rebel2'] = {
 		['name'] = 'Rebel',
@@ -3479,7 +3519,7 @@ QBShared.Vehicles = {
 		['hash'] = `riata`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sandking'] = {
 		['name'] = 'Sandking',
@@ -3490,7 +3530,7 @@ QBShared.Vehicles = {
 		['hash'] = `sandking`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sandking2'] = {
 		['name'] = 'Sandking SWB',
@@ -3501,7 +3541,7 @@ QBShared.Vehicles = {
 		['hash'] = `sandking2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['trophytruck'] = {
 		['name'] = 'Trophy Truck',
@@ -3512,7 +3552,7 @@ QBShared.Vehicles = {
 		['hash'] = `trophytruck`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['trophytruck2'] = {
 		['name'] = 'Trophy Truck Limited',
@@ -3534,7 +3574,7 @@ QBShared.Vehicles = {
 		['hash'] = `vagrant`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['verus'] = {
 		['name'] = 'Verus',
@@ -3545,7 +3585,7 @@ QBShared.Vehicles = {
 		['hash'] = `verus`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['winky'] = {
 		['name'] = 'Winky',
@@ -3556,7 +3596,7 @@ QBShared.Vehicles = {
 		['hash'] = `winky`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	--- SUVs
 	['baller'] = {
@@ -3568,7 +3608,7 @@ QBShared.Vehicles = {
 		['hash'] = `baller`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['baller2'] = {
 		['name'] = 'Baller',
@@ -3579,7 +3619,7 @@ QBShared.Vehicles = {
 		['hash'] = `baller2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['baller3'] = {
 		['name'] = 'Baller LE',
@@ -3601,7 +3641,7 @@ QBShared.Vehicles = {
 		['hash'] = `baller4`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['baller5'] = {
 		['name'] = 'Baller LE (Armored)',
@@ -3612,7 +3652,7 @@ QBShared.Vehicles = {
 		['hash'] = `baller5`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['baller6'] = {
 		['name'] = 'Baller LE LWB (Armored)',
@@ -3623,7 +3663,7 @@ QBShared.Vehicles = {
 		['hash'] = `baller6`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['bjxl'] = {
 		['name'] = 'BeeJay XL',
@@ -3634,7 +3674,7 @@ QBShared.Vehicles = {
 		['hash'] = `bjxl`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cavalcade'] = {
 		['name'] = 'Cavalcade',
@@ -3645,7 +3685,7 @@ QBShared.Vehicles = {
 		['hash'] = `cavalcade`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cavalcade2'] = {
 		['name'] = 'Cavalcade',
@@ -3656,7 +3696,7 @@ QBShared.Vehicles = {
 		['hash'] = `cavalcade2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['contender'] = {
 		['name'] = 'Contender',
@@ -3667,7 +3707,7 @@ QBShared.Vehicles = {
 		['hash'] = `contender`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dubsta'] = {
 		['name'] = 'Dubsta',
@@ -3678,7 +3718,7 @@ QBShared.Vehicles = {
 		['hash'] = `dubsta`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dubsta2'] = {
 		['name'] = 'Dubsta Luxuary',
@@ -3689,7 +3729,7 @@ QBShared.Vehicles = {
 		['hash'] = `dubsta2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['fq2'] = {
 		['name'] = 'FQ2',
@@ -3699,6 +3739,8 @@ QBShared.Vehicles = {
 		['category'] = 'suvs',
 		['hash'] = `fq2`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['granger'] = {
 		['name'] = 'Granger',
@@ -3709,7 +3751,7 @@ QBShared.Vehicles = {
 		['hash'] = `granger`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['gresley'] = {
 		['name'] = 'Gresley',
@@ -3720,7 +3762,7 @@ QBShared.Vehicles = {
 		['hash'] = `gresley`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['habanero'] = {
 		['name'] = 'Habanero',
@@ -3731,7 +3773,7 @@ QBShared.Vehicles = {
 		['hash'] = `habanero`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['huntley'] = {
 		['name'] = 'Huntley S',
@@ -3742,7 +3784,7 @@ QBShared.Vehicles = {
 		['hash'] = `huntley`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['landstalker'] = {
 		['name'] = 'Landstalker',
@@ -3753,7 +3795,7 @@ QBShared.Vehicles = {
 		['hash'] = `landstalker`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['landstalker2'] = {
 		['name'] = 'Landstalker XL',
@@ -3764,7 +3806,7 @@ QBShared.Vehicles = {
 		['hash'] = `landstalker2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 40000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['mesa'] = {
 		['name'] = 'Mesa',
@@ -3775,7 +3817,7 @@ QBShared.Vehicles = {
 		['hash'] = `mesa`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 40000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['novak'] = {							--DLC
 		['name'] = 'Novak',
@@ -3786,7 +3828,7 @@ QBShared.Vehicles = {
 		['hash'] = `novak`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['patriot'] = {
 		['name'] = 'Patriot',
@@ -3797,7 +3839,7 @@ QBShared.Vehicles = {
 		['hash'] = `patriot`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['radi'] = {
 		['name'] = 'Radius',
@@ -3808,7 +3850,7 @@ QBShared.Vehicles = {
 		['hash'] = `radi`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['rebla'] = {
 		['name'] = 'Rebla GTS',
@@ -3819,7 +3861,7 @@ QBShared.Vehicles = {
 		['hash'] = `rebla`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['rocoto'] = {
 		['name'] = 'Rocoto',
@@ -3830,7 +3872,7 @@ QBShared.Vehicles = {
 		['hash'] = `rocoto`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['seminole'] = {
 		['name'] = 'Seminole',
@@ -3852,7 +3894,7 @@ QBShared.Vehicles = {
 		['hash'] = `seminole2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['serrano'] = {
 		['name'] = 'Serrano',
@@ -3863,7 +3905,7 @@ QBShared.Vehicles = {
 		['hash'] = `serrano`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['toros'] = {							--DLC
 		['name'] = 'Toros',
@@ -3874,7 +3916,7 @@ QBShared.Vehicles = {
 		['hash'] = `toros`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['xls'] = {
 		['name'] = 'XLS',
@@ -3884,6 +3926,8 @@ QBShared.Vehicles = {
 		['category'] = 'suvs',
 		['hash'] = `xls`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	--- Sedans
 	['asea'] = {
@@ -3895,7 +3939,7 @@ QBShared.Vehicles = {
 		['hash'] = `asea`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['asterope'] = {
 		['name'] = 'Asterope',
@@ -3906,7 +3950,7 @@ QBShared.Vehicles = {
 		['hash'] = `asterope`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cog55'] = {
 		['name'] = 'Cognoscenti 55',
@@ -3917,7 +3961,7 @@ QBShared.Vehicles = {
 		['hash'] = `cog55`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cognoscenti'] = {
 		['name'] = 'Cognoscenti',
@@ -3928,7 +3972,7 @@ QBShared.Vehicles = {
 		['hash'] = `cognoscenti`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['emperor'] = {
 		['name'] = 'Emperor',
@@ -3939,7 +3983,7 @@ QBShared.Vehicles = {
 		['hash'] = `emperor`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['fugitive'] = {
 		['name'] = 'Fugitive',
@@ -3949,6 +3993,8 @@ QBShared.Vehicles = {
 		['category'] = 'sedans',
 		['hash'] = `fugitive`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['glendale'] = {
 		['name'] = 'Glendale',
@@ -3980,6 +4026,8 @@ QBShared.Vehicles = {
 		['category'] = 'sedans',
 		['hash'] = `ingot`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['intruder'] = {
 		['name'] = 'Intruder',
@@ -3990,7 +4038,7 @@ QBShared.Vehicles = {
 		['hash'] = `intruder`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['premier'] = {
 		['name'] = 'Premier',
@@ -4001,7 +4049,7 @@ QBShared.Vehicles = {
 		['hash'] = `premier`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['primo'] = {
 		['name'] = 'Primo',
@@ -4012,7 +4060,7 @@ QBShared.Vehicles = {
 		['hash'] = `primo`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['primo2'] = {
 		['name'] = 'Primo Custom',
@@ -4023,7 +4071,7 @@ QBShared.Vehicles = {
 		['hash'] = `primo2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['regina'] = {
 		['name'] = 'Regina',
@@ -4034,7 +4082,7 @@ QBShared.Vehicles = {
 		['hash'] = `regina`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['stafford'] = {							--DLC
 		['name'] = 'Stafford',
@@ -4045,7 +4093,7 @@ QBShared.Vehicles = {
 		['hash'] = `stafford`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['stanier'] = {
 		['name'] = 'Stanier',
@@ -4056,7 +4104,7 @@ QBShared.Vehicles = {
 		['hash'] = `stanier`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['stratum'] = {
 		['name'] = 'Stratum',
@@ -4067,7 +4115,7 @@ QBShared.Vehicles = {
 		['hash'] = `stratum`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 7500, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['stretch'] = {
 		['name'] = 'Stretch',
@@ -4078,7 +4126,7 @@ QBShared.Vehicles = {
 		['hash'] = `stretch`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['superd'] = {
 		['name'] = 'Super Diamond',
@@ -4088,6 +4136,8 @@ QBShared.Vehicles = {
 		['category'] = 'sedans',
 		['hash'] = `superd`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['surge'] = {
 		['name'] = 'Surge',
@@ -4098,7 +4148,7 @@ QBShared.Vehicles = {
 		['hash'] = `surge`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 40000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tailgater'] = {
 		['name'] = 'Tailgater',
@@ -4109,7 +4159,7 @@ QBShared.Vehicles = {
 		['hash'] = `tailgater`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 40000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['warrener'] = {
 		['name'] = 'Warrener',
@@ -4120,7 +4170,7 @@ QBShared.Vehicles = {
 		['hash'] = `warrener`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 40000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['washington'] = {
 		['name'] = 'Washington',
@@ -4131,7 +4181,7 @@ QBShared.Vehicles = {
 		['hash'] = `washington`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 40000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tailgater2'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Tailgater S',
@@ -4142,7 +4192,7 @@ QBShared.Vehicles = {
 		['hash'] = `tailgater2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	--- Sports
 	['alpha'] = {
@@ -4154,7 +4204,7 @@ QBShared.Vehicles = {
 		['hash'] = `alpha`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['banshee'] = {
 		['name'] = 'Banshee',
@@ -4165,7 +4215,7 @@ QBShared.Vehicles = {
 		['hash'] = `banshee`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['bestiagts'] = {
 		['name'] = 'Bestia GTS',
@@ -4176,7 +4226,7 @@ QBShared.Vehicles = {
 		['hash'] = `bestiagts`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['blista2'] = {
 		['name'] = 'Blista Compact',
@@ -4187,7 +4237,7 @@ QBShared.Vehicles = {
 		['hash'] = `blista2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['blista3'] = {
 		['name'] = 'Blista Go Go Monkey',
@@ -4198,7 +4248,7 @@ QBShared.Vehicles = {
 		['hash'] = `blista3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['buffalo'] = {
 		['name'] = 'Buffalo',
@@ -4208,6 +4258,8 @@ QBShared.Vehicles = {
 		['category'] = 'sports',
 		['hash'] = `buffalo`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['buffalo2'] = {
 		['name'] = 'Buffalo S',
@@ -4217,6 +4269,8 @@ QBShared.Vehicles = {
 		['category'] = 'sports',
 		['hash'] = `buffalo2`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['carbonizzare'] = {
 		['name'] = 'Carbonizzare',
@@ -4227,7 +4281,7 @@ QBShared.Vehicles = {
 		['hash'] = `carbonizzare`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['comet2'] = {
 		['name'] = 'Comet',
@@ -4238,7 +4292,7 @@ QBShared.Vehicles = {
 		['hash'] = `comet2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['comet3'] = {
 		['name'] = 'Comet Retro Custom',
@@ -4248,6 +4302,8 @@ QBShared.Vehicles = {
 		['category'] = 'sports',
 		['hash'] = `comet3`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['comet4'] = {
 		['name'] = 'Comet Safari',
@@ -4257,6 +4313,8 @@ QBShared.Vehicles = {
 		['category'] = 'sports',
 		['hash'] = `comet4`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},	
 	['comet5'] = {
 		['name'] = 'Comet SR',
@@ -4266,6 +4324,8 @@ QBShared.Vehicles = {
 		['category'] = 'sports',
 		['hash'] = `comet5`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['coquette'] = {
 		['name'] = 'Coquette',
@@ -4275,6 +4335,8 @@ QBShared.Vehicles = {
 		['category'] = 'sports',
 		['hash'] = `coquette`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['coquette2'] = {
 		['name'] = 'Coquette Classic',
@@ -4284,6 +4346,8 @@ QBShared.Vehicles = {
 		['category'] = 'sportsclassics',
 		['hash'] = `coquette2`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['coquette4'] = {
 		['name'] = 'Coquette D10',
@@ -4293,6 +4357,8 @@ QBShared.Vehicles = {
 		['category'] = 'sports',
 		['hash'] = `coquette4`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['drafter'] = {							--DLC
 		['name'] = '8F Drafter',
@@ -4325,7 +4391,7 @@ QBShared.Vehicles = {
 		['hash'] = `elegy`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 7500, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['elegy2'] = {
 		['name'] = 'Elegy RH8',
@@ -4336,7 +4402,7 @@ QBShared.Vehicles = {
 		['hash'] = `elegy2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['feltzer2'] = {
 		['name'] = 'Feltzer',
@@ -4356,7 +4422,7 @@ QBShared.Vehicles = {
 		['hash'] = `flashgt`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 7500, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['furoregt'] = {
 		['name'] = 'Furore GT',
@@ -4367,7 +4433,7 @@ QBShared.Vehicles = {
 		['hash'] = `furoregt`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 7500, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['futo'] = {
 		['name'] = 'Futo',
@@ -4378,7 +4444,7 @@ QBShared.Vehicles = {
 		['hash'] = `futo`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['gb200'] = {
 		['name'] = 'GB 200',
@@ -4389,7 +4455,7 @@ QBShared.Vehicles = {
 		['hash'] = `gb200`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['komoda'] = {
 		['name'] = 'Komoda',
@@ -4411,7 +4477,7 @@ QBShared.Vehicles = {
 		['hash'] = `imorgon`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['issi7'] = {							--DLC
 		['name'] = 'Issi Sport',
@@ -4431,7 +4497,7 @@ QBShared.Vehicles = {
 		['hash'] = `italigto`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['jester'] = {
 		['name'] = 'Jester',
@@ -4442,7 +4508,7 @@ QBShared.Vehicles = {
 		['hash'] = `jester`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['jester2'] = {
 		['name'] = 'Jester Racecar',
@@ -4453,7 +4519,7 @@ QBShared.Vehicles = {
 		['hash'] = `jester2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['jester3'] = {
 		['name'] = 'Jester Classic',
@@ -4464,7 +4530,7 @@ QBShared.Vehicles = {
 		['hash'] = `jester3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['khamelion'] = {
 		['name'] = 'Khamelion',
@@ -4475,7 +4541,7 @@ QBShared.Vehicles = {
 		['hash'] = `khamelion`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['kuruma'] = {
 		['name'] = 'Kuruma',
@@ -4486,7 +4552,7 @@ QBShared.Vehicles = {
 		['hash'] = `kuruma`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 7500, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['kuruma2'] = {
 		['name'] = 'kuruma2',
@@ -4497,7 +4563,7 @@ QBShared.Vehicles = {
 		['hash'] = `kuruma2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['locust'] = {							--DLC
 		['name'] = 'Locust',
@@ -4508,7 +4574,7 @@ QBShared.Vehicles = {
 		['hash'] = `locust`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['lynx'] = {
 		['name'] = 'Lynx',
@@ -4519,7 +4585,7 @@ QBShared.Vehicles = {
 		['hash'] = `lynx`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['massacro'] = {
 		['name'] = 'Massacro',
@@ -4530,7 +4596,7 @@ QBShared.Vehicles = {
 		['hash'] = `massacro`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['massacro2'] = {
 		['name'] = 'Massacro Racecar',
@@ -4541,7 +4607,7 @@ QBShared.Vehicles = {
 		['hash'] = `drafter`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dubsta'] = {
 		['name'] = 'Dubsta',
@@ -4552,7 +4618,7 @@ QBShared.Vehicles = {
 		['hash'] = `dubsta`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 50000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['neo'] = {							--DLC
 		['name'] = 'Neo',
@@ -4563,7 +4629,7 @@ QBShared.Vehicles = {
 		['hash'] = `neo`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['neon'] = {							--DLC
 		['name'] = 'Neon',
@@ -4574,7 +4640,7 @@ QBShared.Vehicles = {
 		['hash'] = `neon`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['ninef'] = {
 		['name'] = '9F',
@@ -4585,7 +4651,7 @@ QBShared.Vehicles = {
 		['hash'] = `ninef`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['ninef2'] = {
 		['name'] = '9F Cabrio',
@@ -4596,7 +4662,7 @@ QBShared.Vehicles = {
 		['hash'] = `ninef2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['omnis'] = {
 		['name'] = 'Omnis',
@@ -4607,7 +4673,7 @@ QBShared.Vehicles = {
 		['hash'] = `omnis`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['paragon'] = {							--DLC
 		['name'] = 'Paragon',
@@ -4629,7 +4695,7 @@ QBShared.Vehicles = {
 		['hash'] = `pariah`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['penumbra'] = {
 		['name'] = 'Penumbra',
@@ -4640,7 +4706,7 @@ QBShared.Vehicles = {
 		['hash'] = `penumbra`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['penumbra2'] = {
 		['name'] = 'Penumbra FF',
@@ -4651,7 +4717,7 @@ QBShared.Vehicles = {
 		['hash'] = `penumbra2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['rapidgt'] = {
 		['name'] = 'Rapid GT',
@@ -4662,7 +4728,7 @@ QBShared.Vehicles = {
 		['hash'] = `rapidgt`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['rapidgt2'] = {
 		['name'] = 'Rapid GT Convertible',
@@ -4693,7 +4759,7 @@ QBShared.Vehicles = {
 		['hash'] = `revolter`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['ruston'] = {
 		['name'] = 'Ruston',
@@ -4704,7 +4770,7 @@ QBShared.Vehicles = {
 		['hash'] = `ruston`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['schafter2'] = {
 		['name'] = 'Schafter',
@@ -4715,7 +4781,7 @@ QBShared.Vehicles = {
 		['hash'] = `schafter2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['schafter3'] = {
 		['name'] = 'Schafter V12',
@@ -4726,7 +4792,7 @@ QBShared.Vehicles = {
 		['hash'] = `schafter3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['schafter4'] = {
 		['name'] = 'Schafter LWB',
@@ -4737,7 +4803,7 @@ QBShared.Vehicles = {
 		['hash'] = `schafter4`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['schlagen'] = {							--DLC
 		['name'] = 'Schlagen GT',
@@ -4748,7 +4814,7 @@ QBShared.Vehicles = {
 		['hash'] = `schlagen`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['schwarzer'] = {
 		['name'] = 'Schwartzer',
@@ -4759,7 +4825,7 @@ QBShared.Vehicles = {
 		['hash'] = `schwarzer`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sentinel3'] = {
 		['name'] = 'Sentinel Classic',
@@ -4770,7 +4836,7 @@ QBShared.Vehicles = {
 		['hash'] = `sentinel3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 7500, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['seven70'] = {
 		['name'] = 'Seven-70',
@@ -4781,7 +4847,7 @@ QBShared.Vehicles = {
 		['hash'] = `seven70`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 35000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['specter'] = {
 		['name'] = 'Specter',
@@ -4792,7 +4858,7 @@ QBShared.Vehicles = {
 		['hash'] = `specter`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['streiter'] = {
 		['name'] = 'Streiter',
@@ -4803,7 +4869,7 @@ QBShared.Vehicles = {
 		['hash'] = `streiter`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 35000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sugoi'] = {
 		['name'] = 'Sugoi',
@@ -4814,7 +4880,7 @@ QBShared.Vehicles = {
 		['hash'] = `sugoi`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sultan'] = {
 		['name'] = 'Sultan',
@@ -4825,7 +4891,7 @@ QBShared.Vehicles = {
 		['hash'] = `sultan`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sultan2'] = {
 		['name'] = 'Sultan Custom',
@@ -4836,7 +4902,7 @@ QBShared.Vehicles = {
 		['hash'] = `sultan2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['surano'] = {
 		['name'] = 'Surano',
@@ -4847,7 +4913,7 @@ QBShared.Vehicles = {
 		['hash'] = `surano`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tampa2'] = {
 		['name'] = 'Drift Tampa',
@@ -4858,7 +4924,7 @@ QBShared.Vehicles = {
 		['hash'] = `tampa2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tropos'] = {
 		['name'] = 'Tropos Rallye',
@@ -4869,7 +4935,7 @@ QBShared.Vehicles = {
 		['hash'] = `tropos`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['verlierer2'] = {
 		['name'] = 'Verlierer',
@@ -4880,7 +4946,7 @@ QBShared.Vehicles = {
 		['hash'] = `verlierer2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['vstr'] = {
 		['name'] = 'V-STR',
@@ -4891,7 +4957,7 @@ QBShared.Vehicles = {
 		['hash'] = `vstr`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['italirsx'] = {
 		['name'] = 'Itali RSX',
@@ -4902,7 +4968,7 @@ QBShared.Vehicles = {
 		['hash'] = `italirsx`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['calico'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Calico GTF',
@@ -4913,7 +4979,7 @@ QBShared.Vehicles = {
 		['hash'] = `calico`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['futo2'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Futo GTX',
@@ -4924,7 +4990,7 @@ QBShared.Vehicles = {
 		['hash'] = `futo2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 120000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['euros'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Euros',
@@ -4935,7 +5001,7 @@ QBShared.Vehicles = {
 		['hash'] = `jugular`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['kalahari'] = {
 		['name'] = 'Kalahari',
@@ -4946,7 +5012,7 @@ QBShared.Vehicles = {
 		['hash'] = `kalahari`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['kamacho'] = {
 		['name'] = 'Kamacho',
@@ -4968,7 +5034,7 @@ QBShared.Vehicles = {
 		['hash'] = `jester4`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 12500, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['remus'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Remus',
@@ -4979,7 +5045,7 @@ QBShared.Vehicles = {
 		['hash'] = `remus`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['comet6'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Comet S2',
@@ -4990,7 +5056,7 @@ QBShared.Vehicles = {
 		['hash'] = `comet6`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['growler'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Growler',
@@ -5012,7 +5078,7 @@ QBShared.Vehicles = {
 		['hash'] = `vectre`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cypher'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Cypher',
@@ -5023,7 +5089,7 @@ QBShared.Vehicles = {
 		['hash'] = `cypher`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sultan3'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Sultan Classic Custom',
@@ -5034,7 +5100,7 @@ QBShared.Vehicles = {
 		['hash'] = `sultan3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['rt3000'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'RT3000',
@@ -5045,7 +5111,7 @@ QBShared.Vehicles = {
 		['hash'] = `rt3000`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	--- Sports Classic
 	['ardent'] = {
@@ -5057,7 +5123,7 @@ QBShared.Vehicles = {
 		['hash'] = `ardent`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['btype'] = {              --meme car that goes pretty fast
 		['name'] = 'Roosevelt',
@@ -5068,7 +5134,7 @@ QBShared.Vehicles = {
 		['hash'] = `btype`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['btype2'] = {
 		['name'] = 'Franken Stange',
@@ -5079,7 +5145,7 @@ QBShared.Vehicles = {
 		['hash'] = `btype2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['btype3'] = {
 		['name'] = 'Roosevelt Valor',
@@ -5090,7 +5156,7 @@ QBShared.Vehicles = {
 		['hash'] = `btype3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['casco'] = {
 		['name'] = 'Casco',
@@ -5101,7 +5167,7 @@ QBShared.Vehicles = {
 		['hash'] = `casco`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cheetah2'] = {
 		['name'] = 'Cheetah Classic',
@@ -5112,7 +5178,7 @@ QBShared.Vehicles = {
 		['hash'] = `cheetah2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 30000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['deluxo'] = {
 		['name'] = 'Deluxo',
@@ -5123,7 +5189,7 @@ QBShared.Vehicles = {
 		['hash'] = `deluxo`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 35000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dynasty'] = {							--DLC
 		['name'] = 'Dynasty',
@@ -5134,7 +5200,7 @@ QBShared.Vehicles = {
 		['hash'] = `dynasty`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['fagaloa'] = {
 		['name'] = 'Fagaloa',
@@ -5178,7 +5244,7 @@ QBShared.Vehicles = {
 		['hash'] = `infernus2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['jb700'] = {
 		['name'] = 'JB 700',
@@ -5189,7 +5255,7 @@ QBShared.Vehicles = {
 		['hash'] = `jb700`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['jb7002'] = {
 		['name'] = 'JB 700W',
@@ -5200,7 +5266,7 @@ QBShared.Vehicles = {
 		['hash'] = `jb7002`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['mamba'] = {
 		['name'] = 'Mamba',
@@ -5222,7 +5288,7 @@ QBShared.Vehicles = {
 		['hash'] = `manana2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['michelli'] = {
 		['name'] = 'Michelli GT',
@@ -5244,7 +5310,7 @@ QBShared.Vehicles = {
 		['hash'] = `monroe`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['nebula'] = {							--DLC
 		['name'] = 'Nebula',
@@ -5255,7 +5321,7 @@ QBShared.Vehicles = {
 		['hash'] = `penumbra`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['penumbra2'] = {
 		['name'] = 'Penumbra FF',
@@ -5266,7 +5332,7 @@ QBShared.Vehicles = {
 		['hash'] = `penumbra2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['peyote'] = {
 		['name'] = 'Peyote',
@@ -5277,7 +5343,7 @@ QBShared.Vehicles = {
 		['hash'] = `peyote`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['peyote2'] = {
 		['name'] = 'Peyote Gasser',
@@ -5288,7 +5354,7 @@ QBShared.Vehicles = {
 		['hash'] = `peyote2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['peyote3'] = {
 		['name'] = 'Peyote Custom',
@@ -5299,7 +5365,7 @@ QBShared.Vehicles = {
 		['hash'] = `peyote3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['primo'] = {
 		['name'] = 'Primo',
@@ -5332,7 +5398,7 @@ QBShared.Vehicles = {
 		['hash'] = `raptor`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['ratbike'] = {
 		['name'] = 'Rat Bike',
@@ -5343,7 +5409,7 @@ QBShared.Vehicles = {
 		['hash'] = `ratbike`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['rebla'] = {
 		['name'] = 'Rebla GTS',
@@ -5365,7 +5431,7 @@ QBShared.Vehicles = {
 		['hash'] = `retinue`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['retinue2'] = {
 		['name'] = 'Retinue MKII',
@@ -5376,7 +5442,7 @@ QBShared.Vehicles = {
 		['hash'] = `retinue2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['savestra'] = {
 		['name'] = 'Savestra',
@@ -5398,7 +5464,7 @@ QBShared.Vehicles = {
 		['hash'] = `stinger`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['stingergt'] = {
 		['name'] = 'Stinger GT',
@@ -5409,7 +5475,7 @@ QBShared.Vehicles = {
 		['hash'] = `stingergt`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['stromberg'] = {
 		['name'] = 'Stromberg',
@@ -5431,7 +5497,7 @@ QBShared.Vehicles = {
 		['hash'] = `swinger`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['torero'] = {
 		['name'] = 'Torero',
@@ -5453,7 +5519,7 @@ QBShared.Vehicles = {
 		['hash'] = `tornado`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tornado2'] = {
 		['name'] = 'Tornado Gang',
@@ -5464,7 +5530,7 @@ QBShared.Vehicles = {
 		['hash'] = `tornado2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tornado5'] = {
 		['name'] = 'Tornado Custom',
@@ -5475,7 +5541,7 @@ QBShared.Vehicles = {
 		['hash'] = `tornado5`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['turismo2'] = {
 		['name'] = 'Turismo Classic',
@@ -5497,7 +5563,7 @@ QBShared.Vehicles = {
 		['hash'] = `viseris`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['z190'] = {
 		['name'] = '190Z',
@@ -5508,7 +5574,7 @@ QBShared.Vehicles = {
 		['hash'] = `z190`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['ztype'] = {
 		['name'] = 'Z-Type',
@@ -5519,7 +5585,7 @@ QBShared.Vehicles = {
 		['hash'] = `ztype`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 7500, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['zion3'] = {							--DLC
 		['name'] = 'Zion Classic',
@@ -5530,7 +5596,7 @@ QBShared.Vehicles = {
 		['hash'] = `zion3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cheburek'] = {
 		['name'] = 'Cheburek',
@@ -5573,7 +5639,7 @@ QBShared.Vehicles = {
 		['hash'] = `autarch`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['banshee2'] = {
 		['name'] = 'Banshee 900R',
@@ -5584,7 +5650,7 @@ QBShared.Vehicles = {
 		['hash'] = `banshee2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['bullet'] = {
 		['name'] = 'Bullet',
@@ -5595,7 +5661,7 @@ QBShared.Vehicles = {
 		['hash'] = `bullet`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cheetah'] = {
 		['name'] = 'Cheetah',
@@ -5638,6 +5704,8 @@ QBShared.Vehicles = {
 		['category'] = 'super',
 		['hash'] = `entityxf`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['emerus'] = {							--DLC
 		['name'] = 'Emerus',
@@ -5647,6 +5715,8 @@ QBShared.Vehicles = {
 		['category'] = 'super',
 		['hash'] = `emerus`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['fmj'] = {
 		['name'] = 'FMJ',
@@ -5668,7 +5738,7 @@ QBShared.Vehicles = {
 		['hash'] = `furia`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['gp1'] = {
 		['name'] = 'GP1',
@@ -5679,7 +5749,7 @@ QBShared.Vehicles = {
 		['hash'] = `gp1`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['infernus'] = {
 		['name'] = 'Infernus',
@@ -5690,7 +5760,7 @@ QBShared.Vehicles = {
 		['hash'] = `infernus`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['italigtb'] = {
 		['name'] = 'Itali GTB',
@@ -5712,7 +5782,7 @@ QBShared.Vehicles = {
 		['hash'] = `italigtb2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['krieger'] = {							--DLC
 		['name'] = 'Krieger',
@@ -5723,7 +5793,7 @@ QBShared.Vehicles = {
 		['hash'] = `krieger`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['le7b'] = {
 		['name'] = 'RE-7B',
@@ -5734,7 +5804,7 @@ QBShared.Vehicles = {
 		['hash'] = `le7b`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['nero'] = {
 		['name'] = 'Nero',
@@ -5745,7 +5815,7 @@ QBShared.Vehicles = {
 		['hash'] = `nero`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['nero2'] = {
 		['name'] = 'Nero Custom',
@@ -5756,7 +5826,7 @@ QBShared.Vehicles = {
 		['hash'] = `nero2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['osiris'] = {
 		['name'] = 'Osiris',
@@ -5778,7 +5848,7 @@ QBShared.Vehicles = {
 		['hash'] = `penetrator`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['pfister811'] = {
 		['name'] = '811',
@@ -5789,7 +5859,7 @@ QBShared.Vehicles = {
 		['hash'] = `pfister811`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['prototipo'] = {
 		['name'] = 'X80 Proto',
@@ -5800,7 +5870,7 @@ QBShared.Vehicles = {
 		['hash'] = `prototipo`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['reaper'] = {
 		['name'] = 'Reaper',
@@ -5811,7 +5881,7 @@ QBShared.Vehicles = {
 		['hash'] = `reaper`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['s80'] = {							--DLC
 		['name'] = 'S80RR',
@@ -5865,6 +5935,8 @@ QBShared.Vehicles = {
 		['category'] = 'super',
 		['hash'] = `t20`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['taipan'] = {
 		['name'] = 'Taipan',
@@ -5874,6 +5946,8 @@ QBShared.Vehicles = {
 		['category'] = 'super',
 		['hash'] = `taipan`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tempesta'] = {
 		['name'] = 'Tempesta',
@@ -5883,6 +5957,8 @@ QBShared.Vehicles = {
 		['category'] = 'super',
 		['hash'] = `tempesta`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tezeract'] = {
 		['name'] = 'Tezeract',
@@ -5892,6 +5968,8 @@ QBShared.Vehicles = {
 		['category'] = 'super',
 		['hash'] = `tezeract`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['thrax'] = {							--DLC
 		['name'] = 'Thrax',
@@ -5901,6 +5979,8 @@ QBShared.Vehicles = {
 		['category'] = 'super',
 		['hash'] = `thrax`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tigon'] = {
 		['name'] = 'Tigon',
@@ -5911,7 +5991,7 @@ QBShared.Vehicles = {
 		['hash'] = `tigon`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['turismor'] = {
 		['name'] = 'Turismo R',
@@ -5922,7 +6002,7 @@ QBShared.Vehicles = {
 		['hash'] = `turismor`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tyrant'] = {
 		['name'] = 'Tyrant',
@@ -5933,7 +6013,7 @@ QBShared.Vehicles = {
 		['hash'] = `tyrant`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['tyrus'] = {
 		['name'] = 'Tyrus',
@@ -5944,7 +6024,7 @@ QBShared.Vehicles = {
 		['hash'] = `tyrus`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['vader'] = {
 		['name'] = 'Vader',
@@ -5955,7 +6035,7 @@ QBShared.Vehicles = {
 		['hash'] = `vader`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['vagrant'] = {
 		['name'] = 'Vagrant',
@@ -5966,7 +6046,7 @@ QBShared.Vehicles = {
 		['hash'] = `vagrant`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['vamos'] = {
 		['name'] = 'Vamos',
@@ -5977,7 +6057,7 @@ QBShared.Vehicles = {
 		['hash'] = `vamos`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['verus'] = {
 		['name'] = 'Verus',
@@ -5988,7 +6068,7 @@ QBShared.Vehicles = {
 		['hash'] = `verus`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['vagner'] = {
 		['name'] = 'Vagner',
@@ -5999,7 +6079,7 @@ QBShared.Vehicles = {
 		['hash'] = `vagner`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['visione'] = {
 		['name'] = 'Visione',
@@ -6010,7 +6090,7 @@ QBShared.Vehicles = {
 		['hash'] = `visione`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['voltic'] = {
 		['name'] = 'Voltic',
@@ -6021,7 +6101,7 @@ QBShared.Vehicles = {
 		['hash'] = `voltic`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['xa21'] = {
 		['name'] = 'XA-21',
@@ -6031,6 +6111,8 @@ QBShared.Vehicles = {
 		['category'] = 'super',
 		['hash'] = `xa21`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['zentorno'] = {
 		['name'] = 'Zentorno',
@@ -6041,7 +6123,7 @@ QBShared.Vehicles = {
 		['hash'] = `zentorno`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['zorrusso'] = {							--DLC
 		['name'] = 'Zorrusso',
@@ -6052,7 +6134,7 @@ QBShared.Vehicles = {
 		['hash'] = `zorrusso`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	-- Vans
 	['bison'] = {
@@ -6063,6 +6145,8 @@ QBShared.Vehicles = {
 		['category'] = 'vans',
 		['hash'] = `bison`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 175000, -- 20kg 
+        ["trunkslots"] = 40, -- 5 slots
 	},
 	['bobcatxl'] = {
 		['name'] = 'Bobcat XL Open',
@@ -6072,6 +6156,8 @@ QBShared.Vehicles = {
 		['category'] = 'vans',
 		['hash'] = `bobcatxl`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 125000, -- 20kg 
+        ["trunkslots"] = 30, -- 5 slots
 	},
 	['burrito3'] = {
 		['name'] = 'Burrito',
@@ -6081,6 +6167,8 @@ QBShared.Vehicles = {
 		['category'] = 'vans',
 		['hash'] = `burrito3`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 180000, -- 20kg 
+        ["trunkslots"] = 40, -- 5 slots
 	},
 	['gburrito2'] = {
 		['name'] = 'Burrito Custom',
@@ -6090,6 +6178,8 @@ QBShared.Vehicles = {
 		['category'] = 'vans',
 		['hash'] = `gburrito2`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 200000, -- 20kg 
+        ["trunkslots"] = 50, -- 5 slots
 	},
 	['rumpo'] = {
 		['name'] = 'Rumpo',
@@ -6099,6 +6189,8 @@ QBShared.Vehicles = {
 		['category'] = 'vans',
 		['hash'] = `rumpo`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 150000, -- 20kg 
+        ["trunkslots"] = 40, -- 5 slots
 	},
 	['journey'] = {
 		['name'] = 'Journey',
@@ -6108,6 +6200,8 @@ QBShared.Vehicles = {
 		['category'] = 'vans',
 		['hash'] = `journey`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 250000, -- 20kg 
+        ["trunkslots"] = 50, -- 5 slots
 	},
 	['minivan'] = {
 		['name'] = 'Minivan',
@@ -6117,6 +6211,8 @@ QBShared.Vehicles = {
 		['category'] = 'vans',
 		['hash'] = `minivan`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 75000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
 	},
 	['minivan2'] = {
 		['name'] = 'Minivan Custom',
@@ -6127,7 +6223,7 @@ QBShared.Vehicles = {
 		['hash'] = `minivan2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['paradise'] = {
 		['name'] = 'Paradise',
@@ -6138,7 +6234,7 @@ QBShared.Vehicles = {
 		['hash'] = `paradise`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['rumpo3'] = {
 		['name'] = 'Rumpo Custom',
@@ -6148,6 +6244,8 @@ QBShared.Vehicles = {
 		['category'] = 'vans',
 		['hash'] = `rumpo3`,
 		['shop'] = 'pdm',
+		["trunkspace"] = 175000, -- 20kg 
+        ["trunkslots"] = 40, -- 5 slots
 	},
 	['speedo'] = {
 		['name'] = 'Speedo',
@@ -6158,7 +6256,7 @@ QBShared.Vehicles = {
 		['hash'] = `speedo`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['speedo4'] = {
 		['name'] = 'Speedo Custom',
@@ -6169,7 +6267,7 @@ QBShared.Vehicles = {
 		['hash'] = `speedo4`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['surfer'] = {
 		['name'] = 'Surfer',
@@ -6180,7 +6278,7 @@ QBShared.Vehicles = {
 		['hash'] = `surfer`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 25000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['youga3'] = {
 		['name'] = 'Youga Classic 4x4',
@@ -6235,7 +6333,7 @@ QBShared.Vehicles = {
 		['hash'] = `zion3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['zombiea'] = {
 		['name'] = 'Zombie Bobber',
@@ -6246,7 +6344,7 @@ QBShared.Vehicles = {
 		['hash'] = `zombiea`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['zorrusso'] = {
 		['name'] = 'Zorrusso',
@@ -6257,7 +6355,7 @@ QBShared.Vehicles = {
 		['hash'] = `zorrusso`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 
 	----------MUST BE ENABLED FOR THE BELOW VEHICLES-------------+set sv_enforceGameBuild 2372-------------------------------
@@ -6279,7 +6377,7 @@ QBShared.Vehicles = {
 		['hash'] = `comet6`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['guardian'] = {
 		['name'] = 'Guardian',
@@ -6290,7 +6388,7 @@ QBShared.Vehicles = {
 		['hash'] = `remus`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['valkyrie'] = {
 		['name'] = 'Valkyrie',
@@ -6312,7 +6410,7 @@ QBShared.Vehicles = {
 		['hash'] = `jester4`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['slamtruck'] = {
 		['name'] = 'Slam Truck',
@@ -6323,7 +6421,7 @@ QBShared.Vehicles = {
 		['hash'] = `slamtruck`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['warrener2'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Warrener HKR',
@@ -6345,7 +6443,7 @@ QBShared.Vehicles = {
 		['hash'] = `rt3000`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['zr350'] = {
 		['name'] = 'ZR350',
@@ -6356,7 +6454,7 @@ QBShared.Vehicles = {
 		['hash'] = `zr350`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dominator7'] = {
 		['name'] = 'Dominator ASP',
@@ -6367,7 +6465,7 @@ QBShared.Vehicles = {
 		['hash'] = `dominator7`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['dominator8'] = {
 		['name'] = 'Dominator GTT',
@@ -6378,7 +6476,7 @@ QBShared.Vehicles = {
 		['hash'] = `dominator8`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['euros'] = {
 		['name'] = 'Euros',
@@ -6389,7 +6487,7 @@ QBShared.Vehicles = {
 		['hash'] = `euros`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['futo2'] = {
 		['name'] = 'Futo GTX',
@@ -6400,7 +6498,7 @@ QBShared.Vehicles = {
 		['hash'] = `futo2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 7500, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['calico'] = {
 		['name'] = 'Calico GTF',
@@ -6433,7 +6531,7 @@ QBShared.Vehicles = {
 		['hash'] = `vectre`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['growler'] = {
 		['name'] = 'Growler',
@@ -6444,7 +6542,7 @@ QBShared.Vehicles = {
 		['hash'] = `growler`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cypher'] = {
 		['name'] = 'Cypher',
@@ -6455,7 +6553,7 @@ QBShared.Vehicles = {
 		['hash'] = `cypher`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['previon'] = {
 		['name'] = 'Previon',
@@ -6466,7 +6564,7 @@ QBShared.Vehicles = {
 		['hash'] = `previon`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 
     --Heli
@@ -6479,7 +6577,7 @@ QBShared.Vehicles = {
 		['hash'] = `volatus`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['supervolito'] = {
 		['name'] = 'SuperVolito',
@@ -6490,7 +6588,7 @@ QBShared.Vehicles = {
 		['hash'] = `supervolito`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['swift'] = {
 		['name'] = 'Swift',
@@ -6501,7 +6599,7 @@ QBShared.Vehicles = {
 		['hash'] = `swift`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cesc21'] = {
 		['name'] = 'Honda',
@@ -6512,7 +6610,7 @@ QBShared.Vehicles = {
 		['hash'] = `cesc21`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['s8d2'] = {
 		['name'] = 'Audi Quattro',
@@ -6523,7 +6621,7 @@ QBShared.Vehicles = {
 		['hash'] = `s8d2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['G65'] = {
 		['name'] = 'Mercedes Benz G65',
@@ -6534,7 +6632,7 @@ QBShared.Vehicles = {
 		['hash'] = `G65`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['rrevoque'] = {
 		['name'] = 'Range Rover Evoque',
@@ -6545,7 +6643,7 @@ QBShared.Vehicles = {
 		['hash'] = `rrevoque`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['bolide'] = {
 		['name'] = 'Bugatti Bolide',
@@ -6556,7 +6654,7 @@ QBShared.Vehicles = {
 		['hash'] = `bolide`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['krust'] = {
 		['name'] = 'LCC Krust',
@@ -6567,7 +6665,7 @@ QBShared.Vehicles = {
 		['hash'] = `krust`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['e63w213'] = {
 		['name'] = 'Mercedes Benz E63 AMG',
@@ -6578,7 +6676,7 @@ QBShared.Vehicles = {
 		['hash'] = `e63w213`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['expmax20'] = {
 		['name'] = 'Ford Platinum',
@@ -6589,7 +6687,7 @@ QBShared.Vehicles = {
 		['hash'] = `expmax20`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cookiers6a'] = {
 		['name'] = 'Audi RS6 Avant',
@@ -6600,7 +6698,7 @@ QBShared.Vehicles = {
 		['hash'] = `cookiers6a`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['e63s'] = {
 		['name'] = 'Mercedes Benz e63s AMG',
@@ -6611,7 +6709,7 @@ QBShared.Vehicles = {
 		['hash'] = `e63s`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['2leo9'] = {
 		['name'] = 'Chevrolet Escalade',
@@ -6622,7 +6720,7 @@ QBShared.Vehicles = {
 		['hash'] = `2leo9`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['rbchgr18b'] = {
 		['name'] = 'Dodge Charger AWD',
@@ -6633,7 +6731,7 @@ QBShared.Vehicles = {
 		['hash'] = `rbchgr18b`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['police7und10'] = {
 		['name'] = 'Polizei Auto',
@@ -6644,7 +6742,7 @@ QBShared.Vehicles = {
 		['hash'] = `police7und10`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['d'] = {
 		['name'] = 'Dodge Charger Polizei',
@@ -6655,7 +6753,7 @@ QBShared.Vehicles = {
 		['hash'] = `d`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['lsfd5'] = {
 		['name'] = 'Feuerwehr Auto ',
@@ -6666,7 +6764,7 @@ QBShared.Vehicles = {
 		['hash'] = `lsfd5`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['lsfd2'] = {
 		['name'] = 'Feuerwehr Auto 1',
@@ -6677,7 +6775,7 @@ QBShared.Vehicles = {
 		['hash'] = `lsfd2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['lsfd'] = {
 		['name'] = 'Feuerwehr Auto 2',
@@ -6688,7 +6786,7 @@ QBShared.Vehicles = {
 		['hash'] = `lsfd`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['trhawk'] = {
 		['name'] = 'Jeep Grand Cherokee',
@@ -6699,7 +6797,7 @@ QBShared.Vehicles = {
 		['hash'] = `trhawk`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['w140'] = {
 		['name'] = 'Mercedes Benz 140',
@@ -6710,7 +6808,7 @@ QBShared.Vehicles = {
 		['hash'] = `w140`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['w201'] = {
 		['name'] = 'Mercedes Benz 201',
@@ -6721,7 +6819,7 @@ QBShared.Vehicles = {
 		['hash'] = `w201`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['komodafr'] = {
 		['name'] = 'Komoda Tuner',
@@ -6732,7 +6830,7 @@ QBShared.Vehicles = {
 		['hash'] = `komodafr`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['lamtmc'] = {
 		['name'] = 'Lamborghini Hybrid',
@@ -6743,7 +6841,7 @@ QBShared.Vehicles = {
 		['hash'] = `lamtmc`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['lp670sv'] = {
 		['name'] = 'Lamborghini LP670',
@@ -6754,7 +6852,7 @@ QBShared.Vehicles = {
 		['hash'] = `lp670sv`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['lynxgpr'] = {
 		['name'] = 'Lynx Tuner',
@@ -6765,7 +6863,7 @@ QBShared.Vehicles = {
 		['hash'] = `lynxgpr`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['m2f22'] = {
 		['name'] = 'BMW M2',
@@ -6776,7 +6874,7 @@ QBShared.Vehicles = {
 		['hash'] = `m2f22`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['m3e46'] = {
 		['name'] = 'BMW M3',
@@ -6787,7 +6885,7 @@ QBShared.Vehicles = {
 		['hash'] = `m3e46`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['mach1'] = {
 		['name'] = 'Shelby Mach',
@@ -6798,7 +6896,7 @@ QBShared.Vehicles = {
 		['hash'] = `mach1`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['mc250'] = {
 		['name'] = 'Mercedes Benz C250',
@@ -6809,7 +6907,7 @@ QBShared.Vehicles = {
 		['hash'] = `mc250`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['mk7'] = {
 		['name'] = 'Volkswagen GTI Elektro',
@@ -6820,7 +6918,7 @@ QBShared.Vehicles = {
 		['hash'] = `mk7`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['paragonxr'] = {
 		['name'] = 'Paragon Tuner',
@@ -6831,7 +6929,7 @@ QBShared.Vehicles = {
 		['hash'] = `paragonxr`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['sesto'] = {
 		['name'] = 'Lamborghini Sesto',
@@ -6842,7 +6940,7 @@ QBShared.Vehicles = {
 		['hash'] = `sesto`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['718boxster'] = {
 		['name'] = 'Porsche Boxster 718s',
@@ -6853,7 +6951,7 @@ QBShared.Vehicles = {
 		['hash'] = `718boxster`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['720stc'] = {
 		['name'] = 'McLaren 720',
@@ -6864,7 +6962,7 @@ QBShared.Vehicles = {
 		['hash'] = `720stc`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['a45amg'] = {
 		['name'] = 'Mercedes Benz A45 AMG',
@@ -6875,7 +6973,7 @@ QBShared.Vehicles = {
 		['hash'] = `a45amg`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['amggtbs'] = {
 		['name'] = 'Mercedes Benz GT AMG',
@@ -6886,7 +6984,7 @@ QBShared.Vehicles = {
 		['hash'] = `amggtbs`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['audirs3'] = {
 		['name'] = 'Audi RS3',
@@ -6897,7 +6995,7 @@ QBShared.Vehicles = {
 		['hash'] = `audirs3`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['audis8om'] = {
 		['name'] = 'Audi S8',
@@ -6908,7 +7006,7 @@ QBShared.Vehicles = {
 		['hash'] = `audis8om`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['audsq517'] = {
 		['name'] = 'Audi SQ5',
@@ -6919,7 +7017,7 @@ QBShared.Vehicles = {
 		['hash'] = `audsq517`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['b63s'] = {
 		['name'] = 'Brabus B63S',
@@ -6930,7 +7028,7 @@ QBShared.Vehicles = {
 		['hash'] = `b63s`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['bc'] = {
 		['name'] = 'Pagani Hyuara',
@@ -6941,7 +7039,7 @@ QBShared.Vehicles = {
 		['hash'] = `bc`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['cyrus'] = {
 		['name'] = 'Aston Martin Mansory',
@@ -6952,7 +7050,7 @@ QBShared.Vehicles = {
 		['hash'] = `cyrus`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['demon'] = {
 		['name'] = 'Dodge Charger SRT',
@@ -6963,7 +7061,7 @@ QBShared.Vehicles = {
 		['hash'] = `demon`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['draftgpr'] = {
 		['name'] = 'Drafter Tuner',
@@ -6974,7 +7072,7 @@ QBShared.Vehicles = {
 		['hash'] = `draftgpr`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['frs'] = {
 		['name'] = 'Ford Raptor F150',
@@ -6985,7 +7083,7 @@ QBShared.Vehicles = {
 		['hash'] = `frs`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['furzen'] = {
 		['name'] = 'Käfer',
@@ -6996,7 +7094,7 @@ QBShared.Vehicles = {
 		['hash'] = `furzen`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['g500'] = {
 		['name'] = 'Brabus G500 4x4',
@@ -7007,7 +7105,7 @@ QBShared.Vehicles = {
 		['hash'] = `g500`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['jackgpr'] = {
 		['name'] = 'Jackal Tuner',
@@ -7018,7 +7116,7 @@ QBShared.Vehicles = {
 		['hash'] = `jackgpr`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['16m5'] = {
 		['name'] = 'BMW M5',
@@ -7029,7 +7127,7 @@ QBShared.Vehicles = {
 		['hash'] = `16m5`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['458spc'] = {
 		['name'] = 'Ferrari 458 Spezial ',
@@ -7040,7 +7138,7 @@ QBShared.Vehicles = {
 		['hash'] = `458spc`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['675lt'] = {
 		['name'] = 'McLaren 675 LT',
@@ -7051,7 +7149,7 @@ QBShared.Vehicles = {
 		['hash'] = `675lt`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['amdbx'] = {
 		['name'] = 'Aston Martin AMD',
@@ -7062,7 +7160,7 @@ QBShared.Vehicles = {
 		['hash'] = `amdbx`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['regera'] = {
 		['name'] = 'Koenigsegg Regera',
@@ -7073,6 +7171,6 @@ QBShared.Vehicles = {
 		['hash'] = `regera`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 15, -- 5 slots
 	},
 }
