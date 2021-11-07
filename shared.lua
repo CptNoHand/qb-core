@@ -466,7 +466,7 @@ QBShared.Items = {
 	["printedcash"]                  = {["name"] = "printedcash",                   ["label"] = "Printed Cash Bundle",      ["weight"] = 100,       ["type"] = "item",      ["image"] = "cashstack.png",            ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Cash!"},
 	['hackerphone'] 			 	 = {['name'] = 'hackerphone', 			  	    ['label'] = 'Hacker Phone', 			['weight'] = 700, 		['type'] = 'item', 		['image'] = 'phone.png', 				['unique'] = true, 		['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Someone knows his shit'},
 	['boombox'] 			 	     = {['name'] = 'boombox', 			  	        ['label'] = 'Boombox', 			        ['weight'] = 1500, 		['type'] = 'item', 		['image'] = 'boombox.png', 				['unique'] = false,     ['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Lets get the party started!'},
-    --atm robbery
+
 	["decryptionkey3"] 			     = {["name"] = "decryptionkey3", 		 	    ["label"] = "Decryption Key #3", 	    ["weight"] = 100, 	    ["type"] = "item", 		["image"] = "yellow_dectryption_key.png",    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = "Decryption Key #3."},
 	["atm_explosive"] 			     = {["name"] = "atm_explosive", 		 	    ["label"] = "Electronic Explosive", 	["weight"] = 5000, 	    ["type"] = "item", 		["image"] = "atm_explosive.png",    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,     ["combinable"] = nil,   ["description"] = "Electronic Explosive Charge, wonder what this could be used for?."},
     -- Firejob
@@ -6736,10 +6736,21 @@ QBShared.Vehicles = {
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
-	['police7und10'] = {
-		['name'] = 'Polizei Auto',
+	['police7'] = {
+		['name'] = 'Polizei Auto 7',
 		['brand'] = 'Polizei',
-		['model'] = 'police7und10',
+		['model'] = 'police7',
+		['price'] = 277000,
+		['category'] = 'SUV',
+		['hash'] = `police7und10`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+	},
+	['police10'] = {
+		['name'] = 'Polizei Auto 10',
+		['brand'] = 'Polizei',
+		['model'] = 'police10',
 		['price'] = 277000,
 		['category'] = 'SUV',
 		['hash'] = `police7und10`,
