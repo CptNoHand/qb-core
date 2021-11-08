@@ -1011,7 +1011,7 @@ QBShared.Gangs = {
                 name = 'Vice President'
             },
 			['7'] = {
-                name = 'President'
+                name = 'President',
 				isboss = true
             },
         },
