@@ -8,12 +8,12 @@ for i = 65,  90 do StringCharset[#StringCharset+1] = string.char(i) end
 for i = 97, 122 do StringCharset[#StringCharset+1] = string.char(i) end
 
 QBShared.RandomStr = function(length)
-    if length < 0 then return '' end
+    if length <= 0 then return '' end
     return QBShared.RandomStr(length - 1) .. StringCharset[math.random(1, #StringCharset)]
 end
 
 QBShared.RandomInt = function(length)
-    if length < 0 then return '' end
+    if length <= 0 then return '' end
     return QBShared.RandomInt(length - 1) .. NumberCharset[math.random(1, #NumberCharset)]
 end
 
@@ -1744,6 +1744,14 @@ QBShared.Vehicles = {
 		['category'] = 'offroad',
 		['model'] = 'blazer4',
 		['hash'] = `blazer4`,
+	},
+	['rhapsody'] = {
+		['name'] = 'Rhapsody',
+		['brand'] = 'Declasse',
+		['model'] = 'rhapsody',
+		['price'] = 10000,
+		['category'] = 'compacts',
+		['hash'] = `rhapsody`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
         ["trunkslots"] = 1, -- 5 slots
@@ -1867,6 +1875,16 @@ QBShared.Vehicles = {
 		['price'] = 18750,
 		['category'] = 'sports',
 		['hash'] = `buffalo`,
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+	},
+	['oracle'] = {
+		['name'] = 'Oracle',
+		['brand'] = 'Ubermacht',
+		['model'] = 'oracle',
+		['price'] = 22000,
+		['category'] = 'sedans',
+		['hash'] = `oracle`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
@@ -2027,8 +2045,8 @@ QBShared.Vehicles = {
 		['category'] = 'cycles',
 		['hash'] = `tribike3`,
 		['shop'] = 'pdm',
-	},	
-	--- Motorcycles	
+	},
+	--- Motorcycles
 	['akuma'] = {
 		['name'] = 'Akuma',
 		['brand'] = 'Dinka',
@@ -3088,7 +3106,7 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
-	},	
+	},
 	['ruiner'] = {
 		['name'] = 'Ruiner',
 		['brand'] = 'Imponte',
@@ -3264,7 +3282,7 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
-	},	
+	},
 	['voodoo'] = {
 		['name'] = 'Voodoo',
 		['brand'] = 'Declasse',
@@ -3372,7 +3390,7 @@ QBShared.Vehicles = {
 		['model'] = 'blazer4',
 		['hash'] = `blazer4`,
 		['shop'] = 'pdm',
-	},	
+	},
 	['blazer5'] = {
 		['name'] = 'Blazer Aqua',
 		['brand'] = 'Nagasaki',
@@ -4354,7 +4372,7 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
-	},
+    },
 	['coquette'] = {
 		['name'] = 'Coquette',
 		['brand'] = 'Invetero',
