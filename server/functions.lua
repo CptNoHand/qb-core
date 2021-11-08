@@ -110,20 +110,13 @@ end
 -- Paychecks (standalone - don't touch)
 
 function PaycheckLoop()
-    local Players = QBCore.Functions.GetPlayers()
+    local Players = QBCore.Players
     for i = 1, #Players, 1 do
-        local Player = QBCore.Functions.GetPlayer(Players[i])
-        local offdutypay = math.ceil(Player.PlayerData.job.payment * 0.25) -- Takes the normal pay and but only gives 4% of it
-local societypay = math.ceil(Player.PlayerData.job.payment * 0.04) -- your society pay 
-  -- Takes the normal on duty pay, and adds an extra 5% into the police/ems society fund
-    if (Player.PlayerData.job.name == 'police' or Player.PlayerData.job.name == 'ambulance' or Player.PlayerData.job.name == 'mechanic' or Player.PlayerData.job.name == 'bahamas' or Player.PlayerData.job.name == 'tuner' or Player.PlayerData.job.name == 'bennys') then -- put any on/off duty jobs here to seperate pay
-        if Player.PlayerData.job.onduty then
-            Player.Functions.AddMoney('bank', Player.PlayerData.job.payment)
-            TriggerClientEvent('QBCore:Notify', Players[i], 'You received your paycheck of $'..Player.PlayerData.job.payment)
-TriggerEvent('QB-bossmenu:server:addAccountMoney', Player.PlayerData.job.name, societypay)
-        else
-            Player.Functions.AddMoney("bank", offdutypay)
-            TriggerClientEvent('QBCore:Notify', Players[i], 'You received your paycheck of $'..offdutypay)
+        local Player = Players[i]
+        local payment = Player.PlayerData.job.payment
+        if Player.PlayerData.job and Player.PlayerData.job.onduty and payment > 0 then
+            Player.Functions.AddMoney('bank', payment)
+            TriggerClientEvent('QBCore:Notify', Player.PlayerData.source, ('You received your paycheck of $%s'):format(payment))
         end
     else
         Player.Functions.AddMoney('bank', Player.PlayerData.job.payment)
