@@ -118,14 +118,9 @@ function PaycheckLoop()
             Player.Functions.AddMoney('bank', payment)
             TriggerClientEvent('QBCore:Notify', Player.PlayerData.source, ('You received your paycheck of $%s'):format(payment))
         end
-    else
-        Player.Functions.AddMoney('bank', Player.PlayerData.job.payment)
-        TriggerClientEvent('QBCore:Notify', Players[i], 'You received your paycheck of $'..Player.PlayerData.job.payment)
-    end
     end
     SetTimeout(QBCore.Config.Money.PayCheckTimeOut * (60 * 1000), PaycheckLoop)
 end
-
 
 -- Callbacks
 
