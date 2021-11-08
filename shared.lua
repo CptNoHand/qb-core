@@ -985,6 +985,36 @@ QBShared.Gangs = {
 				isboss = true
             },
         },
+	},
+	['rooks'] = {
+		label = 'Rooks',
+		grades = {
+            ['0'] = {
+                name = 'Prospects'
+            },
+			['1'] = {
+                name = 'Member'
+            },
+			['2'] = {
+                name = 'Treasurer'
+            },
+			['3'] = {
+                name = 'Secretary'
+            },
+			['4'] = {
+                name = 'Road Captain'
+            },
+			['5'] = {
+                name = 'Sergeant At Arms'
+            },
+			['6'] = {
+                name = 'Vice President'
+            },
+			['7'] = {
+                name = 'President'
+				isboss = true
+            },
+        },
 	}
 }
 
