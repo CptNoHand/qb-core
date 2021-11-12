@@ -6,7 +6,8 @@ version '1.0.0'
 
 shared_scripts {
 	'config.lua',
-	'shared.lua'
+	'shared.lua',
+	'import.lua'
 }
 
 client_scripts {
