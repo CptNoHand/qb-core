@@ -1415,35 +1415,6 @@ QBShared.Jobs = {
             },
         },
 	},
-	["tequilala"] = {
-		label = "Tequilala",
-		defaultDuty = false,
-		bossmenu = vector3(-563.43, 286.11, 85.38),
-		grades = {
-				['0'] = {
-					name = "Teilzeitkraft",
-					payment = 50
-				},
-				['1'] = {
-					name = "Kellner",
-					payment = 75
-				},
-				['2'] = {
-					name = "Bar",
-					payment = 100
-				},
-				['3'] = {
-					name = "Manager",
-					payment = 125
-				},
-				['4'] = {
-					name = "CEO",
-			        isboss = true,
-					payment = 150
-				},
-			},
-		},
-    },
 	['custommotors'] = {
 		label = "Custom Motors",
 		defaultDuty = true,
