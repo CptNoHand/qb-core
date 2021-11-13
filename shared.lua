@@ -1194,7 +1194,6 @@ QBShared.Jobs = {
 			},
 		},
 	},
-	
 	['taxi'] = {
 		label = 'Taxi',
 		defaultDuty = true,
@@ -1443,6 +1442,34 @@ QBShared.Jobs = {
 					payment = 150
 				},
 			},
+		},
+    },
+	["custommotors"] = {
+		label = "Custom Motors",
+		defaultDuty = true,
+		grades = {
+            ['0'] = {
+                name = "Recruit",
+                payment = 50
+            },
+			['1'] = {
+                name = "Novice",
+                payment = 100
+            },
+			['2'] = {
+                name = "Experienced",
+                payment = 150
+            },
+			['3'] = {
+                name = "Advanced",
+                payment = 200
+            },
+			['4'] = {
+                name = "Manager",
+				isboss = true,
+                payment = 250
+            },
+        },
 	},
 	['judge'] = {
 		label = 'Honorary',
