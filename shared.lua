@@ -1438,13 +1438,13 @@ QBShared.Jobs = {
 				},
 				['4'] = {
 					name = "CEO",
-			isboss = true,
+			        isboss = true,
 					payment = 150
 				},
 			},
 		},
     },
-	["custommotors"] = {
+	['custommotors'] = {
 		label = "Custom Motors",
 		defaultDuty = true,
 		grades = {
