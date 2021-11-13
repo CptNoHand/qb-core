@@ -1104,20 +1104,20 @@ QBShared.Jobs = {
             },
 			['1'] = {
                 name = 'Paramedic',
-                payment = 75
+                payment = 100
             },
 			['2'] = {
                 name = 'Doctor',
-                payment = 100
+                payment = 150
             },
 			['3'] = {
                 name = 'Surgeon',
-                payment = 125
+                payment = 200
             },
 			['4'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 150
+                payment = 250
             },
         },
 	},
@@ -1158,20 +1158,20 @@ QBShared.Jobs = {
             },
 			['1'] = {
                 name = 'House Sales',
-                payment = 75
+                payment = 100
             },
 			['2'] = {
                 name = 'Business Sales',
-                payment = 100
+                payment = 150
             },
 			['3'] = {
                 name = 'Broker',
-                payment = 125
+                payment = 200
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 250
             },
         },
 	},
@@ -1200,24 +1200,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 0
             },
 			['1'] = {
                 name = 'Driver',
-                payment = 75
+                payment = 0
             },
 			['2'] = {
                 name = 'Event Driver',
-                payment = 100
+                payment = 0
             },
 			['3'] = {
                 name = 'Sales',
-                payment = 125
+                payment = 0
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 0
             },
         },
 	},
@@ -1227,24 +1227,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 0
             },
 			['1'] = {
                 name = 'Showroom Sales',
-                payment = 75
+                payment = 0
             },
 			['2'] = {
                 name = 'Business Sales',
-                payment = 100
+                payment = 0
             },
 			['3'] = {
                 name = 'Finance',
-                payment = 125
+                payment = 0
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 150
+                payment = 0
             },
         },
 	},
@@ -1254,24 +1254,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = "Trainee",
-                payment = 50
+                payment = 0
             },
 			['1'] = {
                 name = "Employee",
-                payment = 75
+                payment = 0
             },
 			['2'] = {
                 name = "Burger Flipper",
-                payment = 100
+                payment = 0
             },
 			['3'] = {
                 name = "Manager",
-                payment = 125
+                payment = 0
             },
 			['4'] = {
                 name = "CEO",
 				isboss = true,
-                payment = 150
+                payment = 0
             },
         },
 	},
@@ -1281,24 +1281,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = "Prakikant",
-                payment = 50
+                payment = 0
             },
 			['1'] = {
                 name = "Verkäufer",
-                payment = 75
+                payment = 0
             },
 			['2'] = {
                 name = "Senior Verkäufer",
-                payment = 100
+                payment = 0
             },
 			['3'] = {
                 name = "Finazen",
-                payment = 125
+                payment = 0
             },
 			['4'] = {
                 name = "Manager",
 				isboss = true,
-                payment = 150
+                payment = 0
             },
         },
 	},
@@ -1308,24 +1308,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = "Recruit",
-                payment = 50
+                payment = 0
             },
 			['1'] = {
                 name = "Novice",
-                payment = 75
+                payment = 0
             },
 			['2'] = {
                 name = "Experienced",
-                payment = 100
+                payment = 0
             },
 			['3'] = {
                 name = "Advanced",
-                payment = 125
+                payment = 0
             },
 			['4'] = {
                 name = "Manager",
 				isboss = true,
-                payment = 150
+                payment = 0
             },
         },
 	},
@@ -1335,24 +1335,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = "Recruit",
-                payment = 50
+                payment = 0
             },
 			['1'] = {
                 name = "Novice",
-                payment = 75
+                payment = 0
             },
 			['2'] = {
                 name = "Experienced",
-                payment = 100
+                payment = 0
             },
 			['3'] = {
                 name = "Advanced",
-                payment = 125
+                payment = 0
             },
 			['4'] = {
                 name = "Manager",
 				isboss = true,
-                payment = 150
+                payment = 0
             },
         },
 	},
@@ -1421,24 +1421,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = "Recruit",
-                payment = 50
+                payment = 0
             },
 			['1'] = {
                 name = "Novice",
-                payment = 100
+                payment = 0
             },
 			['2'] = {
                 name = "Experienced",
-                payment = 150
+                payment = 0
             },
 			['3'] = {
                 name = "Advanced",
-                payment = 200
+                payment = 0
             },
 			['4'] = {
                 name = "Manager",
 				isboss = true,
-                payment = 250
+                payment = 0
             },
         },
 	},
@@ -1448,7 +1448,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Judge',
-                payment = 100
+                payment = 0
             },
         },
 	},
@@ -1458,7 +1458,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Associate',
-                payment = 50
+                payment = 0
             },
         },
 	},
@@ -1468,7 +1468,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Journalist',
-                payment = 50
+                payment = 0
             },
         },
 	},
@@ -1478,7 +1478,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Driver',
-                payment = 50
+                payment = 0
             },
         },
 	},
@@ -1488,7 +1488,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Driver',
-                payment = 50
+                payment = 0
             },
         },
 	},
@@ -1498,7 +1498,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Collector',
-                payment = 50
+                payment = 0
             },
         },
 	},
@@ -1508,7 +1508,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Picker',
-                payment = 50
+                payment = 0
             },
         },
 	},
@@ -1518,7 +1518,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Sales',
-                payment = 50
+                payment = 0
             },
         },
 	},
