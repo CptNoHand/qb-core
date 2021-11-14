@@ -7352,4 +7352,81 @@ QBShared.Vehicles = {
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
+	['mule'] = {
+		['name'] = 'Mule',
+		['brand'] = 'Maibatsu',
+		['model'] = 'mule',
+		['price'] = 277000,
+		['category'] = 'sports',
+		['hash'] = `mule`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 350000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
+	},
+	['mule2'] = {
+		['name'] = 'Mule2',
+		['brand'] = 'Maibatsu',
+		['model'] = 'mule2',
+		['price'] = 277000,
+		['category'] = 'sports',
+		['hash'] = `mule2`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 375000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
+	},
+	['mule3'] = {
+		['name'] = 'Mule3',
+		['brand'] = 'Maibatsu',
+		['model'] = 'mule3',
+		['price'] = 277000,
+		['category'] = 'sports',
+		['hash'] = `mule3`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 375000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
+	},
+	['mule4'] = {
+		['name'] = 'Mule Custom',
+		['brand'] = 'Maibatsu',
+		['model'] = 'gauntletctx',
+		['price'] = 277000,
+		['category'] = 'sports',
+		['hash'] = `gauntletctx`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 450000, -- 20kg 
+        ["trunkslots"] = 30, -- 5 slots
+	},
+	['benson'] = {
+		['name'] = 'Benson',
+		['brand'] = 'Vapid',
+		['model'] = 'benson',
+		['price'] = 277000,
+		['category'] = 'sports',
+		['hash'] = `benson`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 650000, -- 20kg 
+        ["trunkslots"] = 30, -- 5 slots
+	},
+	['pounder'] = {
+		['name'] = 'Pounder',
+		['brand'] = 'MTL',
+		['model'] = 'pounder',
+		['price'] = 277000,
+		['category'] = 'sports',
+		['hash'] = `pounder`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 850000, -- 20kg 
+        ["trunkslots"] = 35, -- 5 slots
+	},
+	['pounder2'] = {
+		['name'] = 'Pounder Custom',
+		['brand'] = 'MTL',
+		['model'] = 'pounder2',
+		['price'] = 277000,
+		['category'] = 'sports',
+		['hash'] = `pounder2`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 1000000, -- 20kg 
+        ["trunkslots"] = 40, -- 5 slots
+	},
 }
