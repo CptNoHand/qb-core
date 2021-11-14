@@ -7444,4 +7444,15 @@ QBShared.Vehicles = {
 		["trunkspace"] = 1000000, -- 20kg 
         ["trunkslots"] = 40, -- 5 slots
 	},
+	['camper'] = {
+		['name'] = 'Camper',
+		['brand'] = 'Brute',
+		['model'] = 'Camper',
+		['price'] = 277000,
+		['category'] = 'vans',
+		['hash'] = `camper`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 500000, -- 20kg 
+        ["trunkslots"] = 50, -- 5 slots
+	},
 }
