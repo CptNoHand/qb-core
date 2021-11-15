@@ -6443,14 +6443,14 @@ QBShared.Vehicles = {
 	},
 	['guardian'] = {
 		['name'] = 'Guardian',
-		['brand'] = 'Annis',
-		['model'] = 'remus',
+		['brand'] = 'Vapid',
+		['model'] = 'guardian',
 		['price'] = 48000,
-		['category'] = 'sports',
-		['hash'] = `remus`,
+		['category'] = 'offroad',
+		['hash'] = `guardian`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
+		["trunkspace"] = 130000, -- 20kg 
+        ["trunkslots"] = 50, -- 5 slots
 	},
 	['valkyrie'] = {
 		['name'] = 'Valkyrie',
