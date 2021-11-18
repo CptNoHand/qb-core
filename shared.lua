@@ -1485,6 +1485,21 @@ QBShared.Jobs = {
             },
         },
 	},
+	["rooksbar"] = {
+		label = "Rooks Bar",
+		defaultDuty = true,
+		grades = {
+            ['0'] = {
+                name = "Help",
+                payment = 0
+            },
+			['1'] = {
+                name = "Boss",
+				isboss = true,
+                payment = 0
+            },
+        },
+	},
 	['lawyer'] = {
 		label = 'Law Firm',
 		defaultDuty = true,
