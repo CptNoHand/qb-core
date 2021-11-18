@@ -6874,7 +6874,7 @@ QBShared.Vehicles = {
 		['brand'] = 'Lynx',
 		['model'] = 'lynxgpr',
 		['price'] = 277000,
-		['category'] = 'sport',
+		['category'] = 'sports',
 		['hash'] = `lynxgpr`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
@@ -7429,5 +7429,27 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 		["trunkspace"] = 500000, -- 20kg 
         ["trunkslots"] = 50, -- 5 slots
+	},
+	['sc18'] = {
+		['name'] = 'SC18 Alston',
+		['brand'] = 'Lamborghini',
+		['model'] = 'sc18',
+		['price'] = 777000,
+		['category'] = 'super',
+		['hash'] = `sc18`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 2500, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
+	},
+	['nh2r'] = {
+		['name'] = 'Ninja',
+		['brand'] = 'Kawasaki',
+		['model'] = 'nh2r',
+		['price'] = 20000,
+		['category'] = 'motorcycles',
+		['hash'] = `nh2r`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 1000, -- 20kg 
+        ["trunkslots"] = 5, -- 5 slots
 	},
 }
