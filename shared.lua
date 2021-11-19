@@ -7667,4 +7667,59 @@ QBShared.Vehicles = {
 		["trunkspace"] = 1500, -- 20kg 
         ["trunkslots"] = 2, -- 5 slots
 	},
+	['tractor2'] = {
+		['name'] = 'Tractor',
+		['brand'] = 'Benz',
+		['model'] = 'tractor2',
+		['price'] = 20000,
+		['category'] = 'farming',
+		['hash'] = `tractor2`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 50000, -- 20kg 
+        ["trunkslots"] = 50, -- 5 slots
+	},
+	['tractor'] = {
+		['name'] = 'Tractor',
+		['brand'] = 'Honda',
+		['model'] = 'tractor',
+		['price'] = 20000,
+		['category'] = 'farming',
+		['hash'] = `tractor`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 50000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+	},
+	['tractor3'] = {
+		['name'] = 'Tractor',
+		['brand'] = 'BMW',
+		['model'] = 'tractor3',
+		['price'] = 20000,
+		['category'] = 'farming',
+		['hash'] = `tractor3`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 50000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+	},
+	['packer'] = {
+		['name'] = 'Packer',
+		['brand'] = 'BMW',
+		['model'] = 'packer',
+		['price'] = 20000,
+		['category'] = 'farming',
+		['hash'] = `packer`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 50000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+	},
+	['baletrailer'] = {
+		['name'] = 'Trailor',
+		['brand'] = 'BMW',
+		['model'] = 'baletrailer',
+		['price'] = 20000,
+		['category'] = 'farming',
+		['hash'] = `baletrailer`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 50000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+	},
 }
