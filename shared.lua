@@ -1535,6 +1535,16 @@ QBShared.Jobs = {
             },
         },
 	},
+	['farmer'] = {
+		label = 'Farmer',
+		defaultDuty = true,
+		grades = {
+            ['0'] = {
+                name = 'Farmer',
+                payment = 0
+            },
+        },
+	},
 	['reporter'] = {
 		label = 'Reporter',
 		defaultDuty = true,
