@@ -7433,13 +7433,13 @@ QBShared.Vehicles = {
 	},
 	['nh2r'] = {
 		['name'] = 'Ninja',
-		['brand'] = 'Kawasaki',
+		['brand'] = 'Kawasakki',
 		['model'] = 'nh2r',
-		['price'] = 20000,
-		['category'] = 'motorcycles',
+		['price'] = 277000,
+		['category'] = 'sports',
 		['hash'] = `nh2r`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 1000, -- 20kg 
+		["trunkspace"] = 2000, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
 	},
 	['m4comp'] = {
