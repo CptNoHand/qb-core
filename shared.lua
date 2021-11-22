@@ -7728,4 +7728,26 @@ QBShared.Vehicles = {
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
 	},
+	['pd_avent'] = {
+		['name'] = 'Aventador Police',
+		['brand'] = 'Lamborghini',
+		['model'] = 'pd_avent',
+		['price'] = 20000,
+		['category'] = 'farming',
+		['hash'] = `pd_avent`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 5, -- 5 slots
+	},
+	['pd_20camaro'] = {
+		['name'] = 'Camaro Police',
+		['brand'] = 'Chevrolet',
+		['model'] = 'pd_20camaro',
+		['price'] = 20000,
+		['category'] = 'farming',
+		['hash'] = `pd_20camaro`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 5, -- 5 slots
+	},
 }
