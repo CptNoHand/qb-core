@@ -4202,17 +4202,6 @@ QBShared.Vehicles = {
 		["trunkspace"] = 7500, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
 	},
-	['washington'] = {
-		['name'] = 'Washington',
-		['brand'] = 'Albany',
-		['model'] = 'washington',
-		['price'] = 7000,
-		['category'] = 'sedans',
-		['hash'] = `washington`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 10000, -- 20kg 
-        ["trunkslots"] = 10, -- 5 slots
-	},
 	['tailgater2'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Tailgater S',
 		['brand'] = 'Obey',
@@ -5491,17 +5480,6 @@ QBShared.Vehicles = {
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
 	},
-	['stingergt'] = {
-		['name'] = 'Stinger GT',
-		['brand'] = 'Grotti',
-		['model'] = 'stingergt',
-		['price'] = 39500,
-		['category'] = 'sportsclassic',
-		['hash'] = `stingergt`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
-	},
 	['stromberg'] = {
 		['name'] = 'Stromberg',
 		['brand'] = 'Ocelot',
@@ -6611,6 +6589,28 @@ QBShared.Vehicles = {
 		['price'] = 149000,
 		['category'] = 'coupes',
 		['hash'] = `previon`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 5, -- 5 slots
+	},
+	['washington'] = {
+		['name'] = 'Washington',
+		['brand'] = 'Karin',
+		['model'] = 'washington',
+		['price'] = 149000,
+		['category'] = 'coupes',
+		['hash'] = `washington`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 5, -- 5 slots
+	},
+	['stingergt'] = {
+		['name'] = 'Stinger GT',
+		['brand'] = 'Grotti',
+		['model'] = 'stingergt',
+		['price'] = 39500,
+		['category'] = 'sportsclassic',
+		['hash'] = `stingergt`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
