@@ -1918,17 +1918,6 @@ QBShared.Vehicles = {
 		["trunkspace"] = 12500, -- 20kg 
         ["trunkslots"] = 10, -- 5 slots
 	},
-	['burrito3'] = {
-		['name'] = 'Burrito',
-		['brand'] = 'Declasse',
-		['model'] = 'burrito3',
-		['price'] = 200000,
-		['category'] = 'vans',
-		['hash'] = `burrito3`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 200000, -- 20kg 
-        ["trunkslots"] = 25, -- 5 slots
-	},
 	['windsor'] = {
 		['name'] = 'Windsor',
 		['brand'] = 'Enus',
@@ -5506,8 +5495,8 @@ QBShared.Vehicles = {
 		['name'] = 'Stinger GT',
 		['brand'] = 'Grotti',
 		['model'] = 'stingergt',
-		['price'] = 70000,
-		['category'] = 'sportsclassics',
+		['price'] = 39500,
+		['category'] = 'sportsclassic',
 		['hash'] = `stingergt`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
@@ -6197,6 +6186,28 @@ QBShared.Vehicles = {
 		["trunkspace"] = 125000, -- 20kg 
         ["trunkslots"] = 30, -- 5 slots
 	},
+	['burrito'] = {
+		['name'] = 'Burrito',
+		['brand'] = 'Declasse',
+		['model'] = 'burrito',
+		['price'] = 200000,
+		['category'] = 'vans',
+		['hash'] = `burrito`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 180000, -- 20kg 
+        ["trunkslots"] = 40, -- 5 slots
+	},
+	['burrito2'] = {
+		['name'] = 'Burrito',
+		['brand'] = 'Declasse',
+		['model'] = 'burrito2',
+		['price'] = 200000,
+		['category'] = 'vans',
+		['hash'] = `burrito2`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 180000, -- 20kg 
+        ["trunkslots"] = 40, -- 5 slots
+	},
 	['burrito3'] = {
 		['name'] = 'Burrito',
 		['brand'] = 'Declasse',
@@ -6207,6 +6218,39 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 		["trunkspace"] = 180000, -- 20kg 
         ["trunkslots"] = 40, -- 5 slots
+	},
+	['burrito4'] = {
+		['name'] = 'Burrito',
+		['brand'] = 'Declasse',
+		['model'] = 'burrito4',
+		['price'] = 200000,
+		['category'] = 'vans',
+		['hash'] = `burrito4`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 180000, -- 20kg 
+        ["trunkslots"] = 40, -- 5 slots
+	},
+	['burrito5'] = {
+		['name'] = 'Burrito',
+		['brand'] = 'Declasse',
+		['model'] = 'burrito5',
+		['price'] = 200000,
+		['category'] = 'vans',
+		['hash'] = `burrito5`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 180000, -- 20kg 
+        ["trunkslots"] = 40, -- 5 slots
+	},
+	['gburrito'] = {
+		['name'] = 'Burrito Custom',
+		['brand'] = 'Declasse',
+		['model'] = 'gburrito',
+		['price'] = 11500,
+		['category'] = 'vans',
+		['hash'] = `gburrito`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 200000, -- 20kg 
+        ["trunkslots"] = 50, -- 5 slots
 	},
 	['gburrito2'] = {
 		['name'] = 'Burrito Custom',
