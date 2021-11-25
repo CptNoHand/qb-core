@@ -5392,17 +5392,6 @@ QBShared.Vehicles = {
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 6, -- 5 slots
 	},
-	['rancherxl'] = {
-		['name'] = 'Rancher XL',
-		['brand'] = 'Declasse',
-		['model'] = 'rancherxl',
-		['price'] = 24000,
-		['category'] = 'offroad',
-		['hash'] = `rancherxl`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 8, -- 5 slots
-	},
 	['rapidgt3'] = {
 		['name'] = 'Rapid GT',
 		['brand'] = 'Dewbauchee',
