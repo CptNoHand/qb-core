@@ -1000,6 +1000,36 @@ QBShared.Gangs = {
             },
         },
 	},
+	['empireelite'] = {
+		label = 'The Empire Elite',
+		grades = {
+            ['0'] = {
+                name = 'Rekrut'
+            },
+			['1'] = {
+                name = 'Informant'
+            },
+			['2'] = {
+                name = 'Sergeant'
+            },
+			['3'] = {
+                name = 'Lieutenant'
+            },
+			['4'] = {
+                name = 'Commander'
+            },
+			['5'] = {
+                name = 'Captain'
+            },
+			['6'] = {
+                name = 'Vice Admiral'
+            },
+			['7'] = {
+                name = 'Admiral',
+				isboss = true
+            },
+        },
+	},
 	['marabunta'] = {
 		label = 'MG13',
 		grades = {
