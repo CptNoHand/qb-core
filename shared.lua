@@ -3518,7 +3518,7 @@ QBShared.Vehicles = {
 		["trunkspace"] = 10000, -- 20kg 
         ["trunkslots"] = 10, -- 5 slots
 	},
-	['rancherxl'] = {
+	['rancherlx'] = {
 		['name'] = 'Rancher XL',
 		['brand'] = 'Declasse',
 		['model'] = 'rancherxl',
@@ -3526,8 +3526,8 @@ QBShared.Vehicles = {
 		['category'] = 'offroad',
 		['hash'] = `rancherxl`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 19500, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
+		["trunkspace"] = 35000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
 	},
 	['rebel2'] = {
 		['name'] = 'Rebel',
@@ -3537,8 +3537,8 @@ QBShared.Vehicles = {
 		['category'] = 'offroad',
 		['hash'] = `rebel2`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 16500, -- 20kg 
-        ["trunkslots"] = 10, -- 5 slots
+		["trunkspace"] = 36500, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
 	},
 	['riata'] = {
 		['name'] = 'Riata',
