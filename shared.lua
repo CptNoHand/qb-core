@@ -3518,7 +3518,7 @@ QBShared.Vehicles = {
 		["trunkspace"] = 10000, -- 20kg 
         ["trunkslots"] = 10, -- 5 slots
 	},
-	['rancherlx'] = {
+	['rancherxl'] = {
 		['name'] = 'Rancher XL',
 		['brand'] = 'Declasse',
 		['model'] = 'rancherxl',
