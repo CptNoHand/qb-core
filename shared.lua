@@ -7046,17 +7046,6 @@ QBShared.Vehicles = {
 		["trunkspace"] = 12500, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
 	},
-	['audis8om'] = {
-		['name'] = 'Audi S8',
-		['brand'] = 'Audi',
-		['model'] = 'audis8om',
-		['price'] = 277000,
-		['category'] = 'sports',
-		['hash'] = `audis8om`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 45000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
-	},
 	['audsq517'] = {
 		['name'] = 'Audi SQ5',
 		['brand'] = 'Audi',
