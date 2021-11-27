@@ -4831,7 +4831,7 @@ QBShared.Vehicles = {
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['schwarzer'] = {
-		['name'] = 'Schwartzer',
+		['name'] = 'Schwarzer',
 		['brand'] = 'Benefactor',
 		['model'] = 'schwarzer',
 		['price'] = 47000,
@@ -6559,17 +6559,6 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
-	},
-	['cypher'] = {
-		['name'] = 'Cypher',
-		['brand'] = 'Ubermacht',
-		['model'] = 'cypher',
-		['price'] = 155000,
-		['category'] = 'sports',
-		['hash'] = `cypher`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
 	},
 	['previon'] = {
 		['name'] = 'Previon',
