@@ -1541,6 +1541,16 @@ QBShared.Jobs = {
             },
         },
 	},
+	['electrician'] = {
+		label = 'Electrician',
+		defaultDuty = true,
+		grades = {
+            ['0'] = {
+                name = 'Electrician',
+                payment = 0
+            },
+        },
+	},
 	["rooksbar"] = {
 		label = "Rooks Bar",
 		defaultDuty = true,
