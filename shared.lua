@@ -1227,6 +1227,33 @@ QBShared.Jobs = {
             },
         },
 	},
+	["tequilala"] = {
+        label = "Tequi-la-la",
+        defaultDuty = true,
+        grades = {
+            ['0'] = {
+                name = "DJ",
+                payment = 50
+            },
+            ['1'] = {
+                name = "Bartender",
+                payment = 75
+            },
+            ['2'] = {
+                name = "Bouncer",
+                payment = 100
+            },
+            ['3'] = {
+                name = "Manager",
+                payment = 125
+            },
+            ['4'] = {
+                name = "Owner",
+                isboss = true,
+                payment = 150
+            },
+        },
+    },
 	['fbi'] = {
 		label = 'Federal Bureau of Investigation',
 		defaultDuty = true,
