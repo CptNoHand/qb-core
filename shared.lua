@@ -7890,7 +7890,7 @@ QBShared.Vehicles = {
 	},
 	['apolicec6'] = {
 		['name'] = 'Police',
-		['brand'] = 'Pfister ',
+		['brand'] = 'Pfister',
 		['model'] = 'apolicec6',
 		['price'] = 20000,
 		['category'] = 'Police',
@@ -7901,7 +7901,7 @@ QBShared.Vehicles = {
 	},
 	['aemsv450'] = {
 		['name'] = 'Ambulance',
-		['brand'] = 'Vapid ',
+		['brand'] = 'Vapid',
 		['model'] = 'aemsv450',
 		['price'] = 20000,
 		['category'] = 'Police',
@@ -7912,7 +7912,7 @@ QBShared.Vehicles = {
 	},
 	['apolicecoq'] = {
 		['name'] = 'Police',
-		['brand'] = 'Coquette ',
+		['brand'] = 'Coquette',
 		['model'] = 'apolicecoq',
 		['price'] = 20000,
 		['category'] = 'Police',
@@ -7923,7 +7923,7 @@ QBShared.Vehicles = {
 	},
 	['bmwg07'] = {
 		['name'] = 'X7',
-		['brand'] = 'BMW ',
+		['brand'] = 'BMW',
 		['model'] = 'bmwg07',
 		['price'] = 20000,
 		['category'] = 'SUV',
@@ -7934,7 +7934,7 @@ QBShared.Vehicles = {
 	},
 	['femacoq'] = {
 		['name'] = 'Sports',
-		['brand'] = 'Coquette ',
+		['brand'] = 'Coquette',
 		['model'] = 'femacoq',
 		['price'] = 20000,
 		['category'] = 'sports',
@@ -7945,18 +7945,18 @@ QBShared.Vehicles = {
 	},
 	['rs3lms'] = {
 		['name'] = 'RS 3 LMS',
-		['brand'] = 'Audi ',
+		['brand'] = 'Audi',
 		['model'] = 'rs3lms',
 		['price'] = 20000,
 		['category'] = 'sports',
 		['hash'] = `rs3lms`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 2500, -- 20kg 
-        ["trunkslots"] = 2, -- 5 slots
+        ["trunkslots"] = 5, -- 5 slots
 	},
 	['gtr50'] = {
 		['name'] = 'GTR',
-		['brand'] = 'Nissan ',
+		['brand'] = 'Nissan',
 		['model'] = 'gtr50',
 		['price'] = 20000,
 		['category'] = 'sports',
@@ -7967,7 +7967,7 @@ QBShared.Vehicles = {
 	},
 	['gladiator'] = {
 		['name'] = 'Gladiator',
-		['brand'] = 'JEEP ',
+		['brand'] = 'JEEP',
 		['model'] = 'gladiator',
 		['price'] = 20000,
 		['category'] = 'SUV',
@@ -7985,17 +7985,28 @@ QBShared.Vehicles = {
 		['hash'] = `gtr2020`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 8, -- 5 slots
 	},
 	['protoz'] = {
 		['name'] = '370z',
-		['brand'] = 'Nissan ',
+		['brand'] = 'Nissan',
 		['model'] = 'protoz',
 		['price'] = 20000,
 		['category'] = 'sports',
 		['hash'] = `protoz`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
+        ["trunkslots"] = 8, -- 5 slots
+	},
+	['rmod240sx'] = {
+		['name'] = '240sx',
+		['brand'] = 'Nissan',
+		['model'] = 'rmod240sx',
+		['price'] = 60000,
+		['category'] = 'sports',
+		['hash'] = `rmod240sx`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 7500, -- 20kg 
+        ["trunkslots"] = 8, -- 5 slots
 	},
 }
