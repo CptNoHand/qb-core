@@ -532,6 +532,7 @@ QBShared.Items = {
 	["usb_device"]	                 = {["name"] = "usb_device",                    ["label"] = "Unknown USB",              ["weight"] = 0,	        ["type"] = "item",      ["image"] = "usb_device.png",           ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "What do you do?"},
 	["governfiles"]                  = {["name"] = "governfiles",                   ["label"] = "Gov Files",                ["weight"] = 0,         ["type"] = "item",      ["image"] = "governfiles.png",          ["unique"] = true,      ["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "What is the worse that can happen?."},
 	["license_plate"] 				 = {["name"] = "license_plate", 			    ["label"] = "License plate", 			["weight"] = 1000, 		["type"] = "item", 		["image"] = "licenseplate.png", 		["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = ""},
+	["fakeplate"] 				     = {["name"] = "fakeplate", 			        ["label"] = "Fake License plate", 		["weight"] = 1000, 		["type"] = "item", 		["image"] = "plate.png", 		        ["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "For your bad stuff"},
 	
 	
 	-- Vanilla Unicorn
