@@ -3125,8 +3125,8 @@ QBShared.Vehicles = {
 		['category'] = 'vans',
 		['hash'] = `moonbeam`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 45000, -- 20kg 
-        ["trunkslots"] = 8, -- 5 slots
+		["trunkspace"] = 50000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['moonbeam2'] = {
 		['name'] = 'Moonbeam Custom',
@@ -3137,7 +3137,7 @@ QBShared.Vehicles = {
 		['hash'] = `moonbeam2`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 45000, -- 20kg 
-        ["trunkslots"] = 8, -- 5 slots
+        ["trunkslots"] = 10, -- 5 slots
 	},
 	['nightshade'] = {
 		['name'] = 'Nightshade',
@@ -3378,8 +3378,8 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `voodoo`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 12500, -- 20kg 
-        ["trunkslots"] = 10, -- 5 slots
+		["trunkspace"] = 30000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['yosemite'] = {
 		['name'] = 'Yosemite',
@@ -3389,7 +3389,7 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `yosemite`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 50000, -- 20kg 
+		["trunkspace"] = 70000, -- 20kg 
         ["trunkslots"] = 25, -- 5 slots
 	},
 	['yosemite2'] = {
@@ -3400,7 +3400,7 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `yosemite2`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 50000, -- 20kg 
+		["trunkspace"] = 70000, -- 20kg 
         ["trunkslots"] = 25, -- 5 slots
 	},
 	['yosemite3'] = {
@@ -3411,7 +3411,7 @@ QBShared.Vehicles = {
 		['model'] = 'yosemite3',
 		['hash'] = `yosemite3`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 57000, -- 20kg 
+		["trunkspace"] = 70000, -- 20kg 
         ["trunkslots"] = 25, -- 5 slots
 	},
 	--- Off-Road
@@ -3654,7 +3654,7 @@ QBShared.Vehicles = {
 		['category'] = 'offroad',
 		['hash'] = `riata`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 25000, -- 20kg 
+		["trunkspace"] = 85000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['sandking'] = {
@@ -3665,7 +3665,7 @@ QBShared.Vehicles = {
 		['model'] = 'sandking',
 		['hash'] = `sandking`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 50000, -- 20kg 
+		["trunkspace"] = 120000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['sandking2'] = {
@@ -3676,8 +3676,8 @@ QBShared.Vehicles = {
 		['model'] = 'sandking2',
 		['hash'] = `sandking2`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 60000, -- 20kg 
-        ["trunkslots"] = 20, -- 5 slots
+		["trunkspace"] = 120000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 	['trophytruck'] = {
 		['name'] = 'Trophy Truck',
@@ -3963,7 +3963,7 @@ QBShared.Vehicles = {
 		['category'] = 'suvs',
 		['hash'] = `novak`,
 		['shop'] = 'pdm',
-        ["trunkspace"] = 12500, -- 20kg 
+        ["trunkspace"] = 25000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['patriot'] = {
@@ -3974,7 +3974,7 @@ QBShared.Vehicles = {
 		['category'] = 'suvs',
 		['hash'] = `patriot`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 17500, -- 20kg 
+		["trunkspace"] = 25000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['radi'] = {
@@ -4118,7 +4118,7 @@ QBShared.Vehicles = {
 		['category'] = 'sedans',
 		['hash'] = `emperor`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 12500, -- 20kg 
+		["trunkspace"] = 30000, -- 20kg 
         ["trunkslots"] = 10, -- 5 slots
 	},
 	['fugitive'] = {
@@ -4217,7 +4217,7 @@ QBShared.Vehicles = {
 		['category'] = 'sedans',
 		['hash'] = `regina`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 25000, -- 20kg 
+		["trunkspace"] = 35000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['stafford'] = {							--DLC
