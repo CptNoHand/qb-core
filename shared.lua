@@ -1247,24 +1247,24 @@ QBShared.Jobs = {
         grades = {
             ['0'] = {
                 name = "DJ",
-                payment = 50
+                payment = 0
             },
             ['1'] = {
                 name = "Bartender",
-                payment = 75
+                payment = 0
             },
             ['2'] = {
                 name = "Bouncer",
-                payment = 100
+                payment = 0
             },
             ['3'] = {
                 name = "Manager",
-                payment = 125
+                payment = 0
             },
             ['4'] = {
                 name = "Owner",
                 isboss = true,
-                payment = 150
+                payment = 0
             },
         },
     },
@@ -1292,6 +1292,33 @@ QBShared.Jobs = {
                 name = 'General',
 				isboss = true,
                 payment = 1000
+            },
+        },
+	},
+	['rockfordrecords'] = {
+		label = 'Rockford Records',
+		defaultDuty = true,
+		grades = {
+            ['0'] = {
+                name = 'Praktikant',
+                payment = 25
+            },
+			['1'] = {
+                name = 'Rezeption',
+                payment = 50
+            },
+			['2'] = {
+                name = 'Radiosprecher',
+                payment = 75
+            },
+			['3'] = {
+                name = 'Mitarbeiter',
+                payment = 100
+            },
+			['4'] = {
+                name = 'CEO',
+				isboss = true,
+                payment = 150
             },
         },
 	},
