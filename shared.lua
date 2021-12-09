@@ -1149,7 +1149,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Freelancer',
-                payment = 10
+                payment = 75
             },
         },
 	},
@@ -1159,60 +1159,60 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Cadet',
-                payment = 20
+                payment = 450
             },
 			['1'] = {
                 name = 'Officer',
-                payment = 25
+                payment = 550
             },
 			['2'] = {
                 name = 'Officer First Class',
-                payment = 25
+                payment = 600
             },
 			['3'] = {
                 name = 'Detective',
-                payment = 30
+                payment = 625
             },
 			['4'] = {
                 name = 'Corporal',
-                payment = 40
+                payment = 650
             },
 			['5'] = {
                 name = 'Sergeant',
-                payment = 50
+                payment = 700
             },
 			['6'] = {
                 name = 'Staff Sergeant',
-                payment = 75
+                payment = 725
             },
 			['7'] = {
                 name = 'Sergeant Major',
-                payment = 100
+                payment = 750
             },
 			['8'] = {
                 name = 'Second Lieutenant',
-                payment = 125
+                payment = 775
             },
 			['9'] = {
                 name = 'Lieutenant',
-                payment = 150
+                payment = 800
             },
 			['10'] = {
                 name = 'Captain',
-                payment = 175
+                payment = 825
             },
 			['11'] = {
                 name = 'Inspector',
-                payment = 200
+                payment = 850
             },
 			['12'] = {
                 name = 'Deputy Chief',
-                payment = 225
+                payment = 900
             },
 			['13'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 250
+                payment = 1000
             },
         },
 	},
@@ -1222,24 +1222,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 300
             },
 			['1'] = {
                 name = 'Paramedic',
-                payment = 100
+                payment = 800
             },
 			['2'] = {
                 name = 'Doctor',
-                payment = 150
+                payment = 850
             },
 			['3'] = {
                 name = 'Surgeon',
-                payment = 200
+                payment = 900
             },
 			['4'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 250
+                payment = 1000
             },
         },
 	},
@@ -1303,24 +1303,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Praktikant',
-                payment = 25
+                payment = 100
             },
 			['1'] = {
                 name = 'Rezeption',
-                payment = 50
+                payment = 200
             },
 			['2'] = {
                 name = 'Radiosprecher',
-                payment = 75
+                payment = 300
             },
 			['3'] = {
                 name = 'Mitarbeiter',
-                payment = 100
+                payment = 400
             },
 			['4'] = {
                 name = 'CEO',
 				isboss = true,
-                payment = 150
+                payment = 500
             },
         },
 	},
@@ -1334,20 +1334,20 @@ QBShared.Jobs = {
             },
 			['1'] = {
                 name = 'House Sales',
-                payment = 0
+                payment = 25
             },
 			['2'] = {
                 name = 'Business Sales',
-                payment = 0
+                payment = 50
             },
 			['3'] = {
                 name = 'Broker',
-                payment = 0
+                payment = 75
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 0
+                payment = 100
             },
         },
 	},
@@ -1560,24 +1560,24 @@ QBShared.Jobs = {
         grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 500
             },
             ['1'] = {
                 name = 'Officer',
-                payment = 100
+                payment = 650
             },
             ['2'] = {
                 name = 'Sergeant',
-                payment = 150
+                payment = 700
             },
             ['3'] = {
                 name = 'Lieutenant',
-                payment = 200
+                payment = 750
             },
             ['4'] = {
                 name = 'Chief',
                 isboss = true,
-                payment = 250
+                payment = 800
             },
         },
     },
@@ -1624,7 +1624,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Judge',
-                payment = 0
+                payment = 1000
             },
         },
 	},
@@ -1659,7 +1659,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Associate',
-                payment = 0
+                payment = 500
             },
         },
 	},
