@@ -1579,6 +1579,33 @@ QBShared.Jobs = {
 			},
 		},
 	},
+	["redline"] = {
+		label = "Redline Performance",
+		defaultDuty = true,
+		grades = {
+			['0'] = {
+				name = "Help",
+				payment = 0
+			},
+			['1'] = {
+				name = "Trainee",
+				payment = 0
+			},
+			['2'] = {
+				name = "Mechanic",
+				payment = 0
+			},
+			['3'] = {
+				name = "Boss Mechanic",
+				payment = 0
+			},
+			['4'] = {
+				name = "CEO",
+				isboss = true,
+				payment = 0
+			},
+		},
+	},
 	["tuner"] = {
 		label = "Tuner",
 		defaultDuty = true,
