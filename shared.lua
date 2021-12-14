@@ -8237,4 +8237,26 @@ QBShared.Vehicles = {
 		["trunkspace"] = 10000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
+	['flatbed'] = {
+		['name'] = 'Flatbed',
+		['brand'] = 'MTL',
+		['model'] = 'flatbed',
+		['price'] = 50000,
+		['category'] = 'Nutzfahrzeug',
+		['hash'] = `flatbed`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 30000, -- 20kg 
+        ["trunkslots"] = 30, -- 5 slots
+	},
+	['towtruck'] = {
+		['name'] = 'Towtruck',
+		['brand'] = 'MTL',
+		['model'] = 'Towtruck',
+		['price'] = 20000,
+		['category'] = 'Nutzfahrzeug',
+		['hash'] = `towtruck`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 30000, -- 20kg 
+        ["trunkslots"] = 30, -- 5 slots
+	},
 }
