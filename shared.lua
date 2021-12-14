@@ -823,6 +823,9 @@ QBShared.Items = {
 	["horn"] 						 = {["name"] = "horn", 						["label"] = "Custom Vehicle Horn", 		["weight"] = 0, 		["type"] = "item", 		["image"] = "horn.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Vehicle Horn options"},
 	["internals"] 					 = {["name"] = "internals", 				["label"] = "Internal Cosmetics", 		["weight"] = 0, 		["type"] = "item", 		["image"] = "internals.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Several Internal Vehicle Cosmetics"},
 	["externals"] 					 = {["name"] = "externals", 				["label"] = "Exterior Cosmetics", 		["weight"] = 0, 		["type"] = "item", 		["image"] = "mirror.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Several External Vehicle Cosmetics"},
+
+	-- CC-Fuel
+    ['fuelsiphon']                   = {['name'] = 'fuelsiphon',                ['label'] = 'Fuel Siphon',              ['weight'] = 1000,      ['type'] = 'item',      ['image'] = 'fuelsiphon.png',           ['unique'] = false,     ['useable'] = false,    ['shouldClose'] = false,  ['combinable'] = nil,   ['description'] = 'A fuel siphon to extract fuel from vehicles'},
 }
 
 -- // HASH WEAPON ITEMS, NEED SOMETIMES TO GET INFO FOR CLIENT
