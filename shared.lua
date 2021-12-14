@@ -4315,7 +4315,7 @@ QBShared.Vehicles = {
 		['category'] = 'sedans',
 		['hash'] = `regina`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 35000, -- 20kg 
+		["trunkspace"] = 50000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['stafford'] = {							--DLC
@@ -6855,14 +6855,14 @@ QBShared.Vehicles = {
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['cesc21'] = {
-		['name'] = 'Honda',
-		['brand'] = 'Honda',
+		['name'] = 'Escalade',
+		['brand'] = 'Cadillac',
 		['model'] = 'cesc21',
 		['price'] = 277000,
-		['category'] = 'motorcycles',
+		['category'] = 'cadillac',
 		['hash'] = `cesc21`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 1000, -- 20kg 
+		["trunkspace"] = 75000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['s8d2'] = {
@@ -8261,5 +8261,247 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 		["trunkspace"] = 30000, -- 20kg 
         ["trunkslots"] = 30, -- 5 slots
+	},
+	['tltypes'] = {
+		['name'] = 'TL5',
+		['brand'] = 'ACURA',
+		['model'] = 'tltypes',
+		['price'] = 20000,
+		['category'] = 'acura',
+		['hash'] = `tltypes`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 35000, -- 20kg 
+        ["trunkslots"] = 30, -- 5 slots
+	},
+	['ast'] = {
+		['name'] = 'Vanquish',
+		['brand'] = 'Aston Martin',
+		['model'] = 'ast',
+		['price'] = 20000,
+		['category'] = 'Aston Martin',
+		['hash'] = `ast`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 25000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
+	},
+	['80B4'] = {
+		['name'] = 'Cabriolet RS2',
+		['brand'] = 'Audi',
+		['model'] = '80B4',
+		['price'] = 20000,
+		['category'] = 'audi',
+		['hash'] = `80B4`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 30000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
+	},
+	['aaq4'] = {
+		['name'] = 'A4 Quattro',
+		['brand'] = 'Audi',
+		['model'] = 'aaq4',
+		['price'] = 20000,
+		['category'] = 'audi',
+		['hash'] = `aaq4`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 40000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
+	},
+	['audquattros'] = {
+		['name'] = 'Quattro Sport',
+		['brand'] = 'Audi',
+		['model'] = 'audquattros',
+		['price'] = 20000,
+		['category'] = 'audi',
+		['hash'] = `audquattros`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
+	},
+	['sq72016'] = {
+		['name'] = 'SQ7',
+		['brand'] = 'Audi',
+		['model'] = 'sq72016',
+		['price'] = 20000,
+		['category'] = 'audi',
+		['hash'] = `sq72016`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 75000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+	},
+	['ttrs'] = {
+		['name'] = 'TT RS',
+		['brand'] = 'Audi',
+		['model'] = 'ttrs',
+		['price'] = 20000,
+		['category'] = 'audi',
+		['hash'] = `ttrs`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+	},
+	['bbentayga'] = {
+		['name'] = 'Bentayga',
+		['brand'] = 'Bentley',
+		['model'] = 'bbentayga',
+		['price'] = 20000,
+		['category'] = 'bentley',
+		['hash'] = `bbentayga`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 70000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+	},
+	['cgts'] = {
+		['name'] = 'Continental Cabrio',
+		['brand'] = 'Bentley',
+		['model'] = 'cgts',
+		['price'] = 20000,
+		['category'] = 'bentley',
+		['hash'] = `cgts`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 45000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+	},
+	['bmci'] = {
+		['name'] = 'M5',
+		['brand'] = 'BMW',
+		['model'] = 'bmci',
+		['price'] = 20000,
+		['category'] = 'bmw',
+		['hash'] = `bmci`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 40000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+	},
+	['cats'] = {
+		['name'] = 'ATS',
+		['brand'] = 'Cadillac',
+		['model'] = 'cats',
+		['price'] = 20000,
+		['category'] = 'cadillac',
+		['hash'] = `cats`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 40000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+	},
+	['15tahoe'] = {
+		['name'] = 'Tahoe 2015',
+		['brand'] = 'Chevrolet',
+		['model'] = '15tahoe',
+		['price'] = 20000,
+		['category'] = 'Chevrolet',
+		['hash'] = `15tahoe`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 70000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+	},
+	['camrs17'] = {
+		['name'] = 'Camero RS',
+		['brand'] = 'Chevrolet',
+		['model'] = 'camrs17',
+		['price'] = 20000,
+		['category'] = 'Chevrolet',
+		['hash'] = `camrs17`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 25000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+	},
+	['tahoe21'] = {
+		['name'] = 'Tahoe RST',
+		['brand'] = 'Chevrolet',
+		['model'] = 'tahoe21',
+		['price'] = 20000,
+		['category'] = 'Chevrolet',
+		['hash'] = `tahoe21`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 75000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+	},
+	['corvettec5z06'] = {
+		['name'] = 'Corvette Z06',
+		['brand'] = 'Chevrolet',
+		['model'] = 'corvettec5z06',
+		['price'] = 20000,
+		['category'] = 'Chevrolet',
+		['hash'] = `corvettec5z06`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
+	},
+	['czr1'] = {
+		['name'] = 'Corvette ZR1',
+		['brand'] = 'Chevrolet',
+		['model'] = 'czr1',
+		['price'] = 20000,
+		['category'] = 'Chevrolet',
+		['hash'] = `czr1`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
+	},
+	['1310'] = {
+		['name'] = 'Dacia',
+		['brand'] = 'Dacia',
+		['model'] = '1310',
+		['price'] = 20000,
+		['category'] = 'Dacia',
+		['hash'] = `1310`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
+	},
+	['cutlass'] = {
+		['name'] = 'Cutlass',
+		['brand'] = 'Dacia',
+		['model'] = 'cutlass',
+		['price'] = 20000,
+		['category'] = 'Dacia',
+		['hash'] = `cutlass`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 100000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
+	},
+	['logan'] = {
+		['name'] = 'Logan 1.6',
+		['brand'] = 'Dacia',
+		['model'] = 'logan',
+		['price'] = 20000,
+		['category'] = 'Dacia',
+		['hash'] = `logan`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+	},
+	['sandero'] = {
+		['name'] = 'Sandero',
+		['brand'] = 'Dacia',
+		['model'] = 'sandero',
+		['price'] = 20000,
+		['category'] = 'Dacia',
+		['hash'] = `sandero`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 25000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+	},
+	['stepway'] = {
+		['name'] = 'Stepway',
+		['brand'] = 'Dacia',
+		['model'] = 'stepway',
+		['price'] = 20000,
+		['category'] = 'Dacia',
+		['hash'] = `stepway`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 55000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+	},
+	['16charger'] = {
+		['name'] = 'Charger 2016',
+		['brand'] = 'Dodge',
+		['model'] = '16charger',
+		['price'] = 20000,
+		['category'] = 'dodge',
+		['hash'] = `16charger`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 40000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
 	},
 }
