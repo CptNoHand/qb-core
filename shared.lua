@@ -8199,4 +8199,15 @@ QBShared.Vehicles = {
 		["trunkspace"] = 85000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
+	['gtr'] = {
+		['name'] = 'Nismo',
+		['brand'] = 'Nissan',
+		['model'] = 'gtr',
+		['price'] = 120000,
+		['category'] = 'nissan',
+		['hash'] = `gtr`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 10000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+	},
 }
