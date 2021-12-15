@@ -9199,4 +9199,15 @@ QBShared.Vehicles = {
 		["trunkspace"] = 15000, -- 20kg 
         ["trunkslots"] = 10, -- 5 slots
 	},
+	['2020CLA45s'] = {
+		['name'] = 'CLA45s AMG',
+		['brand'] = 'Mercedes-Benz',
+		['model'] = '2020CLA45s',
+		['price'] = 20000,
+		['category'] = 'mercedes',
+		['hash'] = `2020CLA45s`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
+	},
 }
