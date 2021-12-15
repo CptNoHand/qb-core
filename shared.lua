@@ -9188,4 +9188,15 @@ QBShared.Vehicles = {
 		["trunkspace"] = 10000, -- 20kg 
         ["trunkslots"] = 10, -- 5 slots
 	},
+	['rmodamgc63'] = {
+		['name'] = 'C63 AMG Widebody',
+		['brand'] = 'Mercedes-Benz',
+		['model'] = 'rmodamgc63',
+		['price'] = 20000,
+		['category'] = 'mercedes',
+		['hash'] = `rmodamgc63`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
+	},
 }
