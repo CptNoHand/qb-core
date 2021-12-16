@@ -8188,15 +8188,15 @@ QBShared.Vehicles = {
         ["trunkslots"] = 8, -- 5 slots
 	},
 	['caracara3'] = {
-		['name'] = 'Caracara',
+		['name'] = 'Caracara 3',
 		['brand'] = 'Vapid',
 		['model'] = 'caracara3',
 		['price'] = 60000,
 		['category'] = 'suvs',
 		['hash'] = `caracara3`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 8, -- 5 slots
+		["trunkspace"] = 150000, -- 20kg 
+        ["trunkslots"] = 50, -- 5 slots
 	},
 	['yachting'] = {
 		['name'] = 'Yachting Edition',
