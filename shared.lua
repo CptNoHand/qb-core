@@ -7810,8 +7810,8 @@ QBShared.Vehicles = {
 		['category'] = 'bmw',
 		['hash'] = `x6m`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 37500, -- 20kg 
-        ["trunkslots"] = 2, -- 5 slots
+		["trunkspace"] = 75000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
 	},
 	['ym1'] = {
 		['name'] = 'Sport Bike',
