@@ -6879,16 +6879,16 @@ QBShared.Vehicles = {
 		["trunkspace"] = 15000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
-	['G65'] = {
+	['g65'] = {
 		['name'] = 'Mercedes Benz G65',
 		['brand'] = 'Mercedes',
-		['model'] = 'G65',
+		['model'] = 'g65',
 		['price'] = 277000,
 		['category'] = 'mercedes',
-		['hash'] = `G65`,
+		['hash'] = `g65`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 75000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
+        ["trunkslots"] = 30, -- 5 slots
 	},
 	['rrevoque'] = {
 		['name'] = 'Range Rover Evoque',
