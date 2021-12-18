@@ -826,7 +826,7 @@ QBShared.Items = {
 	["ducttape"] 					= {["name"] = "ducttape", 			 	  	["label"] = "Duct Tape", 		       	["weight"] = 0, 		["type"] = "item", 		["image"] = "bodyrepair.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Good for quick fixes"},
 
 	-- CC-Fuel
-    ['fuelsiphon']                   = {['name'] = 'fuelsiphon',                ['label'] = 'Fuel Siphon',              ['weight'] = 1000,      ['type'] = 'item',      ['image'] = 'fuelsiphon.png',           ['unique'] = false,     ['useable'] = false,    ['shouldClose'] = false,  ['combinable'] = nil,   ['description'] = 'A fuel siphon to extract fuel from vehicles'},
+    ['fuelsiphon']                   = {["name"] = 'fuelsiphon',                ["label"] = 'Fuel Siphon',              ["weight"] = 1000,      ["type"] = "item",       ["image"] = 'fuelsiphon.png',          ["unique"] = false,     ["useable"] = false,    ["shouldClose"] = false,  ["combinable"] = nil,   ["description"] = "A fuel siphon to extract fuel from vehicles"},
 
 	["duffel-bag"]                   = {["name"] = "duffel-bag",                ["label"] = "Bag",                      ["weight"] = 5000,      ["type"] = "item",      ["image"] = "duffel.png",               ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,  ["combinable"] = nil,   ["description"] = "im bag im baag im baaaaag"},
 
