@@ -3722,7 +3722,18 @@ QBShared.Vehicles = {
 		['category'] = 'muscle',
 		['hash'] = `voodoo`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 30000, -- 20kg 
+		["trunkspace"] = 25000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+	},
+	['voodoo2'] = {
+		['name'] = 'Voodoo',
+		['brand'] = 'Declasse',
+		['model'] = 'voodoo2',
+		['price'] = 13000,
+		['category'] = 'muscle',
+		['hash'] = `voodoo2`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 25000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['yosemite'] = {
@@ -4465,6 +4476,17 @@ QBShared.Vehicles = {
 		["trunkspace"] = 30000, -- 20kg 
         ["trunkslots"] = 10, -- 5 slots
 	},
+	['emperor2'] = {
+		['name'] = 'Emperor',
+		['brand'] = 'Albany',
+		['model'] = 'emperor2',
+		['price'] = 4250,
+		['category'] = 'sedans',
+		['hash'] = `emperor2`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 25000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
+	},
 	['fugitive'] = {
 		['name'] = 'Fugitive',
 		['brand'] = 'Cheval',
@@ -4561,7 +4583,7 @@ QBShared.Vehicles = {
 		['category'] = 'sedans',
 		['hash'] = `regina`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 50000, -- 20kg 
+		["trunkspace"] = 45000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['stafford'] = {							--DLC
@@ -5986,12 +6008,34 @@ QBShared.Vehicles = {
         ["trunkslots"] = 5, -- 5 slots
 	},
 	['tornado2'] = {
-		['name'] = 'Tornado Gang',
+		['name'] = 'Tornado ',
 		['brand'] = 'Declasse',
 		['model'] = 'tornado2',
 		['price'] = 22000,
 		['category'] = 'sportsclassic',
 		['hash'] = `tornado2`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 5, -- 5 slots
+	},
+	['tornado3'] = {
+		['name'] = 'Tornado ',
+		['brand'] = 'Declasse',
+		['model'] = 'tornado3',
+		['price'] = 22000,
+		['category'] = 'sportsclassic',
+		['hash'] = `tornado3`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 25000, -- 20kg 
+        ["trunkslots"] = 5, -- 5 slots
+	},
+	['tornado4'] = {
+		['name'] = 'Tornado ',
+		['brand'] = 'Declasse',
+		['model'] = 'tornado4',
+		['price'] = 22000,
+		['category'] = 'sportsclassic',
+		['hash'] = `tornado4`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
