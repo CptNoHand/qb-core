@@ -8,7 +8,7 @@ QBConfig.StatusInterval = 5000 -- how often to check hunger/thirst status in ms
 QBConfig.Money = {}
 QBConfig.Money.MoneyTypes = { ['cash'] = 500, ['bank'] = 3000, ['crypto'] = 0 } -- ['type']=startamount - Add or remove money types for your server (for ex. ['blackmoney']=0), remember once added it will not be removed from the database!
 QBConfig.Money.DontAllowMinus = { 'cash', 'crypto' } -- Money that is not allowed going in minus
-QBConfig.Money.PayCheckTimeOut = 30 -- The time in minutes that it will give the paycheck
+QBConfig.Money.PayCheckTimeOut = 60 -- The time in minutes that it will give the paycheck
 
 QBConfig.Player = {}
 QBConfig.Player.MaxWeight = 35000 -- Max weight a player can carry (currently 120kg, written in grams)
