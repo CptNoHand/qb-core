@@ -4708,7 +4708,7 @@ QBShared.Vehicles = {
 		['category'] = 'sedans',
 		['hash'] = `stratum`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 35000, -- 20kg 
+		["trunkspace"] = 55000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['stretch'] = {
@@ -9579,15 +9579,48 @@ QBShared.Vehicles = {
 		["trunkspace"] = 15000, -- 20kg 
         ["trunkslots"] = 10, -- 5 slots
 	},
-	['2020CLA45s'] = {
-		['name'] = 'CLA45s AMG',
+	['MercedesBenzS65AMG'] = {
+		['name'] = 'S65 AMG',
 		['brand'] = 'Mercedes-Benz',
-		['model'] = '2020CLA45s',
+		['model'] = 'MercedesBenzS65AMG',
 		['price'] = 20000,
 		['category'] = 'mercedes',
-		['hash'] = `2020CLA45s`,
+		['hash'] = `MercedesBenzS65AMG`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 20000, -- 20kg 
-        ["trunkslots"] = 10, -- 5 slots
+		["trunkspace"] = 30000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+	},
+	['MercedesBenzS63Cab'] = {
+		['name'] = 'S63 Cabrio AMG',
+		['brand'] = 'Mercedes-Benz',
+		['model'] = 'MercedesBenzS63Cab',
+		['price'] = 20000,
+		['category'] = 'mercedes',
+		['hash'] = `MercedesBenzS63Cab`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 30000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+	},
+	['MBC63sCoupe'] = {
+		['name'] = 'C63s AMG',
+		['brand'] = 'Mercedes-Benz',
+		['model'] = 'MBC63sCoupe',
+		['price'] = 20000,
+		['category'] = 'mercedes',
+		['hash'] = `MBC63sCoupe`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 30000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+	},
+	['MercedesBenzCLS63'] = {
+		['name'] = 'CLS63 AMG',
+		['brand'] = 'Mercedes-Benz',
+		['model'] = 'MercedesBenzCLS63',
+		['price'] = 20000,
+		['category'] = 'mercedes',
+		['hash'] = `MercedesBenzCLS63`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 35000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
 	},
 }
