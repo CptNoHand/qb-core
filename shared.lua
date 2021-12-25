@@ -1515,6 +1515,7 @@ QBShared.Jobs = {
             },
 			['12'] = {
                 name = 'Deputy Chief',
+				isboss = true,
                 payment = 900
             },
 			['13'] = {
