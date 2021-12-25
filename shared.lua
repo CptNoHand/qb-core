@@ -1447,7 +1447,7 @@ QBShared.Gangs = {
 }
 
 -- Jobs
-QBShared.ForceJobDefaultDutyAtLogin = true -- true: Force duty state to jobdefaultDuty | false: set duty state from database last saved
+QBShared.ForceJobDefaultDutyAtLogin = false -- true: Force duty state to jobdefaultDuty | false: set duty state from database last saved
 QBShared.Jobs = {
 	['unemployed'] = {
 		label = 'Civilian',
@@ -1471,7 +1471,7 @@ QBShared.Jobs = {
             },
 			['1'] = {
                 name = 'Officer',
-                payment = 550
+                payment = 500
             },
 			['2'] = {
                 name = 'Officer First Class',
@@ -1531,15 +1531,15 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 300
+                payment = 500
             },
 			['1'] = {
                 name = 'Paramedic',
-                payment = 800
+                payment = 700
             },
 			['2'] = {
                 name = 'Doctor',
-                payment = 850
+                payment = 800
             },
 			['3'] = {
                 name = 'Surgeon',
