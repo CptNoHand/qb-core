@@ -8393,7 +8393,7 @@ QBShared.Vehicles = {
         ["trunkslots"] = 5, -- 5 slots
 	},
 	['apolicec6'] = {
-		['name'] = 'Police',
+		['name'] = 'Pfister',
 		['brand'] = 'Pfister',
 		['model'] = 'apolicec6',
 		['price'] = 20000,
@@ -8415,7 +8415,7 @@ QBShared.Vehicles = {
         ["trunkslots"] = 5, -- 5 slots
 	},
 	['apolicecoq'] = {
-		['name'] = 'Police',
+		['name'] = 'Coquette',
 		['brand'] = 'Coquette',
 		['model'] = 'apolicecoq',
 		['price'] = 20000,
