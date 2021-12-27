@@ -472,9 +472,7 @@ QBShared.Items = {
 	['fishingrod'] 			 		 = {['name'] = 'fishingrod', 					['label'] = 'Fishing Rod', 				['weight'] = 2500, 		['type'] = 'item', 		['image'] = 'fishingrod.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A fishing rod for adventures with friends!!'},
 	['fishingbait'] 			     = {['name'] = 'fishingbait', 					['label'] = 'Fish Bait', 				['weight'] = 50, 		['type'] = 'item', 		['image'] = 'fishbait.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A fish bait'},
 	["meat"] 						 = {["name"] = "meat", 			  	  			["label"] = "Wildfleisch", 			    ["weight"] = 100, 		["type"] = "item", 		["image"] = "meat.png", 	    	    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Deer Meat"},
-	["leather"] 					 = {["name"] = "leather", 			  			["label"] = "Leather", 					["weight"] = 100, 		["type"] = "item", 		["image"] = "leather.png", 		        ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Deer Leather"},       
-	["milk"] 			             = {["name"] = "milk", 			        	    ["label"] = "Milk",                     ["weight"] = 700,       ["type"] = "item",      ["image"] = "milk.png",                 ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Fresh Milk..empty Cow.."},
-	["milkbotle"] 			         = {["name"] = "milkbotle", 			        ["label"] = "Milk Bottle",              ["weight"] = 1200,      ["type"] = "item",      ["image"] = "milkbotle.png",            ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Milk Bottle..drink or sell..??"},
+	["leather"] 					 = {["name"] = "leather", 			  			["label"] = "Leather", 					["weight"] = 100, 		["type"] = "item", 		["image"] = "leather.png", 		        ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Deer Leather"},
 	["alive_pig"] 			         = {["name"] = "alive_pig", 			        ["label"] = "Alive Pig",                ["weight"] = 1500,      ["type"] = "item",      ["image"] = "alive_pig.png",            ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An alive Pig..seriously??"},        
 	["bacon"] 			             = {["name"] = "bacon", 			            ["label"] = "Bacon",                    ["weight"] = 500,      ["type"] = "item",      ["image"] = "packaged_pig.png",         ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Bacon..want..to..eat..it.."},
 	["slaughtered_pig"] 			 = {["name"] = "slaughtered_pig", 			    ["label"] = "Slaughtered Pig",          ["weight"] = 1000,      ["type"] = "item",      ["image"] = "slaughtered_pig.png",      ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "ewwwwww..."},
@@ -482,7 +480,6 @@ QBShared.Items = {
 	["corn_packet"] 		         = {["name"] = "corn_packet", 			        ["label"] = "Cone Packet", 	            ["weight"] = 1000, 		["type"] = "item", 		["image"] = "corn_packet.png", 	        ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Corn Packet"},
 	["orange"] 		                 = {["name"] = "orange", 			            ["label"] = "Orange", 	                ["weight"] = 250, 		["type"] = "item", 		["image"] = "orange.png", 	            ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Orange"},
 	["fruit_pack"] 		             = {["name"] = "fruit_pack", 			        ["label"] = "Fruit Pack", 	            ["weight"] = 1000, 		["type"] = "item", 		["image"] = "fruit_pack.png", 	        ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Fruit Pack"},
-	["milk"] 		                 = {["name"] = "milk", 			                ["label"] = "Milk", 	                ["weight"] = 500, 		["type"] = "item", 		["image"] = "milk.png", 	            ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Milk"},
 	["milk_pack"] 		             = {["name"] = "milk_pack", 			        ["label"] = "Milk Pack", 	            ["weight"] = 950, 		["type"] = "item", 		["image"] = "milk_pack.png", 	        ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Milk pack"},
 	["box"] 		                 = {["name"] = "box", 			                ["label"] = "Box", 	                	["weight"] = 100, 		["type"] = "item", 		["image"] = "box.png", 	                ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "box"},
 	["huntingcarcass1"] 			 = {["name"] = "huntingcarcass1",				["label"] = "Carcass Level 1",			["weight"] = 10000,     ["type"] = "item",		["image"] = "huntingcarcass1.png",      ["unique"] = false,		["useable"] = false,	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Dam this shit looks hot! Level 1"},
@@ -908,7 +905,6 @@ QBShared.Items = {
 	["tofu"] 						= {["name"] = "tofu",  			    	 	["label"] = "Tofu",		 				["weight"] = 100, 		["type"] = "item", 		["image"] = "tofu.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "" },
 	
 	["orange"] 				 		= {["name"] = "orange",  	     			["label"] = "Orange",	 				["weight"] = 200, 		["type"] = "item", 		["image"] = "orange.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "An Orange." },
-	["milk"] 						= {["name"] = "milk",						["label"] = "Milk",						["weight"] = 500,		["type"] = "item",		["image"] = "burger-milk.png",		["unique"] = false, 	["useable"] = false,	["shouldClose"] = false,	["combinable"] = nil,	["description"] = "Bottle of Milk" },
 	["onion"] 						= {["name"] = "onion",						["label"] = "Onion",					["weight"] = 500,		["type"] = "item",		["image"] = "burger-onion.png",		["unique"] = false, 	["useable"] = false,	["shouldClose"] = false,	["combinable"] = nil,	["description"] = "An onion" },
 	["burger-ticket"] 				= {["name"] = "burger-ticket", 				["label"] = "Receipt", 	     			["weight"] = 150, 		["type"] = "item", 		["image"] = "ticket.png", 			["unique"] = false,   	["useable"] = false,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "Cash these in at the bank!" },
 
@@ -1098,7 +1094,7 @@ QBShared.Items = {
     ["milk"] = {
         ["name"] = "milk",
         ["label"] = "Milk",
-        ["weight"] = 100,
+        ["weight"] = 500,
         ["type"] = "item",
         ["image"] = "milk.png",
         ["unique"] = false,
