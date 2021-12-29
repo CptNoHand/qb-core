@@ -861,7 +861,8 @@ QBShared.Items = {
     ["lithium"] 				 	 = {["name"] = "lithium", 			  			["label"] = "Lithium", 					["weight"] = 1000, 		["type"] = "item", 		["image"] = "lithium.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Stuff to cook!"},
 
 	["rentalpapers"]				 = {["name"] = "rentalpapers", 					["label"] = "Rental Papers", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "rentalpapers.png", 		["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false, 	["combinable"] = nil, 	["description"] = "Yea, this is my car i can prove it!"},
-
+	["bodycam"]				         = {["name"] = "bodycam", 					    ["label"] = "Bodycam", 			        ["weight"] = 500, 		["type"] = "item", 		["image"] = "bodycam.png", 		        ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true, 	["combinable"] = nil, 	["description"] = "We gonna see what you see now"},
+    
 	-- cc-fuel
     ['fuelsiphon']                   = {["name"] = 'fuelsiphon',                ["label"] = 'Fuel Siphon',              ["weight"] = 1000,      ["type"] = "item",       ["image"] = 'fuelsiphon.png',          ["unique"] = false,     ["useable"] = false,    ["shouldClose"] = false,  ["combinable"] = nil,   ["description"] = "A fuel siphon to extract fuel from vehicles"},
 
