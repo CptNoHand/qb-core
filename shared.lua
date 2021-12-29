@@ -862,7 +862,7 @@ QBShared.Items = {
 
 	["rentalpapers"]				 = {["name"] = "rentalpapers", 					["label"] = "Rental Papers", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "rentalpapers.png", 		["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false, 	["combinable"] = nil, 	["description"] = "Yea, this is my car i can prove it!"},
 
-	-- lj-fuel
+	-- cc-fuel
     ['fuelsiphon']                   = {["name"] = 'fuelsiphon',                ["label"] = 'Fuel Siphon',              ["weight"] = 1000,      ["type"] = "item",       ["image"] = 'fuelsiphon.png',          ["unique"] = false,     ["useable"] = false,    ["shouldClose"] = false,  ["combinable"] = nil,   ["description"] = "A fuel siphon to extract fuel from vehicles"},
 
 	--CATCAFE
