@@ -385,6 +385,11 @@ end
 
 -- Check for duplicate license
 
+QBCore.Functions.GlobalTax = function(value)
+	local tax = (value / 100 * QBConfig.Server.GlobalTax)
+	return tax
+end
+
 function QBCore.Functions.IsLicenseInUse(license)
     local players = GetPlayers()
     for _, player in pairs(players) do
