@@ -8750,8 +8750,8 @@ QBShared.Vehicles = {
 		['category'] = 'mercedes',
 		['hash'] = `yachting`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 80000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
+		["trunkspace"] = 105000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
 	},
 	['mercxclass'] = {
 		['name'] = 'X-Class',
@@ -8761,8 +8761,8 @@ QBShared.Vehicles = {
 		['category'] = 'mercedes',
 		['hash'] = `mercxclass`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 85000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
+		["trunkspace"] = 100000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
 	},
 	['rmodtracktor'] = {
 		['name'] = 'Traktor',
