@@ -2493,7 +2493,7 @@ QBShared.Vehicles = {
 		["trunkspace"] = 14000, -- 20kg 
         ["trunkslots"] = 6, -- 5 slots
 	},
-	['previon'] = {							--DLC +set sv_enforceGameBuild 2372
+	['previon'] = {			--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Previon',
 		['brand'] = 'Karin',
 		['model'] = 'previon',
@@ -2503,6 +2503,33 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 		["trunkspace"] = 8500, -- 20kg 
         ["trunkslots"] = 6, -- 5 slots
+	},
+	['champion'] = {		--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Champion',
+		['brand'] = 'Dewbauchee',
+		['model'] = 'champion',
+		['price'] = 205000, 	
+		['category'] = 'coupes',
+		['hash'] = `champion`,
+		['shop'] = 'pdm',
+	},
+	['ignus'] = { 	 	--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Ignus',
+		['brand'] = 'Pegassi',
+		['model'] = 'ignus',
+		['price'] = 1120000, 	
+		['category'] = 'coupes',
+		['hash'] = `ignus`,
+		['shop'] = 'pdm',
+	},
+	['zeno'] = { 	 	--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Patriot',
+		['brand'] = 'Mil-Spec',
+		['model'] = 'zeno',
+		['price'] = 1350000, 	
+		['category'] = 'coupes',
+		['hash'] = `zeno`,
+		['shop'] = 'pdm',
 	},
 	--- Cycles
 	['bmx'] = {
@@ -3133,6 +3160,24 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 		["trunkspace"] = 1000, -- 20kg 
         ["trunkslots"] = 1, -- 5 slots
+	},
+	['shinobi'] = {		--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Shinobi',
+		['brand'] = 'Nagasaki',
+		['model'] = 'shinobi',
+		['price'] = 25000,
+		['category'] = 'motorcycles',
+		['hash'] = `shinobi`,
+		['shop'] = 'pdm',
+	},
+	['reever'] = {		--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Reever',
+		['brand'] = 'Western',
+		['model'] = 'reever',
+		['price'] = 25000, 	
+		['category'] = 'motorcycles',
+		['hash'] = `reever`,
+		['shop'] = 'pdm',
 	},
 	--- Muscle
 	['blade'] = {
@@ -3850,6 +3895,15 @@ QBShared.Vehicles = {
 		["trunkspace"] = 70000, -- 20kg 
         ["trunkslots"] = 25, -- 5 slots
 	},
+	['buffalo4'] = { 	 	--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Buffalo STX',
+		['brand'] = 'Bravado',
+		['model'] = 'buffalo4',
+		['price'] = 345000, 	
+		['category'] = 'muscle',
+		['hash'] = `buffalo4`,
+		['shop'] = 'pdm',
+	},
 	--- Off-Road
 	['bfinjection'] = {
 		['name'] = 'Bf Injection',
@@ -4512,6 +4566,15 @@ QBShared.Vehicles = {
 		["trunkspace"] = 14500, -- 20kg 
         ["trunkslots"] = 12, -- 5 slots
 	},
+	['granger2'] = { 	 	--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Granger 3600LX',
+		['brand'] = 'Declasse',
+		['model'] = 'granger2',
+		['price'] = 221000, 	
+		['category'] = 'suvs',
+		['hash'] = `granger2`,
+		['shop'] = 'pdm',
+	},
 	--- Sedans
 	['asea'] = {
 		['name'] = 'Asea',
@@ -4776,6 +4839,78 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 		["trunkspace"] = 7500, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
+	},
+	['cinquemila'] = { 	 	--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Lampadati',
+		['brand'] = 'Cinquemila',
+		['model'] = 'cinquemila',
+		['price'] = 125000, 	
+		['category'] = 'sedans',
+		['hash'] = `cinquemila`,
+		['shop'] = 'pdm',
+	},
+	['iwagen'] = { 	 	--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Obey',
+		['brand'] = 'I-Wagen',
+		['model'] = 'iwagen',
+		['price'] = 225000, 	
+		['category'] = 'sedans',
+		['hash'] = `iwagen`,
+		['shop'] = 'pdm',
+	},
+	['astron'] = { 	 	--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Pfister',
+		['brand'] = 'Astron',
+		['model'] = 'astron',
+		['price'] = 150000, 	
+		['category'] = 'sedans',
+		['hash'] = `astron`,
+		['shop'] = 'pdm',
+	},
+	['baller7'] = { 	 	--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Baller ST',
+		['brand'] = 'Gallivanter',
+		['model'] = 'baller7',
+		['price'] = 145000, 	
+		['category'] = 'sedans',
+		['hash'] = `baller7`,
+		['shop'] = 'pdm',
+	},
+	['comet7'] = { 	 	--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Comet',
+		['brand'] = 'S2 Cabrio',
+		['model'] = 'comet7',
+		['price'] = 25000, 	
+		['category'] = 'sedans',
+		['hash'] = `comet7`,
+		['shop'] = 'pdm',
+	},
+	['deity'] = { 	 	--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Deity',
+		['brand'] = 'Enus',
+		['model'] = 'deity',
+		['price'] = 505000, 	
+		['category'] = 'sedans',
+		['hash'] = `deity`,
+		['shop'] = 'pdm',
+	},
+	['jubilee'] = { 	 	--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Jubilee',
+		['brand'] = 'Enus',
+		['model'] = 'jubilee',
+		['price'] = 485000, 	
+		['category'] = 'sedans',
+		['hash'] = `jubilee`,
+		['shop'] = 'pdm',
+	},
+	['patriot3'] = { 	 	--DLC +set sv_enforceGameBuild 2545 
+		['name'] = 'Patriot',
+		['brand'] = 'Mil-Spec',
+		['model'] = 'patriot3',
+		['price'] = 270000, 	
+		['category'] = 'sedans',
+		['hash'] = `patriot3`,
+		['shop'] = 'pdm',
 	},
 	--- Sports
 	['alpha'] = {
