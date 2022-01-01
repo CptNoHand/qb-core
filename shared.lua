@@ -1525,28 +1525,52 @@ QBShared.Jobs = {
         },
 	},
 	['ambulance'] = {
-		label = 'EMS',
+		label = 'Rettungsdienst',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Azubi',
                 payment = 800
             },
 			['1'] = {
-                name = 'Paramedic',
-                payment = 1000
+                name = 'Rettungshelfer',
+                payment = 900
             },
 			['2'] = {
-                name = 'Doctor',
-                payment = 1200
+                name = 'Rettungsanitäter',
+                payment = 1000
             },
 			['3'] = {
-                name = 'Surgeon',
-                payment = 1400
+                name = 'Notfallsanitäter',
+                payment = 1050
             },
 			['4'] = {
-                name = 'Chief',
+                name = 'Assistentzarzt',
+                payment = 1100
+            },
+			['5'] = {
+                name = 'Arzt',
+                payment = 1150
+            },
+			['6'] = {
+                name = 'Facharzt',
+                payment = 1200
+            },
+			['7'] = {
+                name = 'Notarzt',
+                payment = 1250
+            },
+			['8'] = {
+                name = 'Oberarzt',
+                payment = 1300
+            },
+			['9'] = {
+                name = 'Chefarzt',
+                payment = 1400
+            },
+			['9'] = {
+                name = 'Ärtztliche Direktion',
 				isboss = true,
                 payment = 1500
             },
