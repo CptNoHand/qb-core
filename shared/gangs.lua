@@ -98,20 +98,107 @@ QBShared.Gangs = {
             },
         },
 	},
-	['triads'] = {
-		label = 'Triads',
+	['empireelite'] = {
+		label = 'The Empire Elite',
 		grades = {
             ['0'] = {
-                name = 'Recruit'
+                name = 'Rekrut'
             },
 			['1'] = {
-                name = 'Enforcer'
+                name = 'Informant'
             },
 			['2'] = {
-                name = 'Shot Caller'
+                name = 'Sergeant'
             },
 			['3'] = {
-                name = 'Boss',
+                name = 'Lieutenant'
+            },
+			['4'] = {
+                name = 'Commander'
+            },
+			['5'] = {
+                name = 'Captain'
+            },
+			['6'] = {
+                name = 'Vice Admiral'
+            },
+			['7'] = {
+                name = 'Admiral',
+				isboss = true
+            },
+        },
+	},
+	['marabunta'] = {
+		label = 'MG13',
+		grades = {
+            ['0'] = {
+                name = 'El Novato'
+            },
+			['1'] = {
+                name = 'Informante'
+            },
+			['2'] = {
+                name = 'El Aspirante'
+            },
+			['3'] = {
+                name = 'Ladón'
+            },
+			['4'] = {
+                name = 'El Matón'
+            },
+			['5'] = {
+                name = 'Asesino'
+            },
+			['6'] = {
+                name = 'Soldado'
+            },
+			['7'] = {
+                name = 'El Protector'
+            },
+			['8'] = {
+                name = 'El Carnicero'
+            },
+			['9'] = {
+                name = 'Recutador'
+            },
+			['10'] = {
+                name = 'La Mano Derecha'
+            },
+			['11'] = {
+                name = 'El Cabeza'
+            },
+			['12'] = {
+                name = 'El Patrón',
+				isboss = true
+            },
+        },
+	},
+	['rooks'] = {
+		label = 'Rooks',
+		grades = {
+            ['0'] = {
+                name = 'Prospects'
+            },
+			['1'] = {
+                name = 'Member'
+            },
+			['2'] = {
+                name = 'Treasurer'
+            },
+			['3'] = {
+                name = 'Secretary'
+            },
+			['4'] = {
+                name = 'Road Captain'
+            },
+			['5'] = {
+                name = 'Sergeant At Arms'
+            },
+			['6'] = {
+                name = 'Vice President'
+            },
+			['7'] = {
+                name = 'President',
 				isboss = true
             },
         },
