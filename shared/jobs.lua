@@ -73,7 +73,7 @@ QBShared.Jobs = {
 			['13'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 2500
+                payment = 1500
             },
         },
 	},
@@ -116,11 +116,11 @@ QBShared.Jobs = {
             },
 			['8'] = {
                 name = 'Oberarzt',
-                payment = 1300
+                payment = 1700
             },
 			['9'] = {
                 name = 'Chefarzt',
-                payment = 1400
+                payment = 2000
             },
 			['9'] = {
                 name = 'Ärtztliche Direktion',
