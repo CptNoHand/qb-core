@@ -122,10 +122,10 @@ QBShared.Jobs = {
                 name = 'Chefarzt',
                 payment = 2000
             },
-			['9'] = {
+			['10'] = {
                 name = 'Ärtztliche Direktion',
 				isboss = true,
-                payment = 2500
+                payment = 3000
             },
         },
 	},
