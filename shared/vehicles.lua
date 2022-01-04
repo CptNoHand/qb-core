@@ -5866,7 +5866,7 @@ QBShared.Vehicles = {
 		['category'] = 'ford',
 		['hash'] = `frs`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 75000, -- 20kg 
+		["trunkspace"] = 115000, -- 20kg 
         ["trunkslots"] = 50, -- 5 slots
 	},
 	['furzen'] = {
