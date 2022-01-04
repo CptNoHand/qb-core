@@ -8,7 +8,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Freelancer',
-                payment = 100
+                payment = 450
             },
         },
 	},
@@ -73,7 +73,7 @@ QBShared.Jobs = {
 			['13'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 1500
+                payment = 2500
             },
         },
 	},
@@ -125,7 +125,7 @@ QBShared.Jobs = {
 			['9'] = {
                 name = 'Ärtztliche Direktion',
 				isboss = true,
-                payment = 1500
+                payment = 2500
             },
         },
 	},
@@ -539,12 +539,12 @@ QBShared.Jobs = {
             },
             ['3'] = {
                 name = 'Lieutenant',
-                payment = 1350
+                payment = 1500
             },
             ['4'] = {
                 name = 'Chief',
                 isboss = true,
-                payment = 1500
+                payment = 2500
             },
         },
     },
