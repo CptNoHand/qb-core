@@ -12,6 +12,17 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['vanilla'] = {
+		label = 'Vanilla Unicorn',
+		defaultDuty = true,
+		grades = {
+            ['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Novice', payment = 75 },
+			['2'] = { name = 'Experienced', payment = 100 },
+			['3'] = { name = 'Advanced', payment = 125 },
+			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+        },
+	},
 	['police'] = {
 		label = 'Law ',
 		defaultDuty = true,
@@ -241,26 +252,6 @@ QBShared.Jobs = {
             },
         },
 	},
-	['vu'] = {
-		label = 'Vanilla Unicorn',
-		defaultDuty = true,
-		offDutyPay = false,
-		grades = {
-			['0'] = {
-				name = 'Trainee',
-				payment = 0
-			},
-			['1'] = {
-				name = 'Employee',
-				payment = 0
-			},
-			['2'] = {
-				name = 'Management',
-				isboss = true,
-				payment = 0
-			},
-		},
-	},
 	['taxi'] = {
 		label = 'Taxi',
 		defaultDuty = true,
@@ -299,34 +290,6 @@ QBShared.Jobs = {
                 payment = 50
             },
 		},
-	},
-	['cardealer'] = {
-		label = 'Vehicle Dealer',
-		defaultDuty = true,
-		offDutyPay = false,
-		grades = {
-            ['0'] = {
-                name = 'Recruit',
-                payment = 0
-            },
-			['1'] = {
-                name = 'Showroom Sales',
-                payment = 0
-            },
-			['2'] = {
-                name = 'Business Sales',
-                payment = 0
-            },
-			['3'] = {
-                name = 'Finance',
-                payment = 0
-            },
-			['4'] = {
-                name = 'Manager',
-				isboss = true,
-                payment = 0
-            },
-        },
 	},
 	["burgershot"] = {
 		label = "Burgershot Employee",
@@ -497,29 +460,6 @@ QBShared.Jobs = {
 			},
 		},
 	},
-	["tuner"] = {
-		label = "Tuner",
-		defaultDuty = true,
-		offDutyPay = false,
-		grades = {
-            ['0'] = {
-                name = "Prospect",
-            },
-			['1'] = {
-                name = "Member",
-            },
-			['2'] = {
-                name = "Freund",
-            },
-			['3'] = {
-                name = "Familie",
-            },
-			['1'] = {
-                name = "VIP",
-				isboss = true,
-            },
-        },
-	},
 	['lsfd'] = {
 		label = 'Los Santos Fire Department',
 		defaultDuty = true,
@@ -587,6 +527,87 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['cardealer'] = {
+        label = 'Vehicle Dealer',
+        defaultDuty = true,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Showroom Sales',
+                payment = 75
+            },
+            ['2'] = {
+                name = 'Business Sales',
+                payment = 100
+            },
+            ['3'] = {
+                name = 'Finance',
+                payment = 125
+            },
+            ['4'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 150
+            },
+        },
+    },
+    ['tuner'] = {
+        label = 'Tunershop',
+        defaultDuty = true,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Showroom Sales',
+                payment = 75
+            },
+            ['2'] = {
+                name = 'Business Sales',
+                payment = 100
+            },
+            ['3'] = {
+                name = 'Finance',
+                payment = 125
+            },
+            ['4'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 150
+            },
+        },
+    },
+    ['motordealer'] = {
+        label = 'Motordealer Dealer',
+        defaultDuty = true,
+        grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Showroom Sales',
+                payment = 75
+            },
+            ['2'] = {
+                name = 'Business Sales',
+                payment = 100
+            },
+            ['3'] = {
+                name = 'Finance',
+                payment = 125
+            },
+            ['4'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 150
+            },
+        },
+    },
 	['catcafe'] = {
 		label = 'Cat Cafe',
 		defaultDuty = true,
