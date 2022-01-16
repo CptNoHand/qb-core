@@ -949,8 +949,11 @@ QBShared.Items = {
 	["basil"] 						= {["name"] = "basil",  	   			  	["label"] = "Basil",					["weight"] = 100, 		["type"] = "item", 		["image"] = "basil.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "", },
 	
 	["pasta"] 						= {["name"] = "pasta",  	     			["label"] = "Bag of Pasta",	 			["weight"] = 200, 		["type"] = "item", 		["image"] = "pasta.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "A bag of Pasta", },
-	
 	["lettuce"] 	 			 	 = {["name"] = "lettuce",       			["label"] = "Lettuce",	 				["weight"] = 100, 		["type"] = "item", 		["image"] = "lettuce.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Some big taco brother"},	
+
+	['cctv'] 		 				 = {['name'] = 'cctv', 							['label'] = 'CCTV Cam', 				['weight'] = 5000, 	    ['type'] = 'item', 		['image'] = 'nmcctv.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Single Heading CCTV Camera (Manually Placeable)'},
+    ['360cctv'] 		 			 = {['name'] = '360cctv', 						['label'] = '360D CCTV Cam', 			['weight'] = 10000, 	    ['type'] = 'item', 		['image'] = 'mcctv.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = '360 Degree Revolvable CCTV Camera (Manually Placeable)'},
+    ['camviewer'] 		 			 = {['name'] = 'camviewer', 					['label'] = 'CamViewer', 			    ['weight'] = 7000, 	    ['type'] = 'item', 		['image'] = 'camviewer.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Remote Camera Viewer and Controller'},
 	-- Extra Food
     ["sushirolls"] = {
         ["name"] = "sushirolls",
