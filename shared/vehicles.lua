@@ -5348,17 +5348,6 @@ QBShared.Vehicles = {
 		["trunkspace"] = 55000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
-	['rbchgr18b'] = {
-		['name'] = 'Dodge Charger AWD',
-		['brand'] = 'Dodge',
-		['model'] = 'rbchgr18b',
-		['price'] = 0,
-		['category'] = 'Police',
-		['hash'] = `rbchgr18b`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 15000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
-	},
 	['pbus'] = {
 		['name'] = 'Gefängnisbus',
 		['brand'] = 'Polizei',
@@ -5470,7 +5459,7 @@ QBShared.Vehicles = {
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['policeold2'] = {
-		['name'] = 'Polizei Auto 9',
+		['name'] = 'Polizei Auto 10',
 		['brand'] = 'Polizei',
 		['model'] = 'policeold2',
 		['price'] = 0,
@@ -5531,17 +5520,6 @@ QBShared.Vehicles = {
 		['price'] = 0,
 		['category'] = 'Police',
 		['hash'] = `fbi2`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 35000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
-	},
-	['police10'] = {
-		['name'] = 'Police Interceptor',
-		['brand'] = 'Ford',
-		['model'] = 'police10',
-		['price'] = 0,
-		['category'] = 'Police',
-		['hash'] = `police10`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 35000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
@@ -5997,28 +5975,6 @@ QBShared.Vehicles = {
 		["trunkspace"] = 1000, -- 20kg 
         ["trunkslots"] = 1, -- 5 slots
 	},
-	['polbuffalor'] = {
-		['name'] = 'Buffalo Sheriff',
-		['brand'] = 'Buffalo',
-		['model'] = 'polbuffalor',
-		['price'] = 0,
-		['category'] = 'Police',
-		['hash'] = `polbuffalor`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 35000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
-	},
-	['polalamor'] = {
-		['name'] = 'Declasse Sheriff',
-		['brand'] = 'Declasse',
-		['model'] = 'polalamor',
-		['price'] = 0,
-		['category'] = 'Police',
-		['hash'] = `polalamor`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 35000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
-	},
 	['bcsoscout'] = {
 		['name'] = 'Scout Sheriff',
 		['brand'] = 'Scout',
@@ -6039,28 +5995,6 @@ QBShared.Vehicles = {
 		['hash'] = `bcsofugitive`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 35000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
-	},
-	['polgauntletr'] = {
-		['name'] = 'Graunlet Sheriff',
-		['brand'] = 'Graunlet',
-		['model'] = 'polgauntletr',
-		['price'] = 0,
-		['category'] = 'Police',
-		['hash'] = `polgauntletr`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 35000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
-	},
-	['bcsosandking'] = {
-		['name'] = 'Sandking Sheriff',
-		['brand'] = 'Sandking',
-		['model'] = 'bcsosandking',
-		['price'] = 0,
-		['category'] = 'Police',
-		['hash'] = `bcsosandking`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 60000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
 	['gauntletctx'] = {
@@ -6503,28 +6437,6 @@ QBShared.Vehicles = {
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
 	},
-	['pd_avent'] = {
-		['name'] = 'Aventador Police',
-		['brand'] = 'Lamborghini',
-		['model'] = 'pd_avent',
-		['price'] = 0,
-		['category'] = 'Police',
-		['hash'] = `pd_avent`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
-	},
-	['pd_20camaro'] = {
-		['name'] = 'Camaro Police',
-		['brand'] = 'Chevrolet',
-		['model'] = 'pd_20camaro',
-		['price'] = 0,
-		['category'] = 'Police',
-		['hash'] = `pd_20camaro`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
-	},
 	['bugatti'] = {
 		['name'] = 'Veyron',
 		['brand'] = 'Bugatti',
@@ -6547,17 +6459,6 @@ QBShared.Vehicles = {
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
 	},
-	['apolicec6'] = {
-		['name'] = 'Pfister',
-		['brand'] = 'Pfister',
-		['model'] = 'apolicec6',
-		['price'] = 0,
-		['category'] = 'Police',
-		['hash'] = `apolicec6`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
-	},
 	['aemsv450'] = {
 		['name'] = 'Ambulance',
 		['brand'] = 'Vapid',
@@ -6565,17 +6466,6 @@ QBShared.Vehicles = {
 		['price'] = 0,
 		['category'] = 'Police',
 		['hash'] = `aemsv450`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 5000, -- 20kg 
-        ["trunkslots"] = 5, -- 5 slots
-	},
-	['apolicecoq'] = {
-		['name'] = 'Coquette',
-		['brand'] = 'Coquette',
-		['model'] = 'apolicecoq',
-		['price'] = 0,
-		['category'] = 'Police',
-		['hash'] = `apolicecoq`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 5000, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
