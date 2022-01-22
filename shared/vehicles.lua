@@ -5323,8 +5323,8 @@ QBShared.Vehicles = {
 		['category'] = 'audi',
 		['hash'] = `cookiers6a`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 30000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
+		["trunkspace"] = 50000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
 	},
 	['e63s'] = {
 		['name'] = 'Mercedes Benz e63s AMG',
