@@ -7669,4 +7669,15 @@ QBShared.Vehicles = {
 		["trunkspace"] = 35000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
 	},
+	['g634x4byv'] = {
+		['name'] = 'G63X Limousine',
+		['brand'] = 'Mercedes-Benz',
+		['model'] = 'g634x4byv',
+		['price'] = 0,
+		['category'] = 'Mercedes',
+		['hash'] = `g634x4byv`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 85000, -- 20kg 
+        ["trunkslots"] = 35, -- 5 slots
+	},
 }
