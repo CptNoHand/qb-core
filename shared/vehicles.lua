@@ -7680,4 +7680,15 @@ QBShared.Vehicles = {
 		["trunkspace"] = 85000, -- 20kg 
         ["trunkslots"] = 35, -- 5 slots
 	},
+	['chellcatbyv'] = {
+		['name'] = 'Hellcat Widebody',
+		['brand'] = 'Dodge',
+		['model'] = 'chellcatbyv',
+		['price'] = 0,
+		['category'] = 'Dodge',
+		['hash'] = `chellcatbyv`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 35, -- 5 slots
+	},
 }
