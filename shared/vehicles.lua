@@ -7691,4 +7691,15 @@ QBShared.Vehicles = {
 		["trunkspace"] = 20000, -- 20kg 
         ["trunkslots"] = 35, -- 5 slots
 	},
+	['titanbyv'] = {
+		['name'] = 'Titan',
+		['brand'] = 'Ford',
+		['model'] = 'titanbyv',
+		['price'] = 0,
+		['category'] = 'Ford',
+		['hash'] = `titanbyv`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 150000, -- 20kg 
+        ["trunkslots"] = 60, -- 5 slots
+	},
 }
