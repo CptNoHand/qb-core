@@ -7699,7 +7699,18 @@ QBShared.Vehicles = {
 		['category'] = 'Ford',
 		['hash'] = `titanbyv`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 150000, -- 20kg 
+		["trunkspace"] = 125000, -- 20kg 
         ["trunkslots"] = 60, -- 5 slots
+	},
+	['sanctus22'] = {
+		['name'] = 'Sanctus Custom',
+		['brand'] = 'Declasse',
+		['model'] = 'sanctus22',
+		['price'] = 0,
+		['category'] = 'motorcycles',
+		['hash'] = `sanctus22`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 5000, -- 20kg 
+        ["trunkslots"] = 10, -- 5 slots
 	},
 }
