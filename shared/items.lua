@@ -435,6 +435,8 @@ QBShared.Items = {
 	["decryptionkey3"] 			     = {["name"] = "decryptionkey3", 		 	    ["label"] = "Decryption Key #3", 	    ["weight"] = 100, 	    ["type"] = "item", 		["image"] = "yellow_dectryption_key.png",    ["unique"] = false, 	["useable"] = true, ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Decryption Key #3."},
 	["atm_explosive"] 			     = {["name"] = "atm_explosive", 		 	    ["label"] = "Electronic Explosive", 	["weight"] = 2000, 	    ["type"] = "item", 		["image"] = "atm_explosive.png",        ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Electronic Explosive Charge, wonder what this could be used for?."},
 	['notepad']                      = {['name'] = 'notepad',                       ['label'] = 'Notepad',                  ['weight'] = 3,         ['type'] = 'item',      ['image'] = 'notepad1.png',             ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A peice of paper to write things down on'},
+	["banktablet"]                   = {["name"] = "banktablet",                    ["label"] = "Banker Tablet",            ["weight"] = 500,       ["type"] = "item",      ["image"] = "missiontablet.png",        ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = true,     ["combinable"] = nil,               ["description"] = "A Secure Tablet for Bankers!"},
+    ['bankinvoice']                  = {['name'] = 'bankinvoice',                   ['label'] = 'Bank Invoice',             ['weight'] = 0,         ['type'] = 'item',      ['image'] = 'stickynote.png',           ['unique'] = true,      ['useable'] = false,    ['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Invoice from the bank'},
 
     -- Tequilala Drinks
 	["am-beer"]                      = {["name"] = "am-beer",                       ["label"] = "A.M. Beer",                ["weight"] = 250,       ["type"] = "item",      ["image"] = "am-beer.png",              ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Morning Golden Shower"}, 
@@ -463,7 +465,8 @@ QBShared.Items = {
 	["governfiles"]                  = {["name"] = "governfiles",                   ["label"] = "Gov Files",                ["weight"] = 0,         ["type"] = "item",      ["image"] = "governfiles.png",          ["unique"] = true,      ["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "What is the worse that can happen?."},
 	["license_plate"] 				 = {["name"] = "license_plate", 			    ["label"] = "License plate", 			["weight"] = 1000, 		["type"] = "item", 		["image"] = "licenseplate.png", 		["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = ""},
 	["fakeplate"] 				     = {["name"] = "fakeplate", 			        ["label"] = "Fake License plate", 		["weight"] = 1000, 		["type"] = "item", 		["image"] = "plate.png", 		        ["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "For your bad stuff"},
-	['map']                          = {['name']='map',                             ['label'] = 'Map',                      ['weight'] = 1,         ['type'] = 'item',      ['image'] = 'map.png',                  ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable']=nil,     ['description']='A map that shows useful places'},
+	['map']                          = {['name'] = 'map',                           ['label'] = 'Map',                      ['weight'] = 1,         ['type'] = 'item',      ['image'] = 'map.png',                  ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A map that shows useful places'},
+	['contract']                     = {['name'] = 'contract',                      ['label'] = 'Vertrag',                  ['weight'] = 100,       ['type'] = 'item',      ['image'] = 'contract.png',             ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Autoverkauf-Vetrag'},
 
 	
 	
@@ -967,6 +970,10 @@ QBShared.Items = {
 	['cctv'] 		 				 = {['name'] = 'cctv', 							['label'] = 'CCTV Cam', 				['weight'] = 5000, 	    ['type'] = 'item', 		['image'] = 'nmcctv.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Single Heading CCTV Camera (Manually Placeable)'},
     ['360cctv'] 		 			 = {['name'] = '360cctv', 						['label'] = '360D CCTV Cam', 			['weight'] = 10000, 	    ['type'] = 'item', 		['image'] = 'mcctv.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = '360 Degree Revolvable CCTV Camera (Manually Placeable)'},
     ['camviewer'] 		 			 = {['name'] = 'camviewer', 					['label'] = 'CamViewer', 			    ['weight'] = 7000, 	    ['type'] = 'item', 		['image'] = 'camviewer.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Remote Camera Viewer and Controller'},
+
+	["bprooftires"] 				= {["name"] = "bprooftires", 			   	["label"] = "Bulletproof Tires", 		["weight"] = 0, 		["type"] = "item", 		["image"] = "bprooftires.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Set of Tweels"},
+	["drifttires"] 					= {["name"] = "drifttires", 			   	["label"] = "Drift Tires", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "drifttires.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "They make the road feel butter"},
+	
 	-- Extra Food
     ["sushirolls"] = {
         ["name"] = "sushirolls",

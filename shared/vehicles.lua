@@ -2022,8 +2022,8 @@ QBShared.Vehicles = {
 		['model'] = 'sandking',
 		['hash'] = `sandking`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 120000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
+		["trunkspace"] = 150000, -- 20kg 
+        ["trunkslots"] = 55, -- 5 slots
 	},
 	['sandking2'] = {
 		['name'] = 'Sandking SWB',
@@ -2033,8 +2033,8 @@ QBShared.Vehicles = {
 		['model'] = 'sandking2',
 		['hash'] = `sandking2`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 120000, -- 20kg 
-        ["trunkslots"] = 15, -- 5 slots
+		["trunkspace"] = 150000, -- 20kg 
+        ["trunkslots"] = 55, -- 5 slots
 	},
 	['trophytruck'] = {
 		['name'] = 'Trophy Truck',
@@ -4749,8 +4749,8 @@ QBShared.Vehicles = {
 		['category'] = 'vans',
 		['hash'] = `bobcatxl`,
 		['shop'] = 'pdm',
-		["trunkspace"] = 125000, -- 20kg 
-        ["trunkslots"] = 30, -- 5 slots
+		["trunkspace"] = 130000, -- 20kg 
+        ["trunkslots"] = 50, -- 5 slots
 	},
 	['burrito'] = {
 		['name'] = 'Burrito',
@@ -7448,6 +7448,17 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 		["trunkspace"] = 25000, -- 20kg 
         ["trunkslots"] = 10, -- 5 slots
+	},
+	['charger69'] = {
+		['name'] = 'Charger 69',
+		['brand'] = 'Dodge',
+		['model'] = 'charger69',
+		['price'] = 0,
+		['category'] = 'Dodge',
+		['hash'] = `charger69`,
+		['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
 	},
 	['rrphantom'] = {
 		['name'] = 'Phantom',

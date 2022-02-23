@@ -88,6 +88,34 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['banker'] = {
+        label = 'Pacific Standard Bank',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            ['0'] = {
+                name = 'Teller',
+                payment = 800
+            },
+            ['1'] = {
+                name = 'Supervisor',
+                payment = 1050
+            },
+            ['2'] = {
+                name = 'Guard',
+                payment = 1150
+            },
+            ['3'] = {
+                name = 'Broker',
+                payment = 1250
+            },
+            ['4'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 1500
+            },
+        },
+    },
     ['pizzathis'] = {
 		label = 'Pizza This',
 		defaultDuty = true,
