@@ -23,6 +23,17 @@ QBShared.Jobs = {
 			['4'] = { name = 'Manager', isboss = true, payment = 0 },
         },
 	},
+    ['popsdiner'] = {
+		label = "Pop's Diner",
+		defaultDuty = false,
+		grades = {
+            ['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Novice', payment = 75 },
+			['2'] = { name = 'Experienced', payment = 100 },
+			['3'] = { name = 'Advanced', payment = 125 },
+			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+        },
+	},
     ['beanmachine'] = {
 		label = 'Bean Machine',
 		defaultDuty = true,
@@ -245,34 +256,17 @@ QBShared.Jobs = {
             },
         },
 	},
-	["tequilala"] = {
-        label = "Tequi-la-la",
-        defaultDuty = true,
-		offDutyPay = false,
-        grades = {
-            ['0'] = {
-                name = "DJ",
-                payment = 0
-            },
-            ['1'] = {
-                name = "Bartender",
-                payment = 0
-            },
-            ['2'] = {
-                name = "Bouncer",
-                payment = 0
-            },
-            ['3'] = {
-                name = "Manager",
-                payment = 0
-            },
-            ['4'] = {
-                name = "Owner",
-                isboss = true,
-                payment = 0
-            },
+	['tequilala'] = {
+		label = 'Tequilala',
+		defaultDuty = false,
+		grades = {
+            ['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Novice', payment = 75 },
+			['2'] = { name = 'Experienced', payment = 100 },
+			['3'] = { name = 'Advanced', payment = 125 },
+			['4'] = { name = 'Manager', isboss = true, payment = 150 },
         },
-    },
+	},
 	['fbi'] = {
 		label = 'Federal Bureau of Investigation',
 		defaultDuty = true,
