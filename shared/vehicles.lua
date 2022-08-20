@@ -8318,6 +8318,17 @@ QBShared.Vehicles = {
         ['hash'] = `weevil2`,
         ['shop'] = 'pdm',
     },
+	['gt3hycade'] = {
+        ['name'] = 'GT3 Hycade',
+        ['brand'] = 'Porsche',
+        ['model'] = 'gt3hycade',
+        ['price'] = 0,
+        ['category'] = 'porsche',
+        ['hash'] = `gt3hycade`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+    },
 }
 
 for _, v in pairs(QBShared.Vehicles) do
