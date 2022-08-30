@@ -5845,17 +5845,6 @@ QBShared.Vehicles = {
 		["trunkspace"] = 15000, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
 	},
-	['frs'] = {
-		['name'] = 'Ford Raptor F150',
-		['brand'] = 'Ford Raptor',
-		['model'] = 'frs',
-		['price'] = 0,
-		['category'] = 'ford',
-		['hash'] = `frs`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 115000, -- 20kg 
-        ["trunkslots"] = 50, -- 5 slots
-	},
 	['furzen'] = {
 		['name'] = 'Käfer',
 		['brand'] = 'Käfer',
@@ -5866,17 +5855,6 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 		["trunkspace"] = 15000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
-	},
-	['g500'] = {
-		['name'] = 'Brabus G500 4x4',
-		['brand'] = 'Brabus',
-		['model'] = 'g500',
-		['price'] = 0,
-		['category'] = 'brabus',
-		['hash'] = `g500`,
-		['shop'] = 'pdm',
-		["trunkspace"] = 55000, -- 20kg 
-        ["trunkslots"] = 25, -- 5 slots
 	},
 	['jackgpr'] = {
 		['name'] = 'Jackal Tuner',
@@ -7695,10 +7673,10 @@ QBShared.Vehicles = {
 	},
 	['titanbyv'] = {
 		['name'] = 'Titan',
-		['brand'] = 'Ford',
+		['brand'] = 'Nissan',
 		['model'] = 'titanbyv',
 		['price'] = 0,
-		['category'] = 'Ford',
+		['category'] = 'nissan',
 		['hash'] = `titanbyv`,
 		['shop'] = 'pdm',
 		["trunkspace"] = 125000, -- 20kg 
@@ -8660,7 +8638,7 @@ QBShared.Vehicles = {
         ["trunkslots"] = 20, -- 5 slots
     },
 	['lwc63'] = {
-        ['name'] = 'C62 AMG Widebody',
+        ['name'] = 'C63 AMG Widebody',
         ['brand'] = 'Mercedes-Benz',
         ['model'] = 'lwc63',
         ['price'] = 0,
