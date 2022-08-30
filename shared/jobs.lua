@@ -12,6 +12,61 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['bahamamamas'] = {
+		label = 'Bahama Mamas',
+		defaultDuty = false,
+		grades = {
+            ['0'] = { name = 'Recruit', payment = 0 },
+			['1'] = { name = 'Novice', payment = 0 },
+			['2'] = { name = 'Experienced', payment = 0 },
+			['3'] = { name = 'Advanced', payment = 0 },
+			['4'] = { name = 'Manager', isboss = true, payment = 0 },
+        },
+	},
+	['yellowjack'] = {
+		label = 'Yellow Jack',
+		defaultDuty = false,
+		grades = {
+            ['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Novice', payment = 75 },
+			['2'] = { name = 'Experienced', payment = 100 },
+			['3'] = { name = 'Advanced', payment = 125 },
+			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+        },
+	},
+	['cyberbar'] = {
+		label = 'Cyber Bar',
+		defaultDuty = false,
+		grades = {
+            ['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Novice', payment = 75 },
+			['2'] = { name = 'Experienced', payment = 100 },
+			['3'] = { name = 'Advanced', payment = 125 },
+			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+        },
+	},
+	['irishpub'] = {
+		label = 'Irish Pub',
+		defaultDuty = false,
+		grades = {
+            ['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Novice', payment = 75 },
+			['2'] = { name = 'Experienced', payment = 100 },
+			['3'] = { name = 'Advanced', payment = 125 },
+			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+        },
+	},
+	['splitsides'] = {
+		label = 'Split Sides',
+		defaultDuty = false,
+		grades = {
+            ['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Novice', payment = 75 },
+			['2'] = { name = 'Experienced', payment = 100 },
+			['3'] = { name = 'Advanced', payment = 125 },
+			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+        },
+	},
     ['vanilla'] = {
 		label = 'Vanilla Unicorn',
 		defaultDuty = true,
