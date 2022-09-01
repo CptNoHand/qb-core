@@ -505,6 +505,7 @@ QBShared.Jobs = {
 		label = "Mechanic",
 		defaultDuty = true,
 		offDutyPay = false,
+        type = "mechanic",
 		grades = {
             ['0'] = {
                 name = "Recruit",
@@ -533,6 +534,7 @@ QBShared.Jobs = {
 		label = "Benny's",
 		defaultDuty = true,
 		offDutyPay = false,
+        type = "mechanic",
 		grades = {
             ['0'] = {
                 name = "Recruit",
@@ -561,6 +563,7 @@ QBShared.Jobs = {
 		label = "Los Santos Customs",
 		defaultDuty = true,
 		offDutyPay = false,
+        type = "mechanic",
 		grades = {
 			['0'] = {
 				name = "Zeitarbeiter",
@@ -593,6 +596,7 @@ QBShared.Jobs = {
 		label = "Redline Performance",
 		defaultDuty = true,
 		offDutyPay = false,
+        type = "mechanic",
 		grades = {
 			['0'] = {
 				name = "Help",
@@ -661,6 +665,7 @@ QBShared.Jobs = {
 		label = "Custom Motors",
 		defaultDuty = true,
 		offDutyPay = false,
+        type = "mechanic",
 		grades = {
             ['0'] = {
                 name = "Recruit",
@@ -685,87 +690,6 @@ QBShared.Jobs = {
             },
         },
 	},
-    ['cardealer'] = {
-        label = 'Vehicle Dealer',
-        defaultDuty = true,
-        grades = {
-            ['0'] = {
-                name = 'Recruit',
-                payment = 50
-            },
-            ['1'] = {
-                name = 'Showroom Sales',
-                payment = 75
-            },
-            ['2'] = {
-                name = 'Business Sales',
-                payment = 100
-            },
-            ['3'] = {
-                name = 'Finance',
-                payment = 125
-            },
-            ['4'] = {
-                name = 'Manager',
-                isboss = true,
-                payment = 150
-            },
-        },
-    },
-    ['tuner'] = {
-        label = 'Tunershop',
-        defaultDuty = true,
-        grades = {
-            ['0'] = {
-                name = 'Recruit',
-                payment = 50
-            },
-            ['1'] = {
-                name = 'Showroom Sales',
-                payment = 75
-            },
-            ['2'] = {
-                name = 'Business Sales',
-                payment = 100
-            },
-            ['3'] = {
-                name = 'Finance',
-                payment = 125
-            },
-            ['4'] = {
-                name = 'Manager',
-                isboss = true,
-                payment = 150
-            },
-        },
-    },
-    ['motordealer'] = {
-        label = 'Motordealer Dealer',
-        defaultDuty = true,
-        grades = {
-            ['0'] = {
-                name = 'Recruit',
-                payment = 50
-            },
-            ['1'] = {
-                name = 'Showroom Sales',
-                payment = 75
-            },
-            ['2'] = {
-                name = 'Business Sales',
-                payment = 100
-            },
-            ['3'] = {
-                name = 'Finance',
-                payment = 125
-            },
-            ['4'] = {
-                name = 'Manager',
-                isboss = true,
-                payment = 150
-            },
-        },
-    },
 	['catcafe'] = {
 		label = 'Cat Cafe',
 		defaultDuty = true,

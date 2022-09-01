@@ -1,6 +1,6 @@
 local Translations = {
     error = {
-        not_online = 'Der Spieler nicht online',
+        not_online = 'Der Spieler ist nicht online',
         wrong_format = 'Falsches Format',
         missing_args = 'Nicht alle Argumente wurden ausgefüllt (x, y, z)',
         missing_args2 = 'Alle Argumente müssen ausgefüllt sein!',
@@ -9,8 +9,8 @@ local Translations = {
         item_not_exist = 'Das Item existiert nicht',
         too_heavy = 'Inventar zu voll',
         location_not_exist = 'Der Ort existiert nicht',
-        duplicate_license = 'Doppelte Rockstar Lizenz gefunden',
-        no_valid_license  = 'Keine verifizierte Rockstar Lizenz gefunden',
+        duplicate_license = 'Doppelte Rockstar-Lizenz gefunden',
+        no_valid_license  = 'Keine verifizierte Rockstar-Lizenz gefunden',
         not_whitelisted = 'Du bist nicht gewhitelisted',
         server_already_open = 'Der Server ist schon geöffnet',
         server_already_closed = 'Der Server ist schon geschlossen',
@@ -25,14 +25,14 @@ local Translations = {
     },
     info = {
         received_paycheck = 'Du hast dein Gehalt in Höhe von $%{value} erhalten',
-        job_info = 'Job: %{value} | Rang: %{value2} | im Dienst: %{value3}',
+        job_info = 'Job: %{value} | Dienstgrad: %{value2} | im Dienst: %{value3}',
         gang_info = 'Gang: %{value} | Rang: %{value2}',
         on_duty = 'Du bist nun im Dienst!',
         off_duty = 'Du bist nun nicht mehr im Dienst!',
         checking_ban = 'Hallo %s. Wir checken, ob du gebannt wurdest.',
         join_server = 'Willkommen %s zu {Server Name}.',
         checking_whitelisted = 'Hallo %s. Wir checken deine Erlaubnis.',
-        exploit_banned = 'Du wurdest fürs Cheaten gebannt. Schau auf den Discord: %{discord}',
+        exploit_banned = 'Du wurdest fürs Cheaten gebannt. Meld dich auf dem Discord: %{discord}',
         exploit_dropped = 'Du wurdest gekickt für das Ausnutzen von Fehlern',
     },
     command = {
@@ -95,8 +95,8 @@ local Translations = {
             help = 'Setze den Job eines Spielers (Nur Admins)',
             params = {
                 id = { name = 'id', help = 'Spieler ID' },
-                job = { name = 'job', help = 'Jobname' },
-                grade = { name = 'grade', help = 'Jobrang' },
+                job = { name = 'job', help = 'Job Name' },
+                grade = { name = 'grade', help = 'Dienstgrad' },
             },
         },
         gang = { help = 'Check deine Gang' },
