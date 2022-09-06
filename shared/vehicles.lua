@@ -8780,6 +8780,17 @@ QBShared.Vehicles = {
 		["trunkspace"] = 10000, -- 20kg 
         ["trunkslots"] = 5, -- 5 slots
     },
+	['gcmpanameratst21'] = {
+        ['name'] = 'Panamera GT',
+        ['brand'] = 'Porsche',
+        ['model'] = 'gcmpanameratst21',
+        ['price'] = 0,
+        ['category'] = 'porsche',
+        ['hash'] = `gcmpanameratst21`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 60000, -- 20kg 
+        ["trunkslots"] = 20, -- 5 slots
+    },
 }
 
 for _, v in pairs(QBShared.Vehicles) do
