@@ -8,6 +8,7 @@ shared_scripts {
     'config.lua',
     'shared/locale.lua',
     'locale/de.lua', -- replace with desired language
+    'locale/*.lua',
     'shared/main.lua',
     'shared/items.lua',
     'shared/jobs.lua',
