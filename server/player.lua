@@ -287,15 +287,8 @@ function QBCore.Player.CreatePlayer(PlayerData, Offline)
         moneytype = moneytype:lower()
         amount = tonumber(amount)
         if amount < 0 then return end
-        if moneytype == 'bank' then
-            local data = {}
-            data.amount = amount
-            data.message = reason
-            exports.pefcl:addBankBalance(self.PlayerData.source, data)
-        else
-            if not self.PlayerData.money[moneytype] then return false end
-            self.PlayerData.money[moneytype] = self.PlayerData.money[moneytype] + amount
-        end
+        if not self.PlayerData.money[moneytype] then return false end
+        self.PlayerData.money[moneytype] = self.PlayerData.money[moneytype] + amount
 
         if not self.Offline then
             self.Functions.UpdatePlayerData()
@@ -305,8 +298,8 @@ function QBCore.Player.CreatePlayer(PlayerData, Offline)
                 TriggerEvent('qb-log:server:CreateLog', 'playermoney', 'AddMoney', 'lightgreen', '**' .. GetPlayerName(self.PlayerData.source) .. ' (citizenid: ' .. self.PlayerData.citizenid .. ' | id: ' .. self.PlayerData.source .. ')** $' .. amount .. ' (' .. moneytype .. ') added, new ' .. moneytype .. ' balance: ' .. self.PlayerData.money[moneytype] .. ' reason: ' .. reason)
             end
             TriggerClientEvent('hud:client:OnMoneyChange', self.PlayerData.source, moneytype, amount, false)
-            TriggerClientEvent('QBCore:Client:OnMoneyChange', self.PlayerData.source, moneytype, amount, "add", reason)
-            TriggerEvent('QBCore:Server:OnMoneyChange', self.PlayerData.source, moneytype, amount, "add", reason)
+            TriggerClientEvent('QBCore:Client:OnMoneyChange', self.PlayerData.source, moneytype, amount, "add")
+            TriggerEvent('QBCore:Server:OnMoneyChange', self.PlayerData.source, moneytype, amount, "add")
         end
 
         return true
@@ -324,20 +317,9 @@ function QBCore.Player.CreatePlayer(PlayerData, Offline)
                     return false
                 end
             end
-            if moneytype == 'bank' then
-                if (exports.pefcl:getDefaultAccountBalance(self.PlayerData.source).data - amount) < 0 then
-                    return false
-                end
-            end
         end
-        if moneytype == 'bank' then
-            local data = {}
-            data.amount = amount
-            data.message = reason
-            exports.pefcl:removeBankBalance(self.PlayerData.source, data)
-        else
-            self.PlayerData.money[moneytype] = self.PlayerData.money[moneytype] - amount
-        end
+        self.PlayerData.money[moneytype] = self.PlayerData.money[moneytype] - amount
+
         if not self.Offline then
             self.Functions.UpdatePlayerData()
             if amount > 100000 then
@@ -349,33 +331,28 @@ function QBCore.Player.CreatePlayer(PlayerData, Offline)
             if moneytype == 'bank' then
                 TriggerClientEvent('qb-phone:client:RemoveBankMoney', self.PlayerData.source, amount)
             end
-            TriggerClientEvent('QBCore:Client:OnMoneyChange', self.PlayerData.source, moneytype, amount, "remove", reason)
-            TriggerEvent('QBCore:Server:OnMoneyChange', self.PlayerData.source, moneytype, amount, "remove", reason)
+            TriggerClientEvent('QBCore:Client:OnMoneyChange', self.PlayerData.source, moneytype, amount, "remove")
+            TriggerEvent('QBCore:Server:OnMoneyChange', self.PlayerData.source, moneytype, amount, "remove")
         end
 
         return true
     end
 
     function self.Functions.SetMoney(moneytype, amount, reason)
+        reason = reason or 'unknown'
         moneytype = moneytype:lower()
         amount = tonumber(amount)
         if amount < 0 then return false end
-        if moneytype == 'bank' then
-            local data = {}
-            data.amount = amount
-            exports.pefcl:setBankBalance(self.PlayerData.source, data)
-            self.PlayerData.money[moneytype] = exports.pefcl:getDefaultAccountBalance(self.PlayerData.source).data or 0
-        else
-            if not self.PlayerData.money[moneytype] then return false end
-            self.PlayerData.money[moneytype] = amount
-        end
+        if not self.PlayerData.money[moneytype] then return false end
+        local difference = amount - self.PlayerData.money[moneytype]
+        self.PlayerData.money[moneytype] = amount
 
         if not self.Offline then
             self.Functions.UpdatePlayerData()
             TriggerEvent('qb-log:server:CreateLog', 'playermoney', 'SetMoney', 'green', '**' .. GetPlayerName(self.PlayerData.source) .. ' (citizenid: ' .. self.PlayerData.citizenid .. ' | id: ' .. self.PlayerData.source .. ')** $' .. amount .. ' (' .. moneytype .. ') set, new ' .. moneytype .. ' balance: ' .. self.PlayerData.money[moneytype] .. ' reason: ' .. reason)
             TriggerClientEvent('hud:client:OnMoneyChange', self.PlayerData.source, moneytype, math.abs(difference), difference < 0)
-            TriggerClientEvent('QBCore:Client:OnMoneyChange', self.PlayerData.source, moneytype, amount, "set", reason)
-            TriggerEvent('QBCore:Server:OnMoneyChange', self.PlayerData.source, moneytype, amount, "set", reason)
+            TriggerClientEvent('QBCore:Client:OnMoneyChange', self.PlayerData.source, moneytype, amount, "set")
+            TriggerEvent('QBCore:Server:OnMoneyChange', self.PlayerData.source, moneytype, amount, "set")
         end
 
         return true
@@ -384,10 +361,6 @@ function QBCore.Player.CreatePlayer(PlayerData, Offline)
     function self.Functions.GetMoney(moneytype)
         if not moneytype then return false end
         moneytype = moneytype:lower()
-        if moneytype == 'bank' then
-            self.PlayerData.money[moneytype] = exports.pefcl:getDefaultAccountBalance(self.PlayerData.source).data or 0
-            return exports.pefcl:getDefaultAccountBalance(self.PlayerData.source).data
-        end
         return self.PlayerData.money[moneytype]
     end
 
@@ -438,14 +411,6 @@ function QBCore.Player.CreatePlayer(PlayerData, Offline)
 
         -- At this point we are safe to emit new instance to third party resource for load handling
         TriggerEvent('QBCore:Server:PlayerLoaded', self)
-        self.Functions.UpdatePlayerData()
-    end
-end
-
-function self.Functions.SyncMoney() 
-        local money = exports.pefcl:getDefaultAccountBalance(self.PlayerData.source).data
-        self.PlayerData.money['bank'] = money
-    if not self.Offline then
         self.Functions.UpdatePlayerData()
     end
 end
