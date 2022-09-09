@@ -8414,7 +8414,7 @@ QBShared.Vehicles = {
         ['category'] = 'bmw',
         ['hash'] = `rmodm5e34`,
         ['shop'] = 'pdm',
-		["trunkspace"] = 35000, -- 20kg 
+		["trunkspace"] = 45000, -- 20kg 
         ["trunkslots"] = 20, -- 5 slots
     },
 	['cz4a'] = {
@@ -8788,8 +8788,30 @@ QBShared.Vehicles = {
         ['category'] = 'porsche',
         ['hash'] = `gcmpanameratst21`,
         ['shop'] = 'pdm',
-		["trunkspace"] = 60000, -- 20kg 
-        ["trunkslots"] = 20, -- 5 slots
+		["trunkspace"] = 65000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
+    },
+	['mansurus'] = {
+        ['name'] = 'Urus Custom',
+        ['brand'] = 'Lamborghini',
+        ['model'] = 'mansurus',
+        ['price'] = 0,
+        ['category'] = 'lamborghini',
+        ['hash'] = `mansurus`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 65000, -- 20kg 
+        ["trunkslots"] = 25, -- 5 slots
+    },
+	['rmodrx7'] = {
+        ['name'] = 'RX7',
+        ['brand'] = 'Mazda',
+        ['model'] = 'rmodrx7',
+        ['price'] = 0,
+        ['category'] = 'mazda',
+        ['hash'] = `rmodrx7`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
     },
 }
 

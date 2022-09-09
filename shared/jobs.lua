@@ -37,7 +37,7 @@ QBShared.Jobs = {
             ['0'] = {
                 name = 'Regierung',
 				isboss = true,
-                payment = 3000
+                payment = 2500
             },
 		},
     },
@@ -150,7 +150,7 @@ QBShared.Jobs = {
         },
 	},
 	['police'] = {
-		label = 'Law ',
+		label = 'Gesetzeshüter',
         type = "leo",
 		defaultDuty = true,
 		offDutyPay = false,
@@ -766,18 +766,22 @@ QBShared.Jobs = {
         },
 	},
 	['judge'] = {
-		label = 'Honorary',
+		label = 'Gerichtshof',
 		defaultDuty = true,
-		offDutyPay = false,
+		offDutyPay = true,
 		grades = {
             ['0'] = {
-                name = 'Anwalt',
+                name = 'Staatsanwalt',
                 payment = 1500
             },
             ['1'] = {
                 name = 'Richter',
+                payment = 2000
+            },
+            ['2'] = {
+                name = 'Oberster Richter',
                 isboss = true,
-                payment = 3000
+                payment = 2500
             },
         },
 	},
