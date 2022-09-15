@@ -33,7 +33,7 @@ QBConfig.Server.GlobalTax = 15.0
 QBConfig.Notify = {}
 
 QBConfig.Notify.NotificationStyling = {
-    group = false, -- Allow notifications to stack with a badge instead of repeating
+    group = true, -- Allow notifications to stack with a badge instead of repeating
     position = "right", -- top-left | top-right | bottom-left | bottom-right | top | bottom | left | right | center
     progress = true -- Display Progress Bar
 }

@@ -8813,6 +8813,105 @@ QBShared.Vehicles = {
 		["trunkspace"] = 20000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
     },
+	['rmodsuprapandem'] = {
+        ['name'] = 'Supra Pandem',
+        ['brand'] = 'Toyota',
+        ['model'] = 'rmodsuprapandem',
+        ['price'] = 0,
+        ['category'] = 'toyota',
+        ['hash'] = `rmodsuprapandem`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+    },
+	['rmodsvj'] = {
+        ['name'] = 'Aventador Roadster',
+        ['brand'] = 'Lamborghini',
+        ['model'] = 'rmodsvj',
+        ['price'] = 0,
+        ['category'] = 'lamborghini',
+        ['hash'] = `rmodsvj`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+    },
+	['fraptor'] = {
+        ['name'] = 'Raptor Tow',
+        ['brand'] = 'Ford',
+        ['model'] = 'fraptor',
+        ['price'] = 0,
+        ['category'] = 'ford',
+        ['hash'] = `fraptor`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 50000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+    },
+	['rmodsupralb'] = {
+        ['name'] = 'Supra LB',
+        ['brand'] = 'Toyota',
+        ['model'] = 'rmodsupralb',
+        ['price'] = 0,
+        ['category'] = 'toyota',
+        ['hash'] = `rmodsupralb`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 15000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+    },
+	['rmodskyline34'] = {
+        ['name'] = 'Skyline Custom',
+        ['brand'] = 'Nissan',
+        ['model'] = 'rmodskyline34',
+        ['price'] = 0,
+        ['category'] = 'nissan',
+        ['hash'] = `rmodskyline34`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+    },
+	['rmodgt63police'] = {
+        ['name'] = 'GT63 Police',
+        ['brand'] = 'Mercedes-Benz',
+        ['model'] = 'rmodgt63police',
+        ['price'] = 0,
+        ['category'] = 'police',
+        ['hash'] = `rmodgt63police`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+    },
+	['rmodzl1police'] = {
+        ['name'] = 'ZL1 Police',
+        ['brand'] = 'Chevrolett',
+        ['model'] = 'rmodzl1police',
+        ['price'] = 0,
+        ['category'] = 'police',
+        ['hash'] = `rmodzl1police`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+    },
+	['rmodx6police'] = {
+        ['name'] = 'X6 Police',
+        ['brand'] = 'BMW',
+        ['model'] = 'rmodx6police',
+        ['price'] = 0,
+        ['category'] = 'police',
+        ['hash'] = `rmodx6police`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+    },
+	['rmodfordpolice'] = {
+        ['name'] = 'Police',
+        ['brand'] = 'Ford Mustang',
+        ['model'] = 'rmodfordpolice',
+        ['price'] = 0,
+        ['category'] = 'police',
+        ['hash'] = `rmodfordpolice`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+    },
 }
 
 for _, v in pairs(QBShared.Vehicles) do
