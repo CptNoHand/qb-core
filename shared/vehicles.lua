@@ -8898,7 +8898,7 @@ QBShared.Vehicles = {
         ['category'] = 'police',
         ['hash'] = `rmodx6police`,
         ['shop'] = 'pdm',
-		["trunkspace"] = 20000, -- 20kg 
+		["trunkspace"] = 60000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
     },
 	['rmodfordpolice'] = {
@@ -8908,6 +8908,17 @@ QBShared.Vehicles = {
         ['price'] = 0,
         ['category'] = 'police',
         ['hash'] = `rmodfordpolice`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 20000, -- 20kg 
+        ["trunkslots"] = 15, -- 5 slots
+    },
+	['rmodf8'] = {
+        ['name'] = 'F8 Tributo',
+        ['brand'] = 'Ferrari',
+        ['model'] = 'rmodf8',
+        ['price'] = 0,
+        ['category'] = 'ferrari',
+        ['hash'] = `rmodf8`,
         ['shop'] = 'pdm',
 		["trunkspace"] = 20000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
