@@ -900,4 +900,32 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['oilwell'] = {
+        label = 'Oil Company',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            ['0'] = {
+                name = 'Oilwell Operator',
+                payment = 500
+            },
+            ['1'] = {
+                name = 'Oilwell Operator tier 2',
+                payment = 750
+            },
+            ['2'] = {
+                name = 'Event Driver tier 2',
+                payment = 1000
+            },
+            ['3'] = {
+                name = 'Sales',
+                payment = 1250
+            },
+            ['4'] = {
+                name = 'CEO',
+                isboss = true,
+                payment = 1500
+            },
+        },
+    },
 }

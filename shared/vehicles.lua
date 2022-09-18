@@ -8923,6 +8923,17 @@ QBShared.Vehicles = {
 		["trunkspace"] = 20000, -- 20kg 
         ["trunkslots"] = 15, -- 5 slots
     },
+	['19raptor'] = {
+        ['name'] = 'Raptor',
+        ['brand'] = 'Ford',
+        ['model'] = '19raptor',
+        ['price'] = 0,
+        ['category'] = 'ford',
+        ['hash'] = `19raptor`,
+        ['shop'] = 'pdm',
+		["trunkspace"] = 100000, -- 20kg 
+        ["trunkslots"] = 30, -- 5 slots
+    },
 }
 
 for _, v in pairs(QBShared.Vehicles) do
