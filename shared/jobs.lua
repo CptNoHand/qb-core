@@ -41,6 +41,17 @@ QBShared.Jobs = {
             },
 		},
     },
+    ['arcade'] = {
+        label = 'GameOn Arcade Bar',
+        defaultDuty = false,
+        grades = {
+            ['0'] = { name = 'Recruit', payment = 0 },
+            ['1'] = { name = 'Novice', payment = 0 },
+            ['2'] = { name = 'Experienced', payment = 0 },
+            ['3'] = { name = 'Advanced', payment = 0 },
+            ['4'] = { name = 'Manager', isboss = true, payment = 0 },
+        },
+    },
     ['bahamamamas'] = {
 		label = 'Bahama Mamas',
 		defaultDuty = false,
