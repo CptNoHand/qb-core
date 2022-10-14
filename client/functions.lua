@@ -507,7 +507,6 @@ function QBCore.Functions.GetVehicleProperties(vehicle)
             windowTint = GetVehicleWindowTint(vehicle),
             windowStatus = windowStatus,
             doorStatus = doorStatus,
-            xenonColor = GetVehicleXenonLightsColour(vehicle),
             headlightColor = headlightColor,
             neonEnabled = {
                 IsVehicleNeonLightEnabled(vehicle, 0),
@@ -584,10 +583,8 @@ function QBCore.Functions.SetVehicleProperties(vehicle, props)
     if DoesEntityExist(vehicle) then
         if props.extras then
             for id, enabled in pairs(props.extras) do
-                if enabled then
-                    SetVehicleExtra(vehicle, tonumber(id), 0)
-                else
-                    SetVehicleExtra(vehicle, tonumber(id), 1)
+                if enabled then SetVehicleExtra(vehicle, tonumber(id), 0)
+                else SetVehicleExtra(vehicle, tonumber(id), 1)
                 end
             end
         end
@@ -695,7 +692,6 @@ function QBCore.Functions.SetVehicleProperties(vehicle, props)
         if props.modSmokeEnabled then ToggleVehicleMod(vehicle, 20, props.modSmokeEnabled) end
         if props.modKit21 then SetVehicleMod(vehicle, 21, props.modKit21, false) end
         if props.modXenon then ToggleVehicleMod(vehicle, 22, props.modXenon) end
-        if props.xenonColor then SetVehicleXenonLightsColor(vehicle, props.xenonColor) end
         if props.modFrontWheels then SetVehicleMod(vehicle, 23, props.modFrontWheels, false) end
         if props.modBackWheels then SetVehicleMod(vehicle, 24, props.modBackWheels, false) end
         if props.modCustomTiresF then SetVehicleMod(vehicle, 23, props.modFrontWheels, props.modCustomTiresF) end
@@ -728,7 +724,7 @@ function QBCore.Functions.SetVehicleProperties(vehicle, props)
         if props.liveryRoof then SetVehicleRoofLivery(vehicle, props.liveryRoof) end
 		if props.modDrift then SetDriftTyresEnabled(vehicle, true) end
 		SetVehicleTyresCanBurst(vehicle, not props.modBProofTires)
-		TriggerServerEvent('jim-mechanic:server:loadStatus', props, vehicle)
+		TriggerServerEvent('jim-mechanic:server:loadStatus', props, VehToNet(vehicle))
     end
 end
 

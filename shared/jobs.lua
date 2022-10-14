@@ -8,7 +8,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Freelancer',
-                payment = 450
+                payment = 400
             },
         },
 	},
@@ -20,12 +20,12 @@ QBShared.Jobs = {
             ['0'] = {
                 name = 'Rathaus Mitarbeiter',
 				isboss = false,
-                payment = 1500
+                payment = 3000
             },
 			['1'] = {
                 name = 'Bürgermeister',
 				isboss = true,
-                payment = 2000
+                payment = 7500
             },
 		},
     },
@@ -37,7 +37,7 @@ QBShared.Jobs = {
             ['0'] = {
                 name = 'Regierung',
 				isboss = true,
-                payment = 2500
+                payment = 7500
             },
 		},
     },
@@ -172,111 +172,129 @@ QBShared.Jobs = {
             },
 			['1'] = {
                 name = 'Officer',
-                payment = 1000
+                payment = 1500
             },
 			['2'] = {
                 name = 'Officer First Class',
-                payment = 1100
-            },
-			['3'] = {
-                name = 'Detective',
-                payment = 1150
-            },
-			['4'] = {
-                name = 'Corporal',
-                payment = 1200
-            },
-			['5'] = {
-                name = 'Sergeant',
-                payment = 1300
-            },
-			['6'] = {
-                name = 'Staff Sergeant',
-                payment = 1400
-            },
-			['7'] = {
-                name = 'Sergeant Major',
-                payment = 1500
-            },
-			['8'] = {
-                name = 'Second Lieutenant',
                 payment = 1750
             },
-			['9'] = {
+			['3'] = {
+                name = 'Corporal',
+                payment = 2200
+            },
+			['4'] = {
+                name = 'Sergeant',
+                payment = 2450
+            },
+			['5'] = {
+                name = 'Staff Sergeant',
+                payment = 2800
+            },
+			['6'] = {
+                name = 'Sergeant Major',
+                payment = 3050
+            },
+			['7'] = {
+                name = 'Second Lieutenant',
+                payment = 3300
+            },
+			['8'] = {
                 name = 'Lieutenant',
-                payment = 2000
+                payment = 3500
+            },
+			['9'] = {
+                name = 'Captain',
+                payment = 4000
             },
 			['10'] = {
-                name = 'Captain',
-                payment = 2250
+                name = 'Inspector',
+                payment = 4500
             },
 			['11'] = {
-                name = 'Inspector',
-                payment = 2500
-            },
-			['12'] = {
                 name = 'Deputy Chief',
 				isboss = true,
-                payment = 2750
+                payment = 4750
             },
-			['13'] = {
+			['12'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 3000
+                payment = 5000
             },
-            ['14'] = {
+            ['13'] = {
                 name = 'Rekrut',
                 payment = 500
             },
-			['15'] = {
+			['14'] = {
                 name = 'Deputy I',
                 payment = 1000
             },
-			['16'] = {
+			['15'] = {
                 name = 'Deputy II',
-                payment = 1100
+                payment = 1250
             },
-			['17'] = {
+			['16'] = {
                 name = 'Deputy III',
-                payment = 1200
-            },
-			['18'] = {
-                name = 'Investigator',
-                payment = 1300
-            },
-			['19'] = {
-                name = 'Master Investigator',
-                payment = 1400
-            },
-			['20'] = {
-                name = 'Sergeant',
                 payment = 1500
             },
-			['21'] = {
-                name = 'Lieutenant',
+			['17'] = {
+                name = 'Investigator',
                 payment = 1750
             },
-			['22'] = {
-                name = 'Captain',
+			['18'] = {
+                name = 'Master Investigator',
                 payment = 2000
             },
-			['23'] = {
-                name = 'Chief Deputy',
+			['19'] = {
+                name = 'Sergeant',
                 payment = 2250
             },
-			['24'] = {
-                name = 'Assistent Sheriff',
+			['20'] = {
+                name = 'Lieutenant',
                 payment = 2500
             },
-			['25'] = {
-                name = 'Under Sheriff',
-                isboss = true,
+			['21'] = {
+                name = 'Captain',
                 payment = 2750
             },
-			['26'] = {
+			['22'] = {
+                name = 'Chief Deputy',
+                payment = 3000
+            },
+			['23'] = {
+                name = 'Assistent Sheriff',
+                payment = 3250
+            },
+			['24'] = {
+                name = 'Under Sheriff',
+                isboss = true,
+                payment = 3500
+            },
+			['25'] = {
                 name = 'Sheriff',
                 isboss = true,
+                payment = 4000
+            },
+			['26'] = {
+                name = 'Detective',
+                payment = 2200
+            },
+			['27'] = {
+                name = 'Detective II',
+                payment = 2600
+            },
+			['28'] = {
+                name = 'Detective III',
                 payment = 3000
+            },
+			['29'] = {
+                name = 'Lieutenant',
+                isboss = true,
+                payment = 3500
+            },
+			['30'] = {
+                name = 'Captain',
+                isboss = true,
+                payment = 4000
             },
         },
 	},
@@ -327,48 +345,48 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Azubi',
-                payment = 800
+                payment = 1750
             },
 			['1'] = {
                 name = 'Rettungshelfer',
-                payment = 900
+                payment = 2500
             },
 			['2'] = {
                 name = 'Rettungsanitäter',
-                payment = 1000
+                payment = 2750
             },
 			['3'] = {
                 name = 'Notfallsanitäter',
-                payment = 1050
+                payment = 3000
             },
 			['4'] = {
                 name = 'Assistentzarzt',
-                payment = 1100
+                payment = 3250
             },
 			['5'] = {
                 name = 'Arzt',
-                payment = 1150
+                payment = 3500
             },
 			['6'] = {
                 name = 'Facharzt',
-                payment = 1200
+                payment = 3750
             },
 			['7'] = {
                 name = 'Notarzt',
-                payment = 1250
+                payment = 4000
             },
 			['8'] = {
                 name = 'Oberarzt',
-                payment = 1700
+                payment = 4250
             },
 			['9'] = {
                 name = 'Chefarzt',
-                payment = 2000
+                payment = 4500
             },
 			['10'] = {
                 name = 'Ärtztliche Direktion',
 				isboss = true,
-                payment = 3000
+                payment = 5000
             },
         },
 	},
@@ -654,26 +672,25 @@ QBShared.Jobs = {
 			},
 		},
 	},
-	["redline"] = {
-		label = "Redline Performance",
+	["eastcustoms"] = {
+		label = "East Customs",
 		defaultDuty = false,
 		offDutyPay = false,
-        type = "mechanic",
 		grades = {
 			['0'] = {
-				name = "Help",
+				name = "Praktikant",
 				payment = 0
 			},
 			['1'] = {
-				name = "Trainee",
+				name = "Azubi",
 				payment = 0
 			},
 			['2'] = {
-				name = "Mechanic",
+				name = "Mechaniker",
 				payment = 0
 			},
 			['3'] = {
-				name = "Boss Mechanic",
+				name = "Meister",
 				isboss = true,
 				payment = 0
 			},
