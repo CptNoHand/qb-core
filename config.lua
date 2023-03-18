@@ -43,16 +43,16 @@ QBConfig.Notify.NotificationStyling = {
 -- The "icon" key is the css-icon code, this project uses `Material Icons` & `Font Awesome`
 QBConfig.Notify.VariantDefinitions = {
     success = {
-        classes = 'success',
-        icon = 'done'
+        classes = 'erfolgreich',
+        icon = 'fertig'
     },
     primary = {
-        classes = 'primary',
+        classes = 'primär',
         icon = 'info'
     },
     error = {
-        classes = 'error',
-        icon = 'dangerous'
+        classes = 'fehler',
+        icon = 'gefährlich'
     },
     police = {
         classes = 'police',
