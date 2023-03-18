@@ -216,17 +216,35 @@ function PaycheckInterval()
                                 Player.Functions.AddMoney('bank', payment)
                                 TriggerEvent('ap-government:server:systemTax', Player.PlayerData.source, "Player", payment)
                                 exports['qb-management']:RemoveMoney(Player.PlayerData.job.name, payment)
-                                TriggerClientEvent('QBCore:Notify', Player.PlayerData.source, Lang:t('info.received_paycheck', {value = payment}))
+                                TriggerClientEvent('qs-smartphone:client:notify', Player.PlayerData.source, {
+                                    title = 'PayCheck Dropped Off At Bank',
+                                    text = payment,
+                                    icon = "./img/apps/bank.png",
+                                    timeout = 3500
+                                })
+                                --TriggerClientEvent('QBCore:Notify', Player.PlayerData.source, Lang:t('info.received_paycheck', {value = payment}))
                             end
                         else
                             Player.Functions.AddMoney('bank', payment)
                             TriggerEvent('ap-government:server:systemTax', Player.PlayerData.source, "Player", payment)
-                            TriggerClientEvent('QBCore:Notify', Player.PlayerData.source, Lang:t('info.received_paycheck', {value = payment}))
+                            TriggerClientEvent('qs-smartphone:client:notify', Player.PlayerData.source, {
+                                title = ' $' ..payment..'  PayCheck Dropped Off',
+                                text = 'Available At Bank',
+                                icon = "./img/apps/bank.png",
+                                timeout = 5500
+                            })
+                            --TriggerClientEvent('QBCore:Notify', Player.PlayerData.source, Lang:t('info.received_paycheck', {value = payment}))
                         end
                     else
                         Player.Functions.AddMoney('bank', payment)
                         TriggerEvent('ap-government:server:systemTax', Player.PlayerData.source, "Player", payment)
-                        TriggerClientEvent('QBCore:Notify', Player.PlayerData.source, Lang:t('info.received_paycheck', {value = payment}))
+                        TriggerClientEvent('qs-smartphone:client:notify', Player.PlayerData.source, {
+                            title = ' $' ..payment..'  PayCheck Dropped Off',
+                            text = 'Available At Pacific Bank',
+                            icon = "./img/apps/bank.png",
+                            timeout = 5500
+                        })
+                        --TriggerClientEvent('QBCore:Notify', Player.PlayerData.source, Lang:t('info.received_paycheck', {value = payment}))
                     end
                 end
             end

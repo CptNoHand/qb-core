@@ -390,6 +390,12 @@ function QBCore.Player.CreatePlayer(PlayerData, Offline)
         end
     end
 
+    function self.Functions.SetPhoneNumber(phone)
+        if not phone then return end
+        self.PlayerData.charinfo.phone = phone
+        self.Functions.UpdatePlayerData()
+    end
+
     function self.Functions.Logout()
         if self.Offline then return end -- Unsupported for Offline Players
         QBCore.Player.Logout(self.PlayerData.source)

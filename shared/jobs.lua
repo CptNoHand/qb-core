@@ -12,6 +12,39 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['midnightnation'] = {
+		label = 'Midnight Nation',
+        defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Assiociate',
+                payment = 0
+            },
+			['1'] = {
+                name = 'Informant',
+                payment = 0
+            },
+			['2'] = {
+                name = 'Racer',
+                payment = 0
+            },
+			['3'] = {
+                name = 'Tuner',
+                payment = 0
+            },
+			['4'] = {
+                name = 'Co Leader',
+                isboss = true,
+                payment = 0
+            },
+			['5'] = {
+                name = 'Leader',
+                isboss = true,
+                payment = 0
+            },
+        },
+	},
     ['cityhall'] = {
         label = 'Rathaus',
         defaultDuty = false,
@@ -129,11 +162,14 @@ QBShared.Jobs = {
 		defaultDuty = false,
         offDutyPay = false,
 		grades = {
-            ['0'] = { name = 'Recruit', payment = 0 },
-			['1'] = { name = 'Novice', payment = 0 },
-			['2'] = { name = 'Experienced', payment = 0 },
-			['3'] = { name = 'Advanced', payment = 0 },
-			['4'] = { name = 'Manager', isboss = true, payment = 0 },
+            ['0'] = { name = 'Prospect', payment = 0 },
+			['1'] = { name = 'Member', payment = 0 },
+			['2'] = { name = 'Road Captain', payment = 0 },
+			['3'] = { name = 'Enforcer', payment = 0 },
+			['4'] = { name = 'Secretary', payment = 0 },
+            ['0'] = { name = 'Sergeant At Arms', payment = 0 },
+			['1'] = { name = 'Vice-President', isboss = true, payment = 0 },
+			['2'] = { name = 'President', isboss = true, payment = 0 },
         },
 	},
     ['popsdiner'] = {
@@ -161,7 +197,7 @@ QBShared.Jobs = {
         },
 	},
 	['police'] = {
-		label = 'Gesetzeshüter',
+		label = 'Police',
         type = "leo",
 		defaultDuty = false,
 		offDutyPay = false,
@@ -208,91 +244,117 @@ QBShared.Jobs = {
             },
 			['10'] = {
                 name = 'Inspector',
-                payment = 4500
+                payment = 4250
             },
 			['11'] = {
+                name = 'Chief Commander',
+				isboss = true,
+                payment = 4400
+            },
+			['12'] = {
+                name = 'Commander',
+				isboss = true,
+                payment = 4500
+            },
+            ['13'] = {
                 name = 'Deputy Chief',
 				isboss = true,
                 payment = 4750
             },
-			['12'] = {
+			['14'] = {
                 name = 'Chief',
 				isboss = true,
                 payment = 5000
             },
-            ['13'] = {
+        },
+	},
+    ['detectives'] = {
+		label = 'Detectives',
+        type = "leo",
+		defaultDuty = false,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Detective',
+                payment = 2200
+            },
+			['1'] = {
+                name = 'Detective II',
+                payment = 2600
+            },
+			['2'] = {
+                name = 'Detective III',
+                payment = 3000
+            },
+			['3'] = {
+                name = 'Lieutenant',
+                isboss = true,
+                payment = 3500
+            },
+			['4'] = {
+                name = 'Davis Captain',
+                isboss = true,
+                payment = 4000
+            },
+        },
+	},
+    ['sheriff'] = {
+		label = 'Sheriffs',
+        type = "leo",
+		defaultDuty = false,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
                 name = 'Rekrut',
                 payment = 500
             },
-			['14'] = {
+			['1'] = {
                 name = 'Deputy I',
                 payment = 1000
             },
-			['15'] = {
+			['2'] = {
                 name = 'Deputy II',
                 payment = 1250
             },
-			['16'] = {
+			['3'] = {
                 name = 'Deputy III',
                 payment = 1500
             },
-			['17'] = {
+			['4'] = {
                 name = 'Investigator',
                 payment = 1750
             },
-			['18'] = {
+			['5'] = {
                 name = 'Master Investigator',
                 payment = 2000
             },
-			['19'] = {
+			['6'] = {
                 name = 'Sergeant',
                 payment = 2250
             },
-			['20'] = {
+			['7'] = {
                 name = 'Lieutenant',
                 payment = 2500
             },
-			['21'] = {
+			['8'] = {
                 name = 'Captain',
                 payment = 2750
             },
-			['22'] = {
+			['9'] = {
                 name = 'Chief Deputy',
                 payment = 3000
             },
-			['23'] = {
+			['10'] = {
                 name = 'Assistent Sheriff',
                 payment = 3250
             },
-			['24'] = {
+			['11'] = {
                 name = 'Under Sheriff',
                 isboss = true,
                 payment = 3500
             },
-			['25'] = {
+			['12'] = {
                 name = 'Sheriff',
-                isboss = true,
-                payment = 4000
-            },
-			['26'] = {
-                name = 'Detective',
-                payment = 2200
-            },
-			['27'] = {
-                name = 'Detective II',
-                payment = 2600
-            },
-			['28'] = {
-                name = 'Detective III',
-                payment = 3000
-            },
-			['29'] = {
-                name = 'Lieutenant',
-                isboss = true,
-                payment = 3500
-            },
-			['30'] = {
-                name = 'Captain',
                 isboss = true,
                 payment = 4000
             },
@@ -323,6 +385,26 @@ QBShared.Jobs = {
                 name = 'Manager',
                 isboss = true,
                 payment = 1500
+            },
+        },
+    },
+    ['lto'] = {
+        label = 'Los Tabernucho',
+        defaultDuty = false,
+        offDutyPay = false,
+        grades = {
+            ['0'] = {
+                name = 'Trainee',
+                payment = 0
+            },
+            ['1'] = {
+                name = 'Service',
+                payment = 0
+            },
+            ['2'] = {
+                name = 'Manager',
+                isboss = true,
+                payment = 0
             },
         },
     },
@@ -391,15 +473,15 @@ QBShared.Jobs = {
         },
 	},
 	['tequilala'] = {
-		label = 'Tequilala',
+		label = 'Tequila-la',
 		defaultDuty = false,
         offDutyPay = false,
 		grades = {
-            ['0'] = { name = 'Recruit', payment = 50 },
-			['1'] = { name = 'Novice', payment = 75 },
-			['2'] = { name = 'Experienced', payment = 100 },
-			['3'] = { name = 'Advanced', payment = 125 },
-			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+            ['0'] = { name = 'Rechtsanwalt', payment = 0 },
+			['1'] = { name = 'Sicherheitschef', payment = 0 },
+			['2'] = { name = 'Manager', payment = 0 },
+			['3'] = { name = 'Geschäftsführer', isboss = true, payment = 0 },
+			['4'] = { name = 'Inhaber', isboss = true, payment = 0 },
         },
 	},
 	['fbi'] = {
@@ -639,6 +721,35 @@ QBShared.Jobs = {
             },
         },
 	},
+    ["bennystuners"] = {
+		label = "Benny's",
+		defaultDuty = false,
+		offDutyPay = false,
+        type = "mechanic",
+		grades = {
+            ['0'] = {
+                name = "Recruit",
+                payment = 0
+            },
+			['1'] = {
+                name = "Novice",
+                payment = 0
+            },
+			['2'] = {
+                name = "Experienced",
+                payment = 0
+            },
+			['3'] = {
+                name = "Advanced",
+                payment = 0
+            },
+			['4'] = {
+                name = "Manager",
+				isboss = true,
+                payment = 0
+            },
+        },
+	},
 	["lscustoms"] = {
 		label = "Los Santos Customs",
 		defaultDuty = false,
@@ -647,34 +758,34 @@ QBShared.Jobs = {
 		grades = {
 			['0'] = {
 				name = "Zeitarbeiter",
-				payment = 500
+				payment = 0
 			},
 			['1'] = {
 				name = "Azubi",
-				payment = 1000
+				payment = 0
 			},
 			['2'] = {
 				name = "Angestellter",
-				payment = 1250
+				payment = 0
 			},
 			['3'] = {
 				name = "Schichtleiter",
-				payment = 1500
+				payment = 0
 			},
             ['4'] = {
 				name = "Meister",
-				payment = 1750
+				payment = 0
 			},
 			['5'] = {
 				name = "CEO",
 				isboss = true,
-				payment = 2000
+				payment = 0
 			},
 		},
 	},
-	["eastcustoms"] = {
-		label = "East Customs",
-		defaultDuty = false,
+	["lsmotors"] = {
+		label = "LS Motors",
+		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
 			['0'] = {
@@ -686,17 +797,20 @@ QBShared.Jobs = {
 				payment = 0
 			},
 			['2'] = {
-				name = "Mechaniker",
+				name = "Verkäufer",
 				payment = 0
 			},
 			['3'] = {
-				name = "Meister",
-				isboss = true,
+				name = "Mechaniker",
 				payment = 0
 			},
 			['4'] = {
+				name = "Meister",
+				payment = 0
+			},
+            ['5'] = {
 				name = "CEO",
-				isboss = true,
+                isboss = true,
 				payment = 0
 			},
 		},
@@ -725,7 +839,7 @@ QBShared.Jobs = {
             ['4'] = {
                 name = 'Chief',
                 isboss = true,
-                payment = 3000
+                payment = 5000
             },
         },
     },
@@ -735,6 +849,23 @@ QBShared.Jobs = {
 		offDutyPay = false,
 		grades = {
 			['1'] = {
+                name = "Manager",
+				isboss = true,
+            },
+        },
+	},
+    ["lsdream"] = {
+		label = "LS Dream Cars",
+		defaultDuty = false,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = "Verkäufer",
+            },
+            ['1'] = {
+                name = "Profi Verkäufer",
+            },
+			['2'] = {
                 name = "Manager",
 				isboss = true,
             },
