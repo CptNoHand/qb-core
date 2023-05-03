@@ -57,6 +57,7 @@ QBShared.Weapons = {
 	[`weapon_machinepistol`] 		 = {['name'] = 'weapon_machinepistol', 	['label'] = 'Tec-9', 				['weapontype'] = 'Submachine Gun',	['ammotype'] = 'AMMO_PISTOL',	['damagereason'] = 'Riddled / Drilled / Finished / Submachine Gunned'},
 	[`weapon_minismg`] 				 = {['name'] = 'weapon_minismg', 		['label'] = 'Mini SMG', 			['weapontype'] = 'Submachine Gun',	['ammotype'] = 'AMMO_SMG',		['damagereason'] = 'Riddled / Drilled / Finished / Submachine Gunned'},
 	[`weapon_raycarbine`]	         = {['name'] = 'weapon_raycarbine', 	['label'] = 'Raycarbine',	        ['weapontype'] = 'Submachine Gun',	['ammotype'] = 'AMMO_SMG',		['damagereason'] = 'Riddled / Drilled / Finished / Submachine Gunned'},
+	[`weapon_miniuzi`] 		         = {['name'] = 'weapon_miniuzi', 	    ['label'] = 'Mini Uzi', 		['ammotype'] = 'AMMO_SMG',		['damagereason'] = 'Ended / Plugged / Shot down / Floored'},
 
     -- Shotguns
 	[`weapon_pumpshotgun`] 			 = {['name'] = 'weapon_pumpshotgun', 	 	['label'] = 'Pump Shotgun', 			['weapontype'] = 'Shotgun',	['ammotype'] = 'AMMO_SHOTGUN',	['damagereason'] = 'Devastated / Pulverized / Shotgunned'},
@@ -83,7 +84,7 @@ QBShared.Weapons = {
 	[`weapon_compactrifle`] 		 = {['name'] = 'weapon_compactrifle', 	 	['label'] = 'Compact Rifle', 				['weapontype'] = 'Assault Rifle',	['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
 	[`weapon_militaryrifle`]		 = {['name'] = 'weapon_militaryrifle', 		['label'] = 'Military Rifle',   			['weapontype'] = 'Assault Rifle',	['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
     [`weapon_heavyrifle`] 			 = {['name'] = 'weapon_heavyrifle', 	 	['label'] = 'Heavy Rifle', 					['weapontype'] = 'Assault Rifle',	['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
-	[`weapon_g36`] 			         = {['name'] = 'weapon_g36', 	 	        ['label'] = 'G36', 					        ['weapontype'] = 'Assault Rifle',	['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
+	[`markomods-g36`] 			     = {['name'] = 'markomods-g36', 	 	        ['label'] = 'G36', 					        ['weapontype'] = 'Assault Rifle',	['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
     -- Light Machine Guns
 	[`weapon_mg`] 					 = {['name'] = 'weapon_mg', 			['label'] = 'Machinegun', 			['weapontype'] = 'Light Machine Gun',	['ammotype'] = 'AMMO_MG',	['damagereason'] = 'Machine gunned / Sprayed / Ruined'},
 	[`weapon_combatmg`] 			 = {['name'] = 'weapon_combatmg', 		['label'] = 'Combat MG', 			['weapontype'] = 'Light Machine Gun',	['ammotype'] = 'AMMO_MG',	['damagereason'] = 'Machine gunned / Sprayed / Ruined'},
@@ -145,4 +146,36 @@ QBShared.Weapons = {
 	-- Animals
     [`weapon_animal`]               = {['name'] = 'weapon_animal',	['label'] = 'Animal',	['weapontype'] = 'Animals',	['ammotype'] = nil,	['damagereason'] = 'Mauled'},
     [`weapon_cougar`]               = {['name'] = 'weapon_cougar',	['label'] = 'Cougar',	['weapontype'] = 'Animals',	['ammotype'] = nil,	['damagereason'] = 'Mauled'},
+
+	-- Marko Mod Guns
+    [`weapon_g17`] 			= {['name'] = 'weapon_g17', 		['label'] = 'Glock 17', 		['ammotype'] = 'AMMO_PISTOL',	['damagereason'] = 'Pistoled / Blasted / Plugged / Bust a cap in'},
+    [`weapon_g45`] 			= {['name'] = 'weapon_g45', 		['label'] = 'Glock 45', 	    ['ammotype'] = 'AMMO_PISTOL',	['damagereason'] = 'Pistoled / Blasted / Plugged / Bust a cap in'},
+    [`weapon_l5`] 			= {['name'] = 'weapon_l5', 			['label'] = 'Desert Eagle', 	['ammotype'] = 'AMMO_PISTOL',	['damagereason'] = 'Pistoled / Blasted / Plugged / Bust a cap in'},
+    [`weapon_2011`] 		= {['name'] = 'weapon_2011', 		['label'] = 'Sti-Dvc 2011', 	['ammotype'] = 'AMMO_PISTOL',	['damagereason'] = 'Pistoled / Blasted / Plugged / Bust a cap in'},
+    [`weapon_g17a`] 		= {['name'] = 'weapon_g17a', 	    ['label'] = 'Glock 17 A', 		['ammotype'] = 'AMMO_PISTOL',	['damagereason'] = 'Pistoled / Blasted / Plugged / Bust a cap in'},
+    [`weapon_p226`] 		= {['name'] = 'weapon_p226', 	    ['label'] = 'P226', 		    ['ammotype'] = 'AMMO_PISTOL',	['damagereason'] = 'Pistoled / Blasted / Plugged / Bust a cap in'},
+    [`weapon_p320a`] 		= {['name'] = 'weapon_p320a', 	    ['label'] = 'P320 A', 		    ['ammotype'] = 'AMMO_PISTOL',	['damagereason'] = 'Pistoled / Blasted / Plugged / Bust a cap in'},
+    [`weapon_p320b`] 		= {['name'] = 'weapon_p320b', 	    ['label'] = 'P320 B', 		    ['ammotype'] = 'AMMO_PISTOL',	['damagereason'] = 'Pistoled / Blasted / Plugged / Bust a cap in'},
+    [`weapon_g19`] 			= {['name'] = 'weapon_g19', 		['label'] = 'Glock 19', 		['ammotype'] = 'AMMO_PISTOL',	['damagereason'] = 'Pistoled / Blasted / Plugged / Bust a cap in'},
+    [`weapon_m9`] 			= {['name'] = 'weapon_m9', 		    ['label'] = 'Baretta M9A3', 	['ammotype'] = 'AMMO_PISTOL',	['damagereason'] = 'Pistoled / Blasted / Plugged / Bust a cap in'},
+    [`weapon_benellim2`] 	= {['name'] = 'weapon_benellim2', 	['label'] = 'Benellie M2', 		['ammotype'] = 'AMMO_SHOTGUN',	['damagereason'] = 'Blasted / Plugged / Put a hole in ya'},
+    [`weapon_m870`] 		= {['name'] = 'weapon_m870', 		['label'] = 'Remington M870', 	['ammotype'] = 'AMMO_SHOTGUN',	['damagereason'] = 'Blasted / Plugged / Put a hole in ya'},
+    [`weapon_miniuzi`] 		= {['name'] = 'weapon_miniuzi', 	['label'] = 'Mini Uzi', 		['ammotype'] = 'AMMO_SMG',		['damagereason'] = 'Ended / Plugged / Shot down / Floored'},
+    [`weapon_mpx`] 		 	= {['name'] = 'weapon_mpx', 	 	['label'] = 'MPX', 				['ammotype'] = 'AMMO_SMG',		['damagereason'] = 'Ended / Plugged / Shot down / Floored'},
+    [`weapon_pp19`] 		= {['name'] = 'weapon_pp19', 	 	['label'] = 'PP-19', 			['ammotype'] = 'AMMO_SMG',		['damagereason'] = 'Ended / Plugged / Shot down / Floored'},
+    [`weapon_vector`] 		= {['name'] = 'weapon_vector', 	 	['label'] = 'Kriss Vector', 	['ammotype'] = 'AMMO_SMG',		['damagereason'] = 'Ended / Plugged / Shot down / Floored'},
+    [`weapon_g36`] 		 	= {['name'] = 'weapon_g36', 	 	['label'] = 'G36 Rifle', 		['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
+    [`weapon_m4`] 		 	= {['name'] = 'weapon_m4', 	 		['label'] = 'M4', 				['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
+    [`weapon_m4a`] 		 	= {['name'] = 'weapon_m4a', 	 	['label'] = 'M4 A', 			['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
+    [`weapon_m4b`] 		 	= {['name'] = 'weapon_m4b', 	 	['label'] = 'M4 B', 			['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
+    [`weapon_mm4`] 		 	= {['name'] = 'weapon_mm4', 	 	['label'] = 'M4 #2', 			['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
+    [`weapon_mk18`] 		= {['name'] = 'weapon_mk18', 	 	['label'] = 'Mk18', 			['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
+    [`weapon_mk18b`] 		= {['name'] = 'weapon_mk18b', 	 	['label'] = 'Mk18 B', 			['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
+    [`weapon_nsr9`] 		= {['name'] = 'weapon_nsr9', 	 	['label'] = 'NSR-9', 			['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
+    [`weapon_mcx`] 		    = {['name'] = 'weapon_mcx', 	 	['label'] = 'MCX', 			    ['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
+    [`weapon_ak74`] 		= {['name'] = 'weapon_ak74', 	 	['label'] = 'AK-74', 			['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
+    [`weapon_rpk16`] 		= {['name'] = 'weapon_rpk16', 	 	['label'] = 'RPK-16', 			['ammotype'] = 'AMMO_MG',		['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
+    [`weapon_axmc`] 		= {['name'] = 'weapon_axmc', 		['label'] = 'AXMC Long Rifle', 	['ammotype'] = 'AMMO_SNIPER',	['damagereason'] = 'Picked Off / Plugged / Ended'},
+    [`weapon_m700a`] 		= {['name'] = 'weapon_m700a', 		['label'] = 'M700 Sniper Rifle', ['ammotype'] = 'AMMO_SNIPER',	['damagereason'] = 'Picked Off / Plugged / Ended'},
+	
 }

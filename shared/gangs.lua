@@ -26,6 +26,62 @@ QBShared.Gangs = {
             },
         },
 	},
+    ['shelton'] = {
+		label = 'Sinaloa Kartell',
+		grades = {
+            ['0'] = {
+                name = 'El Novato'
+            },
+			['1'] = {
+                name = 'El Hermano'
+            },
+			['2'] = {
+                name = 'Soldado'
+            },
+			['3'] = {
+                name = 'Sicario'
+            },
+            ['4'] = {
+                name = 'El Cabeza'
+            },
+            ['5'] = {
+                name = 'Don',
+                isboss = true
+            },
+            ['6'] = {
+                name = 'Patron',
+                isboss = true
+            },
+        },
+	},
+    ['camorra'] = {
+		label = 'Camorra',
+		grades = {
+            ['0'] = {
+                name = 'Candidato'
+            },
+			['1'] = {
+                name = 'Soldati'
+            },
+			['2'] = {
+                name = 'Capitano'
+            },
+			['3'] = {
+                name = 'Generale'
+            },
+            ['4'] = {
+                name = 'Patron',
+            },
+            ['5'] = {
+                name = 'Capo',
+                isboss = true
+            },
+            ['6'] = {
+                name = 'Don',
+                isboss = true
+            },
+        },
+	},
     ['reapers'] = {
 		label = 'Reapers',
 		grades = {
@@ -98,16 +154,28 @@ QBShared.Gangs = {
 		label = 'Ballas',
 		grades = {
             ['0'] = {
-                name = 'Recruit'
+                name = 'Wannabe'
             },
 			['1'] = {
-                name = 'Enforcer'
+                name = 'Runner'
             },
 			['2'] = {
+                name = 'Gangster'
+            },
+            ['3'] = {
+                name = 'Hustler'
+            },
+            ['4'] = {
+                name = 'Hoe Rider'
+            },
+            ['5'] = {
                 name = 'Shot Caller'
             },
-			['3'] = {
-                name = 'Boss',
+            ['6'] = {
+                name = 'High Roller'
+            },
+			['7'] = {
+                name = 'O.G.',
 				isboss = true
             },
         },
@@ -203,17 +271,53 @@ QBShared.Gangs = {
 		label = 'Families',
 		grades = {
             ['0'] = {
-                name = 'Recruit'
+                name = 'Associate'
             },
 			['1'] = {
-                name = 'Enforcer'
+                name = 'Soldier'
             },
 			['2'] = {
-                name = 'Shot Caller'
+                name = 'High Rank Soldier',
+            },
+            ['3'] = {
+                name = 'General'
+            },
+			['4'] = {
+                name = 'Shot Caller',
+                isboss = true
+            },
+			['5'] = {
+                name = 'Big Homie',
+                isboss = true
+            },
+			['6'] = {
+                name = 'O.G.',
+				isboss = true
+            },
+        },
+	},
+    ['lcn'] = {
+		label = 'La Cosa Nostra',
+		grades = {
+            ['0'] = {
+                name = 'Associate'
+            },
+			['1'] = {
+                name = 'Soldato'
+            },
+			['2'] = {
+                name = 'Capo'
             },
 			['3'] = {
-                name = 'Boss',
-				isboss = true
+                name = 'Consigliere',
+            },
+            ['4'] = {
+                name = 'Vize-Don',
+                isboss = true
+            },
+            ['5'] = {
+                name = 'Don',
+                isboss = true
             },
         },
 	},

@@ -9,7 +9,7 @@ QBConfig.Money = {}
 QBConfig.Money.MoneyTypes = { cash = 5000, bank = 10000, crypto = 0 } -- type = startamount - Add or remove money types for your server (for ex. blackmoney = 0), remember once added it will not be removed from the database!
 QBConfig.Money.DontAllowMinus = { 'cash', 'crypto' } -- Money that is not allowed going in minus
 QBConfig.Money.PayCheckTimeOut = 60 -- The time in minutes that it will give the paycheck
-QBConfig.Money.PayCheckSociety = true -- If true paycheck will come from the society account that the player is employed at, requires qb-management
+QBConfig.Money.PayCheckSociety = false -- If true paycheck will come from the society account that the player is employed at, requires qb-management
 
 QBConfig.Player = {}
 QBConfig.Player.HungerRate = 2.0 -- Rate at which hunger goes down.
@@ -43,16 +43,16 @@ QBConfig.Notify.NotificationStyling = {
 -- The "icon" key is the css-icon code, this project uses `Material Icons` & `Font Awesome`
 QBConfig.Notify.VariantDefinitions = {
     success = {
-        classes = 'erfolgreich',
-        icon = 'fertig'
+        classes = 'success',
+        icon = 'done'
     },
     primary = {
-        classes = 'primär',
+        classes = 'primary',
         icon = 'info'
     },
     error = {
-        classes = 'fehler',
-        icon = 'gefährlich'
+        classes = 'error',
+        icon = 'dangerous'
     },
     police = {
         classes = 'police',
