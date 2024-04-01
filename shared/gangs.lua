@@ -296,8 +296,8 @@ QBShared.Gangs = {
             },
         },
 	},
-    ['lcn'] = {
-		label = 'La Cosa Nostra',
+    ['ivanov'] = {
+		label = 'Ivanov Familie',
 		grades = {
             ['0'] = {
                 name = 'Associate'
@@ -312,11 +312,11 @@ QBShared.Gangs = {
                 name = 'Consigliere',
             },
             ['4'] = {
-                name = 'Vize-Don',
+                name = 'Don',
                 isboss = true
             },
             ['5'] = {
-                name = 'Don',
+                name = 'Patron',
                 isboss = true
             },
         },
@@ -418,6 +418,76 @@ QBShared.Gangs = {
             },
 			['7'] = {
                 name = 'President',
+				isboss = true
+            },
+        },
+	},
+    ['cali'] = {
+		label = 'Cali-Kartell',
+		grades = {
+            ['0'] = {
+                name = 'Candidato'
+            },
+			['1'] = {
+                name = 'Miembro'
+            },
+			['2'] = {
+                name = 'Lavoratore'
+            },
+			['3'] = {
+                name = 'Mafiosos'
+            },
+			['4'] = {
+                name = 'Mano Derecha'
+            },
+			['5'] = {
+                name = 'Chapo'
+            },
+			['6'] = {
+                name = 'Don',
+                isboss = true
+            },
+        },
+	},
+    ['ghost'] = {
+		label = 'Ghost Group',
+		grades = {
+            ['0'] = {
+                name = 'Informant'
+            },
+			['1'] = {
+                name = 'Spion'
+            },
+			['2'] = {
+                name = 'Officer'
+            },
+			['3'] = {
+                name = 'Officer II'
+            },
+			['4'] = {
+                name = 'Officer III'
+            },
+			['5'] = {
+                name = 'Sergeant'
+            },
+			['6'] = {
+                name = 'Sergeant II'
+            },
+			['7'] = {
+                name = 'Buchhalter'
+            },
+            ['8'] = {
+                name = 'Captain'
+            },
+			['9'] = {
+                name = 'Commander'
+            },
+            ['10'] = {
+                name = 'Vice General',
+                isboss = true
+            },
+			['11'] = {
+                name = 'General',
 				isboss = true
             },
         },

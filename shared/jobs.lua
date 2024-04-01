@@ -15,6 +15,15 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['casino'] = {
+        label = 'Casino',
+        defaultDuty = true,
+        grades = {
+            ['0'] = { name = 'Novice', payment = 50 },
+            ['1'] = { name = 'Experienced', payment = 100 },
+            ['2'] = { name = 'Boss', isboss = true, payment = 200 },
+        },
+    },
     ['upnatom'] = {
 		label = "Up n Atom",
 		defaultDuty = true,
@@ -564,24 +573,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Praktikant',
-                payment = 800
+                payment = 1000
             },
 			['1'] = {
                 name = 'Rezeption',
-                payment = 1000
+                payment = 1500
             },
 			['2'] = {
                 name = 'Radiosprecher',
-                payment = 1100
+                payment = 1750
             },
 			['3'] = {
                 name = 'Mitarbeiter',
-                payment = 1200
+                payment = 2000
             },
 			['4'] = {
                 name = 'CEO',
 				isboss = true,
-                payment = 1250
+                payment = 2500
             },
         },
 	},
@@ -620,24 +629,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 0
+                payment = 10000
             },
 			['1'] = {
                 name = 'Driver',
-                payment = 0
+                payment = 1250
             },
 			['2'] = {
                 name = 'Event Driver',
-                payment = 0
+                payment = 1500
             },
 			['3'] = {
                 name = 'Sales',
-                payment = 0
+                payment = 1750
             },
 			['4'] = {
                 name = 'Manager',
 				isboss = true,
-                payment = 0
+                payment = 2000
             },
         },
 	},
@@ -781,11 +790,12 @@ QBShared.Jobs = {
                 payment = 0
             },
 			['2'] = {
-                name = "Experienced",
+                name = "Mechanic",
                 payment = 0
             },
 			['3'] = {
-                name = "Advanced",
+                name = "Master",
+                isboss = true,
                 payment = 0
             },
 			['4'] = {

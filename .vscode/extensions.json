@@ -1,7 +1,7 @@
 {
     "recommendations": [
         "sumneko.lua",
-        "overextended.cfxlua-vscode",
+        "fivem-vscode.fivem-vscode",
         "ihyajb.qbcore-code-snippets",
         "EditorConfig.EditorConfig",
         "eamodio.gitlens",

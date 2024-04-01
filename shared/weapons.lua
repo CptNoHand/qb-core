@@ -16,6 +16,7 @@ QBShared.Weapons = {
 	[`weapon_machete`] 				 = {['name'] = 'weapon_machete', 		['label'] = 'Machete', 				['weapontype'] = 'Melee',	['ammotype'] = nil,	['damagereason'] = 'Knifed / Stabbed / Eviscerated'},
 	[`weapon_switchblade`] 			 = {['name'] = 'weapon_switchblade', 	['label'] = 'Switchblade', 			['weapontype'] = 'Melee',	['ammotype'] = nil,	['damagereason'] = 'Knifed / Stabbed / Eviscerated'},
 	[`weapon_nightstick`] 			 = {['name'] = 'weapon_nightstick', 	['label'] = 'Nightstick', 			['weapontype'] = 'Melee',	['ammotype'] = nil,	['damagereason'] = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered'},
+	[`weapon_colbaton`] 			 = {['name'] = 'weapon_colbaton', 	    ['label'] = 'Teleskop-Schlagstock', 			['weapontype'] = 'Melee',	['ammotype'] = nil,	['damagereason'] = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered'},
 	[`weapon_wrench`] 				 = {['name'] = 'weapon_wrench', 		['label'] = 'Wrench', 				['weapontype'] = 'Melee',	['ammotype'] = nil,	['damagereason'] = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered'},
 	[`weapon_battleaxe`] 			 = {['name'] = 'weapon_battleaxe', 		['label'] = 'Battle Axe', 			['weapontype'] = 'Melee',	['ammotype'] = nil,	['damagereason'] = 'Knifed / Stabbed / Eviscerated'},
 	[`weapon_poolcue`] 				 = {['name'] = 'weapon_poolcue', 		['label'] = 'Poolcue', 				['weapontype'] = 'Melee',	['ammotype'] = nil,	['damagereason'] = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered'},
@@ -72,7 +73,7 @@ QBShared.Weapons = {
 	[`weapon_dbshotgun`] 			 = {['name'] = 'weapon_dbshotgun', 		 	['label'] = 'Double-barrel Shotgun', 	['weapontype'] = 'Shotgun',	['ammotype'] = 'AMMO_SHOTGUN',	['damagereason'] = 'Devastated / Pulverized / Shotgunned'},
 	[`weapon_autoshotgun`] 			 = {['name'] = 'weapon_autoshotgun', 	 	['label'] = 'Auto Shotgun', 			['weapontype'] = 'Shotgun',	['ammotype'] = 'AMMO_SHOTGUN',	['damagereason'] = 'Devastated / Pulverized / Shotgunned'},
 	[`weapon_combatshotgun`]		 = {['name'] = 'weapon_combatshotgun', 		['label'] = 'Combat Shotgun',		    ['weapontype'] = 'Shotgun',	['ammotype'] = 'AMMO_SHOTGUN',	['damagereason'] = 'Devastated / Pulverized / Shotgunned'},
-
+    [`weapon_bean_bag`]              = {['name'] = 'weapon_bean_bag',          ['label'] = 'Gummigeschoss Shotgun',             ['weapontype'] = 'Shotgun',    ['ammotype'] = 'AMMO_SHOTGUN',    ['damagereason'] = 'Devastated / Pulverized / Shotgunned'},
     -- Assault Rifles
 	[`weapon_assaultrifle`] 		 = {['name'] = 'weapon_assaultrifle', 	 	['label'] = 'Assault Rifle', 				['weapontype'] = 'Assault Rifle',	['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
 	[`weapon_assaultrifle_mk2`] 	 = {['name'] = 'weapon_assaultrifle_mk2', 	['label'] = 'Assault Rifle MK2', 			['weapontype'] = 'Assault Rifle',	['ammotype'] = 'AMMO_RIFLE',	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
@@ -180,5 +181,5 @@ QBShared.Weapons = {
     [`weapon_rpk16`] 		= {['name'] = 'weapon_rpk16', 	 	['label'] = 'RPK-16', 			['ammotype'] = 'AMMO_MG',		['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
     [`weapon_axmc`] 		= {['name'] = 'weapon_axmc', 		['label'] = 'AXMC Long Rifle', 	['ammotype'] = 'AMMO_SNIPER',	['damagereason'] = 'Picked Off / Plugged / Ended'},
     [`weapon_m700a`] 		= {['name'] = 'weapon_m700a', 		['label'] = 'M700 Sniper Rifle', ['ammotype'] = 'AMMO_SNIPER',	['damagereason'] = 'Picked Off / Plugged / Ended'},
-	
+	[`weapon_pm4`] 				 = {['name'] = 'weapon_pm4', 			['label'] = 'pm4', 						['weapontype'] = 'Assault Rifle', 	['ammotype'] = 'AMMO_RIFLE', 	['damagereason'] = 'Ended / Rifled / Shot down / Floored'},
 }
