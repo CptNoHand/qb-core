@@ -1,8 +1,5 @@
 QBShared = QBShared or {}
-QBShared.ForceJobDefaultDutyAtLogin = false -- true: Force duty state to jobdefaultDuty | false: set duty state from database last saved
-QBShared.QBJobsStatus = false -- true: integrate qb-jobs into the whole of qb-core | false: treat qb-jobs as an add-on resource.
-QBShared.Jobs = {} -- All of below has been migrated into qb-jobs
-if QBShared.QBJobsStatus then return end
+QBShared.ForceJobDefaultDutyAtLogin = true -- true: Force duty state to jobdefaultDuty | false: set duty state from database last saved
 QBShared.Jobs = {
 	['unemployed'] = {
 		label = 'Civilian',
@@ -463,7 +460,7 @@ QBShared.Jobs = {
 	},
 	['ambulance'] = {
 		label = 'Rettungsdienst',
-		defaultDuty = false,
+		defaultDuty = true,
 		offDutyPay = false,
         type = "ems",
 		grades = {
@@ -584,7 +581,7 @@ QBShared.Jobs = {
             },
         },
 	},
-	['realestate'] = {
+	realestate = {
 		label = 'Real Estate',
 		defaultDuty = false,
 		offDutyPay = false,
@@ -612,7 +609,7 @@ QBShared.Jobs = {
             },
         },
 	},
-	['taxi'] = {
+	taxi = {
 		label = 'Taxi',
 		defaultDuty = false,
 		offDutyPay = false,
