@@ -271,26 +271,29 @@ QBShared.Gangs = {
 		label = 'Families',
 		grades = {
             ['0'] = {
-                name = 'Associate'
+                name = 'Street Rat'
             },
-			['1'] = {
-                name = 'Soldier'
+            ['1'] = {
+                name = 'Thug'
             },
 			['2'] = {
+                name = 'Soldier'
+            },
+			['3'] = {
                 name = 'High Rank Soldier',
             },
-            ['3'] = {
-                name = 'General'
+            ['4'] = {
+                name = 'Made Man'
             },
-			['4'] = {
+			['5'] = {
                 name = 'Shot Caller',
                 isboss = true
             },
-			['5'] = {
+			['6'] = {
                 name = 'Big Homie',
                 isboss = true
             },
-			['6'] = {
+			['7'] = {
                 name = 'O.G.',
 				isboss = true
             },
@@ -321,29 +324,33 @@ QBShared.Gangs = {
             },
         },
 	},
-	['midnightnations'] = {
-		label = 'Midnight Nation',
+	['midnightclub'] = {
+		label = 'Midnight Club',
 		grades = {
             ['0'] = {
-                name = 'Assiociate'
+                name = 'Street Rat'
             },
 			['1'] = {
-                name = 'Informant'
+                name = 'Member'
             },
 			['2'] = {
-                name = 'Racer'
-            },
-			['3'] = {
                 name = 'Tuner'
             },
-			['4'] = {
-                name = 'Co-Leader',
+			['3'] = {
+                name = 'Racer'
+            },
+            ['4'] = {
+                name = 'Drift King',
                 isboss = true
             },
 			['5'] = {
-                name = 'Leader',
+                name = 'Race King',
                 isboss = true
             },
+			['6'] = {
+                name = 'Street King',
+                isboss = true
+            }
         },
 	},
 	['marabunta'] = {
